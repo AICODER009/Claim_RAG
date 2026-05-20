@@ -31,120 +31,140 @@ This document presents a comprehensive overview of my experience in building and
 
 ## 2. Technical Presentation: The VerifAI Evidence Substantiation Pipeline
 
-### What Exactly Was Built?
 We built **VerifAI**, a state-of-the-art clinical and medical-legal claims verification engine. The system takes raw advertising or clinical copywriting claims (e.g., *"VYVGART Hytrulo demonstrated a 68% INCAT improvement versus placebo in Stage B of the ADHERE trial at 24 weeks"*), automatically parses and classifies the claim, intelligently retrieves the exact supporting clinical trial protocol or prescribing information pages from a multi-vector store, evaluates the claim's accuracy against 9 rigid compliance rules, and generates a bulletproof, human-in-the-loop audit trail.
 
-```
-                              [ Incoming Claim ]
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 1: LLM Classifier      │ ──► Extracts PICOT Framework &
-                      │       (GPT-4o/5.5/Claude)     │     assigns Claim Type (CT-ID)
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 2: Pre-Retrieval       │ ──► Deterministic routing of allowable
-                      │      Compliance Routing       │     Reference Types (RT-IDs) & Tiers
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 3: Query Rewriter      │ ──► Generates clinical-question search
-                      │      (Claude 3.5 Sonnet)      │     query (optimized, ≤ 16 words, "?")
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 4: Asymmetric Encoder  │ ──► local MedCPT-Query-Encoder
-                      │      (MedCPT 768-dim Embed)   │     generates query vector
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 5: Hybrid Retrieval    │
-                      │       with RRF Fusion &       │ ──► Qdrant Dense Search (0.7 weight) +
-                      │         Tier Boosting         │     Qdrant Full-Text (0.3 weight)
-                      └───────────────────────────────┘     RRF Fusion with Tier Boost: P (x2), A (x1), C (x0.5)
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 6: LLM Compliance      │ ──► Strict System Guidelines &
-                      │    Judge (Claude 3.5 Sonnet)  │     Verbatim anchor verification
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                      ┌───────────────────────────────┐
-                      │   Step 7: Logic Gate Engine   │ ──► Deterministically maps verdict:
-                      │    (Deterministic Verdicts)   │     PASS / SOFT_FLAG / BLOCK
-                      └───────────────────────────────┘
-                                      │
-                                      ▼
-                            [ Audit Trail Log ]
-                       (JSON Records & Premium UI Dashboard)
+### Visual Pipeline Architecture Sketch (Ingestion & Substantiation)
+
+The following Mermaid diagram maps the end-to-end architecture exactly as sketched in the technical overview design:
+
+```mermaid
+flowchart TD
+    %% Ingestion Phase Styling
+    subgraph Ingestion["INGESTION PHASE (One-time per document)"]
+        A[Parse PDF] --> B[MD Files Structuring]
+        subgraph SplitBox["Landing.AI to MD File Parsing"]
+            B --> C[Landing.AI Layout Extract]
+            C --> D[Markdown MD Document]
+            D --> E[MedCPT Article Vector Chunking]
+        end
+        E --> F[MedCPT Article Encoder]
+        F --> G[LLM Typization\nassigns RT-ID]
+        G --> H[(Stored Metadata\nin Qdrant / ES)]
+        
+        %% Metadata fields details
+        H1[text\nverbatim text + numbers e.g. 32.6%] -.-> H
+        H2[vector\nMedCPT 768-dim embed] -.-> H
+        H3[ref_id\nDocument ID e.g. CT-101] -.-> H
+    end
+
+    %% Substantiation Phase Styling
+    subgraph Substantiation["SUBSTANTIATION PHASE (Per claim)"]
+        %% Step 1
+        S1[Step 1\nParameter Extraction\nONE LLM CALL] --> S2[Step 2\nPre-Retrieval Routing\nP A C N Matrix]
+        
+        %% Parameters details
+        S1a[Population] -.-> S1
+        S1b[Intervention\ne.g., dosage/rate] -.-> S1
+        S1c[Intervention Rate\ne.g., 6%] -.-> S1
+        S1d[Verification Checks] -.-> S1
+        
+        %% Step 2
+        S2 -->|deterministic code| S3[Step 3\nRetrieval & Re-ranking\nBM25 + kNN Fusion]
+        
+        %% Step 3
+        S3 -->|deterministic code| S4[Step 4\nSubstantiation Judge\nClaude 3.5 Sonnet]
+        S3a[Elasticsearch / Qdrant] -.-> S3
+        S3b[RRF Re-ranker] -.-> S3
+        
+        %% Step 4
+        S4 --> S5[Step 5\nDeterministic Logic Gate]
+        S4a[Dynamic Compliance Rules] -.-> S4
+        
+        %% Step 5
+        S5 --> S6[Step 6\nAudit Trail Logging]
+        S5a[Compliance checking\nrules A, B2, N] -.-> S5
+        
+        %% Step 6
+        S6 --> S7{Final Outputs}
+        S6a[Page & Verbatim Anchors] -.-> S6
+        
+        %% Verdicts
+        S7 -->|score >= 80%| O1[PASS]
+        S7 -->|score 60 - 79%| O2[SOFT FLAG]
+        S7 -->|score < 60%| O3[BLOCK]
+    end
+
+    %% Link Ingestion store to Substantiation Retrieval
+    H --> S3a
+    
+    style Ingestion fill:#f0f8ff,stroke:#005A9C,stroke-width:2px;
+    style Substantiation fill:#fff5ee,stroke:#D87093,stroke-width:2px;
+    style O1 fill:#d4edda,stroke:#28a745,stroke-width:2px;
+    style O2 fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
+    style O3 fill:#f8d7da,stroke:#dc3545,stroke-width:2px;
 ```
 
 ---
 
-### Deep Dive: The 8-Stage Architecture
+### Ingestion Phase Deep-Dive (One-Time Per Document)
 
-#### 1. Claim Classification & PICOT Decomposition
-Every claim entered is routed to our Classifier. The system classifies the claim into a specific **Claim Type (CT-ID)** (e.g., `CT-201` for Efficacy, `CT-301` for Safety, `CT-311` for Contraindications).
-Concurrently, the LLM decomposes the claim into a **PICOT framework**:
-*   **P** (Population): e.g., *"Adults with CIDP"*
-*   **I** (Intervention): e.g., *"VYVGART Hytrulo (efgartigimod)"*
-*   **C** (Comparator): e.g., *"Placebo"*
-*   **O** (Outcome): e.g., *"INCAT improvement"*
-*   **T** (Timeframe): e.g., *"24 weeks"*
+As outlined in the design sketch, the ingestion phase is built to process raw, complex clinical PDF documents into clean, structured, and searchable medical knowledge. Rather than performing basic sentence splitting (e.g. PySBD) which destroys the semantic layout of tables, columns, and section headers, our system utilizes a structure-aware layout parser.
 
-#### 2. Compliance Mapping Matrix (Pre-Retrieval Filtering)
-Medical-legal regulatory frameworks dictate what sources are allowed to back up what claim types. For example, a safety claim or indication claim *must* be backed by the official prescribing labeling (Tier P), whereas a secondary or exploratory endpoint can be backed by a pivotal trial publication (Tier A). Non-clinical internal memos (Tier N) are blocked.
-Our deterministic **Mapping Matrix** routes the parsed `CT-ID` to allowable reference types (`RT-IDs`), dynamically filtering out blocked Tiers (`N`) and prioritizing primary Tiers (`P`) before querying Qdrant to conserve token limits and prevent compliance errors.
+#### 1. PDF Parsing to Markdown (MD) Files
+*   **The Ingestion Gateway**: Raw PDFs (such as the US Prescribing Information, Clinical Study Reports, and Peer-Reviewed Literature) are processed through **Landing.AI's layout parsing API**.
+*   **Markdown Preservation**: Landing.AI analyzes the geometric layout of the PDF, distinguishing between standard paragraphs, section headings, visual tables, and figures. It converts these elements into unified **Markdown (MD) files**.
+*   **Preserving Semantics**: Using Markdown is a key design decision. Tables are preserved in clean HTML or Markdown table formats, and lists are formatted as markdown items. This preserves the multi-dimensional relationships of cell values (e.g. comparing dosage vs adverse event percentages in a table row) which standard text sentence-splitters completely destroy.
 
-#### 3. Dynamic Clinical Query Rewriting
-Raw marketing copy is rarely suitable for semantic index search due to emotional adjectives and dense terminology. A Claude-based **Query Rewriter** extracts clinical endpoints and transforms the claim into an optimized, concise clinical question (restricted to $\le 16$ words, ending with `?`) designed to trigger high-probability matches in biological/medical databases.
+#### 2. MedCPT Article Vector Encoding
+*   **Semantic Chunking**: The structured MD files are split into overlapping semantic chunks. The splitting boundary is determined by structural elements (e.g., Markdown headers `#` or `##`) rather than arbitrary character lengths, ensuring that complete tables and sections remain intact.
+*   **Vectorization**: Each chunk is embedded using the **MedCPT Article Encoder** (`ncbi/MedCPT-Article-Encoder`). This generates a high-fidelity **768-dimensional vector** representing the clinical context.
+*   **Asymmetric Advantage**: Using MedCPT's Article Encoder ensures the generated vectors are structurally prepared to be queried by a separate, query-optimized asymmetric model, which maximizes semantic recall for clinical questions.
 
-#### 4. Asymmetric Vector Embeddings (MedCPT)
-Instead of symmetric general-purpose embeddings, we leverage **MedCPT asymmetric query/article encoders** (specifically trained by the NCBI on PubMed search logs). 
-*   **Ingestion Side**: Clinical PDF pages are chunked and embedded via `ncbi/MedCPT-Article-Encoder`.
-*   **Search Side**: The rewritten clinical question is embedded via `ncbi/MedCPT-Query-Encoder`.
-This captures asymmetric query-to-document relationships, significantly outperforming cosine similarity on traditional symmetric models.
+#### 3. LLM Typization (RT-ID Assignment)
+*   **Reference Categorization**: A secondary LLM agent reads the metadata and headers of the document to perform **typization**. It classifies the document into its clinical category (e.g., Regulatory approved labels, pivotal clinical trials, or peer-reviewed journals).
+*   **Metadata Tagging**: The agent assigns a unique **Reference Type ID (RT-ID)** (e.g., `RT-101` for USPI, `RT-201` for Pivotal Phase 3 trials) and matches it to a top-level category code (`B1` through `B9`). This provides the foundation for our pre-retrieval routing matrix.
 
-#### 5. Hybrid Retrieval & Reciprocal Rank Fusion (RRF) with Tier Boosting
-To achieve high recall and precision, our `HybridRetriever` runs dual searches within Qdrant:
-1.  **Dense Semantic Search**: Cosine similarity on the MedCPT query vector (Weight: 0.7) to capture deep conceptual meaning.
-2.  **Sparse Keyword Search**: Full-text indexing on the verbatim `text` field (Weight: 0.3) to catch exact acronyms, numeric figures, and drug names.
-The results are merged using **Reciprocal Rank Fusion (RRF)**:
-$$RRF(d) = 0.7 \times \frac{1}{60 + \text{dense\_rank}} + 0.3 \times \frac{1}{60 + \text{text\_rank}}$$
-Once fused, we apply a dynamic **Tier Boost multiplier** based on the Reference Type Tier:
-$$\text{Final\_Score} = RRF\_Score \times \text{Tier\_Boost\_Multiplier}$$
-*   **Tier P (Primary)**: Multiplier of `2.0` (highly prioritized)
-*   **Tier A (Acceptable)**: Multiplier of `1.0` (standard)
-*   **Tier C (Conditional)**: Multiplier of `0.5` (deprioritized)
-*   **Tier N (Blocked)**: Excluded completely.
+#### 4. Stored Metadata (Qdrant & Elasticsearch Storage)
+Every parsed chunk is loaded into our vector store (Qdrant) and search engine (Elasticsearch) with a comprehensive metadata payload:
+*   `text`: The verbatim text chunk, including numeric values and statistics (e.g., *"32.6% abstinence rate"*).
+*   `vector`: The 768-dim MedCPT article embedding.
+*   `ref_id`: Document identifier.
+*   `rt_id` & `ref_category`: Reference type metadata.
+*   `numeric_tokens`: Pre-extracted figures, units, and numbers to guarantee exact figure verification during judging.
 
-#### 6. Multi-Agent Compliance Judging
-The top-5 retrieved passages—along with their full metadata (Source Title, Year, Page Number, Section, Reference Type, and **pre-extracted numeric tokens**) are forwarded to an ultra-rigorous LLM Judge (Claude 3.5 Sonnet).
-The Judge is equipped with the full 550-line MLR guidelines and evaluates the claim under 9 criteria, enforcing strict anti-hallucination policies:
-1.  **Verbatim Anchor check**: The evidence must exist as an exact verbatim substring.
-2.  **Numerical Match**: Every percentage, ratio, and figure is verified against `numeric_tokens`.
-3.  **PICOT Alignment**: Validates that population, timeframe, and comparator in the claim match the trial parameters.
-4.  **Secondary Citation Flagging**: Checks if the text quotes a secondary source, forcing retrieval of the primary document.
-5.  **Source Authority**: Flags if a critical efficacy claim is only supported by a Conditional source (Tier C).
+---
 
-#### 7. Deterministic Logic Gate
-Rather than letting the LLM decide the compliance verdict (which is prone to drift), we feed the Judge's structured JSON output into a deterministic **Logic Gate**:
-*   **PASS**: Average coverage score $\ge 80\%$, zero compliance blockers, and complete PICOT matching.
-*   **SOFT_FLAG**: Coverage score between $60\% - 79\%$, or minor infractions (e.g., population minor variation, missing timeframe, or secondary citation usage). It surfaces explicit reviewer notes.
-*   **BLOCK**: Coverage score $< 60\%$, numerical mismatch, or source-tier violations (e.g., using Conditional evidence for Efficacy/Indication claims).
+### Substantiation Phase Deep-Dive (Per Claim)
 
-#### 8. Audit Trail & Real-Time Next.js Dashboard
-All pipeline executions create immutable JSON **Audit Records**. These records are fed into our modern, glassmorphic Next.js UI dashboard, allowing users to:
-*   Inspect claims and view exact matching scores.
-*   Interactively examine verbatim anchors and highlighted text.
-*   View the visual step-by-step pipeline execution, from query rewrite to RRF metrics.
-*   Review specific flags, blockers, and regulatory recommendations.
+When a user submits a claim to the verification engine, the Substantiation Phase executes in real-time through six distinct steps:
+
+#### Step 1: Parameter Extraction (PICOT Framework)
+*   **One-Pass Extraction**: The pipeline triggers **ONE LLM call** to analyze the raw copywriting claim. It extracts the target patient **Population**, the **Intervention** details, the **Comparator**, the clinical **Outcome**, and the trial **Timeframe** (PICOT framework).
+*   **Fact Extraction**: The LLM simultaneously identifies specific statistics, numbers, and rates (e.g. *dosage rate, efficacy percentages like 6% or 32.6%*) and schedules them as formal validation checkpoints.
+
+#### Step 2: Pre-Retrieval Routing (P A C N Matrix)
+*   **Regulatory Routing**: The claim type (`CT-ID`) is checked against a deterministic routing table containing a mapping of allowed reference tiers: **Primary (P)**, **Acceptable (A)**, **Conditional (C)**, and **Blocked (N)**.
+*   **Deterministic Filtering**: The pipeline translates the `CT-ID` into allowed `RT-IDs`, pre-filtering out any blocked or irrelevant documents before performing vector search. This guarantees regulatory compliance at the database query level.
+
+#### Step 3: Retrieval & Re-ranking (BM25 + kNN Fusion)
+*   **Hybrid Search**: The rewritten clinical question is searched across Qdrant (dense kNN search, Weight: 0.7) and Elasticsearch (sparse BM25 keyword search, Weight: 0.3).
+*   **RRF Fusion**: The dense and sparse results are merged using Reciprocal Rank Fusion (RRF).
+*   **Tier Boosting**: The RRF score is multiplied by the Tier weight (P = 2.0, A = 1.0, C = 0.5) to boost primary sources (like official prescribing information) to the top.
+
+#### Step 4: Substantiation Judge (Claude 3.5 Sonnet)
+*   **Dynamic Rule Assessment**: Claude is dynamically loaded with the clinical evidence guidelines and the top-5 retrieved passages.
+*   **Fact-Checking**: The Judge evaluates the claim against 9 verification criteria, comparing the PICOT framework, numerical percentages, and study parameters with the retrieved verbatim chunks.
+
+#### Step 5: Deterministic Logic Gate
+*   **Preventing LLM Drift**: Rather than letting the LLM decide the compliance verdict (which is prone to drift), we feed the structured JSON output into a deterministic python validator.
+*   **Verdict Scoring**: It evaluates compliance rules (rules A, rules B2, and rules N) and calculates the final coverage score.
+    *   **PASS**: Score $\ge 80\%$ with no compliance flags.
+    *   **SOFT_FLAG**: Score $60\% - 79\%$ (minor mismatch in timeframe/population or secondary citation flag).
+    *   **BLOCK**: Score $< 60\%$ (numerical mismatch, unapproved clinical indication, or blocked reference tier).
+
+#### Step 6: Audit Trail Logging
+*   **Audit Logging**: The system compiles a detailed audit trail including exact file names, page numbers, and highlighted **verbatim anchor text** proving the claim.
+*   **Interactive UI Rendering**: This log is visualized in our Next.js UI dashboard, highlighting exact matching blocks and providing comprehensive clinical references.
 
 ---
 
@@ -170,15 +190,6 @@ All pipeline executions create immutable JSON **Audit Records**. These records a
 
 ---
 
-### How the Systems Worked in Practice
-When a copywriter or compliance reviewer enters a claim:
-1.  Within **1.5 seconds**, the system identifies the claim type and outlines the PICOT variables on the UI sidebar.
-2.  Within **3 seconds**, the system executes the pre-retrieval routing, rewrites the search query, runs the hybrid RRF search on the Qdrant database, and retrieves the most relevant clinical passages, showing their source tiers.
-3.  Within **8 seconds**, Claude completes the multi-layered judging protocol, producing a structured score sheet.
-4.  The Logic Gate evaluates the structured score and renders the final verdict (`PASS`/`SOFT_FLAG`/`BLOCK`) on the dashboard with beautiful color codes (green, orange, red), accompanied by highlighted visual blocks showing the exact supporting verbatim sentences.
-
----
-
 ### Why My Experience Is Valuable for an AI-First Product Direction
 
 1.  **Expertise in Deterministic AI Architectures**:
@@ -189,14 +200,3 @@ When a copywriter or compliance reviewer enters a claim:
     I bridge the gap between complex ML backends and premium user experiences. I design responsive, high-performance UI systems (Next.js, vanilla CSS, Tailwind, custom visualization graphs) that expose critical agent metrics, making autonomous systems transparent and trustworthy to stakeholders.
 4.  **Cost & Performance Optimization**:
     I design pipelines to run efficiently under strict token budgets. By replacing multiple LLM calls with single-pass structured generation and local deterministic gates, I drastically reduce latency and operating costs.
-
----
-
-## 3. Production Claims Database & Ground-Truth Benchmarks
-
-This pipeline is backed by a rich evaluation suite. We run benchmarks using `ALL_CLAIMS_COMBINED_categorized_v5.xlsx` containing:
-*   **Total Records**: 2,075 clinical claims
-*   **Columns Traced**: Claim Text, Pre-assigned Compliance CT-IDs, and source materials.
-*   **Validation Suite**: Includes test runners (e.g. `test_claim_rewriter.py`) that compare pipeline classification and query results against pre-assigned ground-truth expert verdicts.
-
-This is a complete, industry-grade clinical RAG application that demonstrates how to implement highly structured, non-hallucinating AI agents in real production environments.
