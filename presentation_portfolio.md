@@ -35,7 +35,11 @@ We built **VerifAI**, a state-of-the-art clinical and medical-legal claims verif
 
 ### Visual Pipeline Architecture Sketch (Ingestion & Substantiation)
 
-The following Mermaid diagram maps the end-to-end architecture exactly as sketched in the technical overview design (adapted to use MD files instead of PySBD sentence splitting as requested):
+The following diagram maps the end-to-end architecture exactly as sketched in the technical overview design (adapted to use MD files instead of PySBD sentence splitting as requested):
+
+![Substantiation Pipeline - Design Overview and Implementation Details](substantiation_pipeline_design.png)
+
+*Alternatively, below is the rendered Mermaid flowchart representing the same structured workflow:*
 
 ```mermaid
 flowchart TD
