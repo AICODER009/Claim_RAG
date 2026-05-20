@@ -18,74 +18,93 @@ VerifAI is a production-grade, multi-agent Retrieval-Augmented Generation (RAG) 
 
 ## ⚙️ Technical Pipeline Flow (Ingestion & Substantiation)
 
-The following diagram maps the entire end-to-end architecture exactly as sketched in the technical design overview:
+The following diagram maps the entire end-to-end architecture exactly as sketched in the technical design overview (adapted to use MD files instead of PySBD sentence splitting as requested):
 
 ```mermaid
 flowchart TD
     %% Ingestion Phase Styling
-    subgraph Ingestion["INGESTION PHASE (One-time per document)"]
-        A[Parse PDF] --> B[MD Files Structuring]
-        subgraph SplitBox["Landing.AI to MD File Parsing"]
-            B --> C[Landing.AI Layout Extract]
-            C --> D[Markdown MD Document]
-            D --> E[MedCPT Article Vector Chunking]
-        end
-        E --> F[MedCPT Article Encoder]
-        F --> G[LLM Typization\nassigns RT-ID]
-        G --> H[(Stored Metadata\nin Qdrant / ES)]
+    subgraph Ingestion["INGESTION PHASE (one-time per document)"]
+        IP1["Parse PDF"] --> IP2["MD Files (Landing.AI)\n(Instead of PySBD)"]
         
-        %% Metadata fields details
-        H1[text\nverbatim text + numbers e.g. 32.6%] -.-> H
-        H2[vector\nMedCPT 768-dim embed] -.-> H
-        H3[ref_id\nDocument ID e.g. CT-101] -.-> H
+        subgraph MD_Box["Landing.AI & MD Files Chunking"]
+            direction LR
+            LAI["Landing.AI"] --> MDF["MD Files"] --> MCPT_C["MedCPT Chunks"]
+        end
+        
+        IP2 --> IP3["MedCPT Article Encoder\n(ncbi/MedCPT-Article-Encoder)"]
+        IP3 --> IP4["LLM Typization\n(assign RT-ID)"]
+        IP4 --> IP5[("Stored Metadata")]
+        
+        %% Stored Metadata content
+        IP5_1["text (32.6%, 32.6%)\nverbatim + table HTML"] -.-> IP5
+        IP5_2["vector\n(vector, vec, ...)\n768-dim embedding"] -.-> IP5
+        IP5_3["ref_id {CT-101}\nReference ID"] -.-> IP5
+        
+        Note["LLM Model Note:\nLLM Model Note is endraw sent for a model Note,\nmeans for different model name in hand would values."]
+        IP5 -.-> Note
     end
 
     %% Substantiation Phase Styling
-    subgraph Substantiation["SUBSTANTIATION PHASE (Per claim)"]
-        %% Step 1
-        S1[Step 1\nParameter Extraction\nONE LLM CALL] --> S2[Step 2\nPre-Retrieval Routing\nP A C N Matrix]
+    subgraph Substantiation["SUBSTANTIATION PHASE (per claim)"]
+        direction TB
         
-        %% Parameters details
-        S1a[Population] -.-> S1
-        S1b[Intervention\ne.g., dosage/rate] -.-> S1
-        S1c[Intervention Rate\ne.g., 6%] -.-> S1
-        S1d[Verification Checks] -.-> S1
+        %% Step 1
+        S1["Step 1: Parameter Extraction\n🔍 🤖"]
+        S1_1["Population"] -.-> S1
+        S1_2["Intervention\n(dosage, rate etc. 6%)"] -.-> S1
+        S1_3["Check intervention_rate"] -.-> S1
         
         %% Step 2
-        S2 -->|deterministic code| S3[Step 3\nRetrieval & Re-ranking\nBM25 + kNN Fusion]
+        S1 -->|ONE LLM call| S2["Step 2: Query Construction"]
+        S2_1["Routing Matrix (P A C N Table)
+        | | P | A | C | N |
+        |---|---|---|---|---|
+        | P | ✓ | ✓ | - | - |
+        | A | - | ✓ | ✓ | - |
+        | C | - | - | ✓ | ✓ |
+        | N | - | - | - | - |"] -.-> S2
+        S2_2["<code>\nomente=lloess RT-ID\ncode=RT-ID\ncode=name-knt\n</code>"] -.-> S2
         
         %% Step 3
-        S3 -->|deterministic code| S4[Step 4\nSubstantiation Judge\nClaude 3.5 Sonnet]
-        S3a[Elasticsearch / Qdrant] -.-> S3
-        S3b[RRF Re-ranker] -.-> S3
+        S2 -->|deterministic code| S3["Step 3: Retrieval"]
+        S3_1["ES retriever database\n(BM25, sparse search)"] -.-> S3
+        S3_2["Re-ranker\n(All retriever names: BM25, kNN)"] -.-> S3
         
         %% Step 4
-        S4 --> S5[Step 5\nDeterministic Logic Gate]
-        S4a[Dynamic Compliance Rules] -.-> S4
+        S3 -->|deterministic code| S4["Step 4: Substantiation Judge\n🤖"]
+        S4_1["Dynamic rule selection & matrix\n
+        | rule name | P | A | C | N |
+        |---|---|---|---|---|
+        | rule name 1 | 0 | 3 | 5 |
+        | rule name 2 | 1 | 3 | 3 |
+        | rule name 5 | 2 | 1 | 4 |
+        | rule name 3 | 3 | 5 | 6 |"] -.-> S4
         
         %% Step 5
-        S5 --> S6[Step 6\nAudit Trail Logging]
-        S5a[Compliance checking\nrules A, B2, N] -.-> S5
+        S4 -->|deterministic code| S5["Step 5: Logic\n🔀 ✔️"]
+        S5_1["rules:\n- rules 1 rules A\n- rules 2 rules B 2\n- rules 3 rules N"] -.-> S5
         
         %% Step 6
-        S6 --> S7{Final Outputs}
-        S6a[Page & Verbatim Anchors] -.-> S6
+        S5 --> S6["Step 6: Audit Trail\n📄"]
+        S6_1["Fields Fields\npapers document fields"] -.-> S6
         
-        %% Verdicts
-        S7 -->|score >= 80%| O1[PASS]
-        S7 -->|score 60 - 79%| O2[SOFT FLAG]
-        S7 -->|score < 60%| O3[BLOCK]
+        %% Outputs
+        S6 -->|Final Outputs| O_Pass["Pass (>=80%)"]
+        S6 -->|Final Outputs| O_Soft["Soft_Flag (60-79%)"]
+        S6 -->|Final Outputs| O_Block["Block (<60%)"]
     end
-
-    %% Link Ingestion store to Substantiation Retrieval
-    H --> S3a
+    
+    %% Database feeding retrieval
+    IP5 ==> S3
     
     style Ingestion fill:#f0f8ff,stroke:#005A9C,stroke-width:2px;
     style Substantiation fill:#fff5ee,stroke:#D87093,stroke-width:2px;
-    style O1 fill:#d4edda,stroke:#28a745,stroke-width:2px;
-    style O2 fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
-    style O3 fill:#f8d7da,stroke:#dc3545,stroke-width:2px;
+    style O_Pass fill:#d4edda,stroke:#28a745,stroke-width:2px;
+    style O_Soft fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
+    style O_Block fill:#f8d7da,stroke:#dc3545,stroke-width:2px;
+    style Note fill:#fafad2,stroke:#d3d3d3,stroke-width:1px;
 ```
+
 
 ---
 

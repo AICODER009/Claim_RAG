@@ -35,102 +35,146 @@ We built **VerifAI**, a state-of-the-art clinical and medical-legal claims verif
 
 ### Visual Pipeline Architecture Sketch (Ingestion & Substantiation)
 
-The following Mermaid diagram maps the end-to-end architecture exactly as sketched in the technical overview design:
+The following Mermaid diagram maps the end-to-end architecture exactly as sketched in the technical overview design (adapted to use MD files instead of PySBD sentence splitting as requested):
 
 ```mermaid
 flowchart TD
     %% Ingestion Phase Styling
-    subgraph Ingestion["INGESTION PHASE (One-time per document)"]
-        A[Parse PDF] --> B[MD Files Structuring]
-        subgraph SplitBox["Landing.AI to MD File Parsing"]
-            B --> C[Landing.AI Layout Extract]
-            C --> D[Markdown MD Document]
-            D --> E[MedCPT Article Vector Chunking]
-        end
-        E --> F[MedCPT Article Encoder]
-        F --> G[LLM Typization\nassigns RT-ID]
-        G --> H[(Stored Metadata\nin Qdrant / ES)]
+    subgraph Ingestion["INGESTION PHASE (one-time per document)"]
+        IP1["Parse PDF"] --> IP2["MD Files (Landing.AI)\n(Instead of PySBD)"]
         
-        %% Metadata fields details
-        H1[text\nverbatim text + numbers e.g. 32.6%] -.-> H
-        H2[vector\nMedCPT 768-dim embed] -.-> H
-        H3[ref_id\nDocument ID e.g. CT-101] -.-> H
+        subgraph MD_Box["Landing.AI & MD Files Chunking"]
+            direction LR
+            LAI["Landing.AI"] --> MDF["MD Files"] --> MCPT_C["MedCPT Chunks"]
+        end
+        
+        IP2 --> IP3["MedCPT Article Encoder\n(ncbi/MedCPT-Article-Encoder)"]
+        IP3 --> IP4["LLM Typization\n(assign RT-ID)"]
+        IP4 --> IP5[("Stored Metadata")]
+        
+        %% Stored Metadata content
+        IP5_1["text (32.6%, 32.6%)\nverbatim + table HTML"] -.-> IP5
+        IP5_2["vector\n(vector, vec, ...)\n768-dim embedding"] -.-> IP5
+        IP5_3["ref_id {CT-101}\nReference ID"] -.-> IP5
+        
+        Note["LLM Model Note:\nLLM Model Note is endraw sent for a model Note,\nmeans for different model name in hand would values."]
+        IP5 -.-> Note
     end
 
     %% Substantiation Phase Styling
-    subgraph Substantiation["SUBSTANTIATION PHASE (Per claim)"]
-        %% Step 1
-        S1[Step 1\nParameter Extraction\nONE LLM CALL] --> S2[Step 2\nPre-Retrieval Routing\nP A C N Matrix]
+    subgraph Substantiation["SUBSTANTIATION PHASE (per claim)"]
+        direction TB
         
-        %% Parameters details
-        S1a[Population] -.-> S1
-        S1b[Intervention\ne.g., dosage/rate] -.-> S1
-        S1c[Intervention Rate\ne.g., 6%] -.-> S1
-        S1d[Verification Checks] -.-> S1
+        %% Step 1
+        S1["Step 1: Parameter Extraction\n🔍 🤖"]
+        S1_1["Population"] -.-> S1
+        S1_2["Intervention\n(dosage, rate etc. 6%)"] -.-> S1
+        S1_3["Check intervention_rate"] -.-> S1
         
         %% Step 2
-        S2 -->|deterministic code| S3[Step 3\nRetrieval & Re-ranking\nBM25 + kNN Fusion]
+        S1 -->|ONE LLM call| S2["Step 2: Query Construction"]
+        S2_1["Routing Matrix (P A C N Table)
+        | | P | A | C | N |
+        |---|---|---|---|---|
+        | P | ✓ | ✓ | - | - |
+        | A | - | ✓ | ✓ | - |
+        | C | - | - | ✓ | ✓ |
+        | N | - | - | - | - |"] -.-> S2
+        S2_2["<code>\nomente=lloess RT-ID\ncode=RT-ID\ncode=name-knt\n</code>"] -.-> S2
         
         %% Step 3
-        S3 -->|deterministic code| S4[Step 4\nSubstantiation Judge\nClaude 3.5 Sonnet]
-        S3a[Elasticsearch / Qdrant] -.-> S3
-        S3b[RRF Re-ranker] -.-> S3
+        S2 -->|deterministic code| S3["Step 3: Retrieval"]
+        S3_1["ES retriever database\n(BM25, sparse search)"] -.-> S3
+        S3_2["Re-ranker\n(All retriever names: BM25, kNN)"] -.-> S3
         
         %% Step 4
-        S4 --> S5[Step 5\nDeterministic Logic Gate]
-        S4a[Dynamic Compliance Rules] -.-> S4
+        S3 -->|deterministic code| S4["Step 4: Substantiation Judge\n🤖"]
+        S4_1["Dynamic rule selection & matrix\n
+        | rule name | P | A | C | N |
+        |---|---|---|---|---|
+        | rule name 1 | 0 | 3 | 5 |
+        | rule name 2 | 1 | 3 | 3 |
+        | rule name 5 | 2 | 1 | 4 |
+        | rule name 3 | 3 | 5 | 6 |"] -.-> S4
         
         %% Step 5
-        S5 --> S6[Step 6\nAudit Trail Logging]
-        S5a[Compliance checking\nrules A, B2, N] -.-> S5
+        S4 -->|deterministic code| S5["Step 5: Logic\n🔀 ✔️"]
+        S5_1["rules:\n- rules 1 rules A\n- rules 2 rules B 2\n- rules 3 rules N"] -.-> S5
         
         %% Step 6
-        S6 --> S7{Final Outputs}
-        S6a[Page & Verbatim Anchors] -.-> S6
+        S5 --> S6["Step 6: Audit Trail\n📄"]
+        S6_1["Fields Fields\npapers document fields"] -.-> S6
         
-        %% Verdicts
-        S7 -->|score >= 80%| O1[PASS]
-        S7 -->|score 60 - 79%| O2[SOFT FLAG]
-        S7 -->|score < 60%| O3[BLOCK]
+        %% Outputs
+        S6 -->|Final Outputs| O_Pass["Pass (>=80%)"]
+        S6 -->|Final Outputs| O_Soft["Soft_Flag (60-79%)"]
+        S6 -->|Final Outputs| O_Block["Block (<60%)"]
     end
-
-    %% Link Ingestion store to Substantiation Retrieval
-    H --> S3a
+    
+    %% Database feeding retrieval
+    IP5 ==> S3
     
     style Ingestion fill:#f0f8ff,stroke:#005A9C,stroke-width:2px;
     style Substantiation fill:#fff5ee,stroke:#D87093,stroke-width:2px;
-    style O1 fill:#d4edda,stroke:#28a745,stroke-width:2px;
-    style O2 fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
-    style O3 fill:#f8d7da,stroke:#dc3545,stroke-width:2px;
+    style O_Pass fill:#d4edda,stroke:#28a745,stroke-width:2px;
+    style O_Soft fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
+    style O_Block fill:#f8d7da,stroke:#dc3545,stroke-width:2px;
+    style Note fill:#fafad2,stroke:#d3d3d3,stroke-width:1px;
 ```
 
 ---
 
 ### Ingestion Phase Deep-Dive (One-Time Per Document)
 
-As outlined in the design sketch, the ingestion phase is built to process raw, complex clinical PDF documents into clean, structured, and searchable medical knowledge. Rather than performing basic sentence splitting (e.g. PySBD) which destroys the semantic layout of tables, columns, and section headers, our system utilizes a structure-aware layout parser.
+As mapped in the architectural sketch, the **Ingestion Phase** is a highly specialized, one-time pipeline designed to convert complex, multi-page, non-linear clinical and regulatory PDFs (like prescribing information, regulatory labels, and clinical study reports) into structured, queryable knowledge. 
 
-#### 1. PDF Parsing to Markdown (MD) Files
-*   **The Ingestion Gateway**: Raw PDFs (such as the US Prescribing Information, Clinical Study Reports, and Peer-Reviewed Literature) are processed through **Landing.AI's layout parsing API**.
-*   **Markdown Preservation**: Landing.AI analyzes the geometric layout of the PDF, distinguishing between standard paragraphs, section headings, visual tables, and figures. It converts these elements into unified **Markdown (MD) files**.
-*   **Preserving Semantics**: Using Markdown is a key design decision. Tables are preserved in clean HTML or Markdown table formats, and lists are formatted as markdown items. This preserves the multi-dimensional relationships of cell values (e.g. comparing dosage vs adverse event percentages in a table row) which standard text sentence-splitters completely destroy.
+#### Why PySBD Sentence Splitting was Replaced by Layout-Aware MD Files
+In early designs, standard RAG preprocessing (such as sentence splitting via **PySBD**) was considered. However, in high-compliance clinical domains, **PySBD is highly destructive**:
+1. **Destruction of Table Semantics**: Pharmaceutical references are packed with multi-dimensional tables comparing dosage, patient demographics, and safety metrics. PySBD treats these cells as a continuous string of sentences, completely scrambling columns and splitting cell values (like `32.6%` or `6%`) away from their row headers and dosage identifiers.
+2. **Column Shuffling**: Multi-column PDF layouts are read across columns by basic parsers, mixing text blocks and rendering the resulting sentences semantically meaningless.
+3. **Loss of Visual Grounding**: Standard splitters lose all metadata regarding which page or section a number came from, preventing the system from building a legally-compliant audit trail.
+
+To solve this, we implemented a **Layout-Aware Markdown (MD) Files Pipeline**:
+* **Visual layout analysis**: The system uses **Landing.AI's layout parser** to analyze the PDF's 2D geometry, identifying visual bounding boxes (`bbox`) and distinguishing text blocks, visual tables, headers, and marginalia.
+* **Unified MD Files Generation**: Complex tables are parsed directly into clean **HTML tables** (`<table>...</table>`) and structured Markdown blocks, preserving the precise geometric alignment of columns and rows.
+* **Preserved Structural Context**: A chunk containing a table row retains its complete tabular context. When a clinical claim asserts a `32.6%` efficacy rate, the dense query matches the whole row, keeping the statistic bound to its comparator and trial timeframe.
+
+---
+
+#### 1. PDF Parsing to MD Files & Chunking
+*   **The Parsing Engine**: Raw reference PDFs are passed to `LandingAIPDFParser`, which interacts with Landing.AI's Parse Jobs API. It caches the full API response as JSON locally to avoid repeated, expensive API calls.
+*   **Markdown Extraction**: The raw markdown output is structured into individual `ParsedChunk` records, separating `text` blocks, `table` elements, and `figure` descriptions.
+*   **Semantic Section Boundary Splits**: Instead of arbitrary chunk sizes (e.g. 500 characters), chunks are split along structural Markdown headers (`#`, `##`), keeping sections, subsections, and complete visual tables intact in unified Markdown files (e.g., `Adrichem_2022.md`).
+
+---
 
 #### 2. MedCPT Article Vector Encoding
-*   **Semantic Chunking**: The structured MD files are split into overlapping semantic chunks. The splitting boundary is determined by structural elements (e.g., Markdown headers `#` or `##`) rather than arbitrary character lengths, ensuring that complete tables and sections remain intact.
-*   **Vectorization**: Each chunk is embedded using the **MedCPT Article Encoder** (`ncbi/MedCPT-Article-Encoder`). This generates a high-fidelity **768-dimensional vector** representing the clinical context.
-*   **Asymmetric Advantage**: Using MedCPT's Article Encoder ensures the generated vectors are structurally prepared to be queried by a separate, query-optimized asymmetric model, which maximizes semantic recall for clinical questions.
+*   **Asymmetric Embedding Architecture**: Standard symmetric embeddings (where query and document share a model) suffer in RAG because clinical claims are short assertions, whereas reference documents are dense, formal papers. 
+*   **NCBI MedCPT Article Encoder**: Each extracted semantic Markdown chunk is encoded using **MedCPT's Article Encoder** (`ncbi/MedCPT-Article-Encoder`). This model is specially trained to map dense clinical texts into a **768-dimensional vector space**.
+*   **Dense Semantic Alignment**: In real-time retrieval, claims are encoded using the companion `MedCPT-Query-Encoder`. This asymmetric pairing dramatically boosts recall, aligning user copywriting language directly with complex, structured clinical data.
 
-#### 3. LLM Typization (RT-ID Assignment)
-*   **Reference Categorization**: A secondary LLM agent reads the metadata and headers of the document to perform **typization**. It classifies the document into its clinical category (e.g., Regulatory approved labels, pivotal clinical trials, or peer-reviewed journals).
-*   **Metadata Tagging**: The agent assigns a unique **Reference Type ID (RT-ID)** (e.g., `RT-101` for USPI, `RT-201` for Pivotal Phase 3 trials) and matches it to a top-level category code (`B1` through `B9`). This provides the foundation for our pre-retrieval routing matrix.
+---
 
-#### 4. Stored Metadata (Qdrant & Elasticsearch Storage)
-Every parsed chunk is loaded into our vector store (Qdrant) and search engine (Elasticsearch) with a comprehensive metadata payload:
-*   `text`: The verbatim text chunk, including numeric values and statistics (e.g., *"32.6% abstinence rate"*).
-*   `vector`: The 768-dim MedCPT article embedding.
-*   `ref_id`: Document identifier.
-*   `rt_id` & `ref_category`: Reference type metadata.
-*   `numeric_tokens`: Pre-extracted figures, units, and numbers to guarantee exact figure verification during judging.
+#### 3. LLM Typization & RT-ID Assignment
+*   **Regulatory Level Classification**: A secondary LLM agent (`Typizer`) reads the first few pages and headers of the parsed PDF. It performs **typization** based on a rigid regulatory mapping sheet (`categorization/Reference_Document_Types.md`).
+*   **RT-ID Assignment**: The document is assigned a unique **Reference Type ID** (e.g., `RT-101` for USPI, `RT-201` for Pivotal Phase 3 Clinical Trials, `RT-301` for Peer-Reviewed Journals) and matched to regulatory categories (`B1` through `B9`). This RT-ID is attached to every chunk to enable the pre-retrieval routing matrix.
+
+---
+
+#### 4. Multi-Vector Stored Metadata Schema
+Every parsed chunk is loaded into our vector store (Qdrant) and search engine (Elasticsearch) with a comprehensive metadata payload matching the stored metadata box in our sketch:
+*   `text`: The verbatim text or HTML table representation of the chunk.
+*   `vector`: The 768-dimensional MedCPT dense vector.
+*   `ref_id`: The document identifier (e.g., `CT-101`).
+*   `rt_id`: The Reference Type ID (e.g., `RT-101` or `RT-201`) which powers the pre-retrieval matrix filters.
+*   `page`: The page number of the source document, extracted during visual parsing to build the audit trail.
+*   `numeric_tokens`: An array of all pre-extracted numerical figures, rates, percentages, and units in the chunk. This ensures the judge can verify numbers (e.g., exact matches of `32.6%` or `6%`) deterministically.
+*   `source_file`: The filename of the reference document.
+*   `section`: The parent section header path (e.g., *"Prefilled Syringe Parts > Gather and Check"*).
+
+*Note on LLM Models: The system utilizes a dual-model approach where `gpt-5.2` is employed for cheap, high-throughput text cleaning, table linearization, and metadata extraction, whereas specialized classifier models (`gpt-5.5` or `Claude 3.5 Sonnet`) perform clinical typization and claims judging.*
+
+---
 
 ---
 
