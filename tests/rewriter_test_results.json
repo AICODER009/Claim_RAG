@@ -1,0 +1,66 @@
+[
+  {
+    "test_id": 1,
+    "ct_id": "CT-201",
+    "type": "efficacy",
+    "claim": "VYVGART Hytrulo demonstrated significant improvement in INCAT score vs placebo in the ADHERE trial",
+    "question": "What was the INCAT score improvement with VYVGART Hytrulo versus placebo in the ADHERE trial?",
+    "word_count": 15,
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "test_id": 2,
+    "ct_id": "CT-101",
+    "type": "indication",
+    "claim": "VYVGART Hytrulo is indicated for the treatment of generalized myasthenia gravis in adults who are anti-acetylcholine receptor antibody positive",
+    "question": "What are the approved indications for VYVGART Hytrulo in generalized myasthenia gravis patients?",
+    "word_count": 13,
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "test_id": 3,
+    "ct_id": "CT-301",
+    "type": "safety",
+    "claim": "The most common adverse reactions (≥10%) were headache, nasopharyngitis, and urinary tract infection",
+    "question": "What are the most common adverse reactions occurring in ≥10% of patients?",
+    "word_count": 12,
+    "status": "FAIL",
+    "errors": [
+      "Missing key term: 'headache'"
+    ]
+  },
+  {
+    "test_id": 4,
+    "ct_id": "CT-401",
+    "type": "MOA",
+    "claim": "Efgartigimod binds to the neonatal Fc receptor (FcRn), blocking IgG recycling and reducing pathogenic IgG antibody levels",
+    "question": "What is the mechanism of action of efgartigimod involving FcRn binding and IgG recycling?",
+    "word_count": 14,
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "test_id": 5,
+    "ct_id": "CT-501",
+    "type": "comparative",
+    "claim": "Efgartigimod achieved a significantly higher relapse-free rate at 48 weeks compared to conventional treatment in CIDP patients",
+    "question": "What is the relapse-free rate at 48 weeks for efgartigimod versus conventional treatment in CIDP patients?",
+    "word_count": 16,
+    "status": "PASS",
+    "errors": []
+  },
+  {
+    "test_id": 6,
+    "ct_id": "CT-201",
+    "type": "efficacy_numeric",
+    "claim": "32.6% of patients achieved continuous abstinence at weeks 9-12 with treatment vs 8.3% with placebo (p<0.001)",
+    "question": "What is the continuous abstinence rate at weeks 9-12 with treatment versus placebo?",
+    "word_count": 13,
+    "status": "FAIL",
+    "errors": [
+      "Missing key term: '32.6'"
+    ]
+  }
+]

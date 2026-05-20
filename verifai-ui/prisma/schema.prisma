@@ -1,0 +1,82 @@
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Claim {
+  id        String   @id @default(cuid())
+  text      String
+  ctId      String
+  source    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  result     SubstantiationResult?
+  overrides  ManualOverride[]
+  customRefs CustomReference[]
+}
+
+model SubstantiationResult {
+  id            String   @id @default(cuid())
+  claimId       String   @unique
+  claim         Claim    @relation(fields: [claimId], references: [id], onDelete: Cascade)
+
+  coverageScore Float
+  verdict       String
+  assessment    String
+  subAssertions String   // JSON
+  passages      String   // JSON
+  picotAlignment String  // JSON
+
+  rewrittenQuery String?
+  retrievalLog   String?
+
+  runAt         DateTime @default(now())
+  modelJudge    String
+  modelRewriter String
+}
+
+model ManualOverride {
+  id             String   @id @default(cuid())
+  claimId        String
+  claim          Claim    @relation(fields: [claimId], references: [id], onDelete: Cascade)
+
+  previousVerdict String
+  newVerdict      String
+  reason          String
+  overriddenBy    String
+  overriddenAt    DateTime @default(now())
+}
+
+model CustomReference {
+  id          String   @id @default(cuid())
+  claimId     String
+  claim       Claim    @relation(fields: [claimId], references: [id], onDelete: Cascade)
+
+  refId       String
+  passageText String
+  pageRef     String?
+  tier        String
+  addedBy     String
+  addedAt     DateTime @default(now())
+  note        String?
+}
+
+// Audit log — records every hard-deleted claim for the report
+model DeletedClaim {
+  id          String   @id @default(cuid())
+  originalId  String                      // original Claim.id
+  text        String
+  ctId        String
+  source      String?
+  verdict     String                      // verdict at time of deletion
+  score       Float                       // coverage score at time of deletion
+  deletedAt   DateTime @default(now())
+}

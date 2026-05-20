@@ -1,0 +1,5090 @@
+[
+  {
+    "row": 315,
+    "claim": "Overall disability is measured by the sum of the arm disability score and the leg disability score\n\n(0=no signs of disability; 10=maximum disability)",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-803",
+    "claim_type_name": "Inherited from parent",
+    "confidence": 1.0,
+    "source": "inherited from row 470"
+  },
+  {
+    "claim": "Direct patients to read the full Instructions for Use prior to self-injecting the prefilled syringe.",
+    "document": "25-VYVCIDP-1365_CIDP_PFS_video_storyboard_v26",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "patients",
+      "intervention": "prefilled syringe",
+      "comparator": null,
+      "outcome": "proper self-injection technique",
+      "timeframe": "prior to use"
+    },
+    "row": 20
+  },
+  {
+    "claim": "For single-dose prefilled syringes",
+    "document": "25-VYVCIDP-1365_CIDP_PFS_video_storyboard_v26",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 28
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an alNCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients receiving VYVGART Hytrulo",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (alNCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 167
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 171
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 172,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 463,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1031,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1237,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1373,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1668,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "There were 221 patients at the beginning of the randomized withdrawal period (111 patients treated with VYVGART Hytrulo and 110 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "221 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1901,
+    "source": "classified once, copied to 7 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 174,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 489,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1497,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo has a demonstrated safety profile",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-302",
+    "claim_type_name": "Tolerability",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 180,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo has a demonstrated safety profile",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-302",
+    "claim_type_name": "Tolerability",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 500,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo has a demonstrated safety profile",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-302",
+    "claim_type_name": "Tolerability",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 945,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo has a demonstrated safety profile",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-302",
+    "claim_type_name": "Tolerability",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1250,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo has a demonstrated safety profile",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-302",
+    "claim_type_name": "Tolerability",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1380,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "* Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-607",
+    "claim_type_name": "Convenience / ease-of-use",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 273
+  },
+  {
+    "claim": "The recommended dose schedule of VYVGART Hytrulo for CIDP is a once-weekly subcutaneous injection, with either the vial or prefilled syringe option : [x] Monitor for clinical signs and symptoms of hyp",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo subcutaneous injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "once-weekly"
+    },
+    "row": 277
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "injection time",
+      "timeframe": null
+    },
+    "row": 293
+  },
+  {
+    "claim": "The efficacy and safety of VYVGART Hytrulo were demonstrated in a clinical trial of patients with CIDP.",
+    "document": "VYVGART Hytrulo CIDP Biopharm Print Folio",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "patients with CIDP",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "efficacy and safety",
+      "timeframe": null
+    },
+    "row": 336
+  },
+  {
+    "claim": "An initial treatment period (open label, Stage A) identified responders from 322 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo controlled, Stage B).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "322 adults with active CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "responders identified",
+      "timeframe": null
+    },
+    "row": 400,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "An initial treatment period (open label, Stage A) identified responders from 322 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo controlled, Stage B).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "322 adults with active CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "responders identified",
+      "timeframe": null
+    },
+    "row": 992,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "An initial treatment period (open label, Stage A) identified responders from 322 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo controlled, Stage B).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "322 adults with active CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "responders identified",
+      "timeframe": null
+    },
+    "row": 1191,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "An initial treatment period (open label, Stage A) identified responders from 322 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo controlled, Stage B).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "322 adults with active CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "responders identified",
+      "timeframe": null
+    },
+    "row": 1335,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "SCREENING: ≤4 WEEKS Confirmed CIDP diagnosis Patients: Were currently receiving standard-of-care therapy, or Were not treated with standard-of-care therapy for ≥6 months before study entry, or Had not",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients with confirmed CIDP diagnosis",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "≤4 weeks screening period"
+    },
+    "row": 406
+  },
+  {
+    "claim": "Patients discontinued treatment and demonstrated evidence of deterioration",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Treatment discontinuation and evidence of deterioration",
+      "timeframe": null
+    },
+    "row": 407
+  },
+  {
+    "claim": "Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients off treatment with evidence of worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "skip run-in",
+      "timeframe": null
+    },
+    "row": 408
+  },
+  {
+    "claim": "VYVGART Hytrulo (N=322) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units subcutaneous weekly)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 409,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (N=322) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units subcutaneous weekly)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 996,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (N=322) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units subcutaneous weekly)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1195,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (N=322) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units subcutaneous weekly)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1338,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "IDENTIFIED RESPONDERS Patients who had evidence of improvement at 2 consecutive visits",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of improvement at 2 consecutive visits",
+      "timeframe": null
+    },
+    "row": 410,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "IDENTIFIED RESPONDERS Patients who had evidence of improvement at 2 consecutive visits",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of improvement at 2 consecutive visits",
+      "timeframe": null
+    },
+    "row": 997,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "IDENTIFIED RESPONDERS Patients who had evidence of improvement at 2 consecutive visits",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of improvement at 2 consecutive visits",
+      "timeframe": null
+    },
+    "row": 1339,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Randomized withdrawal period Double blind, placebo controlled (Stage B)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 411
+  },
+  {
+    "claim": "VYVGART Hytrulo (n=111) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 412,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (n=111) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 998,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (n=111) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1196,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (n=111) (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1340,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Placebo (n=110) (2,000 U/mL hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "hyaluronidase 2,000 U/mL subcutaneous weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 413,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Placebo (n=110) (2,000 U/mL hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "hyaluronidase 2,000 U/mL subcutaneous weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 999,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Placebo (n=110) (2,000 U/mL hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "hyaluronidase 2,000 U/mL subcutaneous weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1197,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Placebo (n=110) (2,000 U/mL hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "hyaluronidase 2,000 U/mL subcutaneous weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1341,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "PRIMARY ENDPOINT Time to first clinical deterioration compared to baseline of randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "baseline",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 414,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "PRIMARY ENDPOINT Time to first clinical deterioration compared to baseline of randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "baseline",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1000,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "PRIMARY ENDPOINT Time to first clinical deterioration compared to baseline of randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "baseline",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1199,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "PRIMARY ENDPOINT Time to first clinical deterioration compared to baseline of randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "baseline",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1342,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The screening period was for a maximum of 4 weeks, and the run-in period was for a maximum of 12 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "screening period maximum 4 weeks, run-in period maximum 12 weeks"
+    },
+    "row": 415,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The screening period was for a maximum of 4 weeks, and the run-in period was for a maximum of 12 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "screening period maximum 4 weeks, run-in period maximum 12 weeks"
+    },
+    "row": 1001,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The screening period was for a maximum of 4 weeks, and the run-in period was for a maximum of 12 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "screening period maximum 4 weeks, run-in period maximum 12 weeks"
+    },
+    "row": 1203,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The screening period was for a maximum of 4 weeks, and the run-in period was for a maximum of 12 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "screening period maximum 4 weeks, run-in period maximum 12 weeks"
+    },
+    "row": 1346,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "At the time of screening, patients had a documented diagnosis of definite or probable CIDP using the 2010 European Federation of Neurological Societies/ Peripheral Nerve Society criteria for progressi",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with definite or probable CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 416
+  },
+  {
+    "claim": "Patients who were on treatment at screening had been receiving standard-of-care therapy (IVIG, SCIG, or corticosteroids).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients at screening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 417,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients who were on treatment at screening had been receiving standard-of-care therapy (IVIG, SCIG, or corticosteroids).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients at screening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1003,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients who were on treatment at screening had been receiving standard-of-care therapy (IVIG, SCIG, or corticosteroids).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients at screening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1205,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients who were on treatment at screening had been receiving standard-of-care therapy (IVIG, SCIG, or corticosteroids).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients at screening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1348,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "At the start of the run-in period, patients on treatment needed to discontinue treatment and show evidence of deterioration, which was defined as an aINCAT increase of ≥1 point, an I-RODS decrease of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients on treatment",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of deterioration (aINCAT increase ≥1 point, I-RODS decrease ≥4 points, or grip strength decrease ≥8 kPa)",
+      "timeframe": "run-in period"
+    },
+    "row": 418,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "At the start of the run-in period, patients on treatment needed to discontinue treatment and show evidence of deterioration, which was defined as an aINCAT increase of ≥1 point, an I-RODS decrease of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients on treatment",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of deterioration (aINCAT increase ≥1 point, I-RODS decrease ≥4 points, or grip strength decrease ≥8 kPa)",
+      "timeframe": "run-in period"
+    },
+    "row": 1004,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "At the start of the run-in period, patients on treatment needed to discontinue treatment and show evidence of deterioration, which was defined as an aINCAT increase of ≥1 point, an I-RODS decrease of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients on treatment",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of deterioration (aINCAT increase ≥1 point, I-RODS decrease ≥4 points, or grip strength decrease ≥8 kPa)",
+      "timeframe": "run-in period"
+    },
+    "row": 1206,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "At the start of the run-in period, patients on treatment needed to discontinue treatment and show evidence of deterioration, which was defined as an aINCAT increase of ≥1 point, an I-RODS decrease of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients on treatment",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of deterioration (aINCAT increase ≥1 point, I-RODS decrease ≥4 points, or grip strength decrease ≥8 kPa)",
+      "timeframe": "run-in period"
+    },
+    "row": 1349,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients off treatment who had evidence of worsening were allowed to skip the run-in period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients off treatment who had evidence of worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "allowed to skip the run-in period",
+      "timeframe": null
+    },
+    "row": 419,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients off treatment who had evidence of worsening were allowed to skip the run-in period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients off treatment who had evidence of worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "allowed to skip the run-in period",
+      "timeframe": null
+    },
+    "row": 1005,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients off treatment who had evidence of worsening were allowed to skip the run-in period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients off treatment who had evidence of worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "allowed to skip the run-in period",
+      "timeframe": null
+    },
+    "row": 1207,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients off treatment who had evidence of worsening were allowed to skip the run-in period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients off treatment who had evidence of worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "allowed to skip the run-in period",
+      "timeframe": null
+    },
+    "row": 1350,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The initial treatment period was for a maximum of 12 weeks until evidence of improvement occurred at 2 consecutive visits, defined as an aINCAT improvement of ≥1 point, an I-RODS improvement of ≥4 poi",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": "maximum of 12 weeks"
+    },
+    "row": 420,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "The initial treatment period was for a maximum of 12 weeks until evidence of improvement occurred at 2 consecutive visits, defined as an aINCAT improvement of ≥1 point, an I-RODS improvement of ≥4 poi",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": "maximum of 12 weeks"
+    },
+    "row": 1208,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "The initial treatment period was for a maximum of 12 weeks until evidence of improvement occurred at 2 consecutive visits, defined as an aINCAT improvement of ≥1 point, an I-RODS improvement of ≥4 poi",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": "maximum of 12 weeks"
+    },
+    "row": 1351,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Patients who had evidence of improvement at 2 consecutive visits were eligible to proceed to the randomized withdrawal period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients who had evidence of improvement at 2 consecutive visits",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "eligibility to proceed to randomized withdrawal period",
+      "timeframe": "2 consecutive visits"
+    },
+    "row": 421,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Patients who had evidence of improvement at 2 consecutive visits were eligible to proceed to the randomized withdrawal period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients who had evidence of improvement at 2 consecutive visits",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "eligibility to proceed to randomized withdrawal period",
+      "timeframe": "2 consecutive visits"
+    },
+    "row": 1209,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Patients who had evidence of improvement at 2 consecutive visits were eligible to proceed to the randomized withdrawal period.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients who had evidence of improvement at 2 consecutive visits",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "eligibility to proceed to randomized withdrawal period",
+      "timeframe": "2 consecutive visits"
+    },
+    "row": 1352,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Responders from the initial treatment period were randomized to evaluate the time to first clinical deterioration (relapse) vs placebo.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Responders from the initial treatment period",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "time to first clinical deterioration (relapse)",
+      "timeframe": null
+    },
+    "row": 422,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Responders from the initial treatment period were randomized to evaluate the time to first clinical deterioration (relapse) vs placebo.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Responders from the initial treatment period",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "time to first clinical deterioration (relapse)",
+      "timeframe": null
+    },
+    "row": 1006,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Responders from the initial treatment period were randomized to evaluate the time to first clinical deterioration (relapse) vs placebo.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Responders from the initial treatment period",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "time to first clinical deterioration (relapse)",
+      "timeframe": null
+    },
+    "row": 1210,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Responders from the initial treatment period were randomized to evaluate the time to first clinical deterioration (relapse) vs placebo.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Responders from the initial treatment period",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "time to first clinical deterioration (relapse)",
+      "timeframe": null
+    },
+    "row": 1353,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The randomized withdrawal period was for a maximum of 48 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "maximum of 48 weeks"
+    },
+    "row": 423,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The randomized withdrawal period was for a maximum of 48 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "maximum of 48 weeks"
+    },
+    "row": 1007,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The randomized withdrawal period was for a maximum of 48 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "maximum of 48 weeks"
+    },
+    "row": 1211,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The randomized withdrawal period was for a maximum of 48 weeks.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "maximum of 48 weeks"
+    },
+    "row": 1354,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "If patients had clinical deterioration (relapse), then their participation in the randomized withdrawal period ended.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse)",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 424,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "If patients had clinical deterioration (relapse), then their participation in the randomized withdrawal period ended.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse)",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1008,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "If patients had clinical deterioration (relapse), then their participation in the randomized withdrawal period ended.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse)",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1212,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "If patients had clinical deterioration (relapse), then their participation in the randomized withdrawal period ended.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse)",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1355,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse) defined as 1-point increase in aINCAT score at 2 consecutive visits or >1-point increase at 1 visit",
+      "timeframe": "from baseline at randomization"
+    },
+    "row": 425,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse) defined as 1-point increase in aINCAT score at 2 consecutive visits or >1-point increase at 1 visit",
+      "timeframe": "from baseline at randomization"
+    },
+    "row": 1009,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse) defined as 1-point increase in aINCAT score at 2 consecutive visits or >1-point increase at 1 visit",
+      "timeframe": "from baseline at randomization"
+    },
+    "row": 1213,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration (relapse) defined as 1-point increase in aINCAT score at 2 consecutive visits or >1-point increase at 1 visit",
+      "timeframe": "from baseline at randomization"
+    },
+    "row": 1356,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The study stopped when 88 events of relapse occurred in the primary endpoint analysis.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "relapse events",
+      "timeframe": null
+    },
+    "row": 426,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The study stopped when 88 events of relapse occurred in the primary endpoint analysis.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "relapse events",
+      "timeframe": null
+    },
+    "row": 1010,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The study stopped when 88 events of relapse occurred in the primary endpoint analysis.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "relapse events",
+      "timeframe": null
+    },
+    "row": 1214,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "The study stopped when 88 events of relapse occurred in the primary endpoint analysis.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "relapse events",
+      "timeframe": null
+    },
+    "row": 1357,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients: Were currently receiving standard-of-care therapy, or Were not treated with standard-of-care therapy for ≥6 months before study entry, or Had not received prior treatment for CIDP",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with CIDP with varying treatment histories",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 427
+  },
+  {
+    "claim": "Patients discontinued treatment and demonstrated evidence of deterioration\nPatients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "deterioration/worsening after treatment discontinuation",
+      "timeframe": null
+    },
+    "row": 428
+  },
+  {
+    "claim": "VYVGART Hytrulo (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (1,008 mg efgartigimod alfa/11,200 units hyaluronidase SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 429
+  },
+  {
+    "claim": "Mean age, years (SD) 54 (14) 55 (13) 51 (14)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "mean age",
+      "timeframe": null
+    },
+    "row": 430,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Mean age, years (SD) 54 (14) 55 (13) 51 (14)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "mean age",
+      "timeframe": null
+    },
+    "row": 1215,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Sex, male, n (%): 208 (65), 73 (66), 69 (63)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Male patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 431
+  },
+  {
+    "claim": "Mean time since diagnosis, years (SD) 5 (6) 4 (4) 4 (5)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time since diagnosis",
+      "timeframe": null
+    },
+    "row": 432,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Mean time since diagnosis, years (SD) 5 (6) 4 (4) 4 (5)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time since diagnosis",
+      "timeframe": null
+    },
+    "row": 1217,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Typical CIDP diagnosis, n (%): 268 (83), 97 (87), 95 (86)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "typical CIDP diagnosis",
+      "timeframe": null
+    },
+    "row": 433,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Typical CIDP diagnosis, n (%): 268 (83), 97 (87), 95 (86)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "typical CIDP diagnosis",
+      "timeframe": null
+    },
+    "row": 1218,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Immunoglobulins (IVIG, SCIG) 165 (51) 48 (43) 48 (44)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "Immunoglobulins (IVIG, SCIG)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 434,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Immunoglobulins (IVIG, SCIG) 165 (51) 48 (43) 48 (44)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "Immunoglobulins (IVIG, SCIG)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1220,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Not receiving treatment (including treatment naive) 94 (29) 39 (35) 39 (36)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "treatment naive status",
+      "timeframe": null
+    },
+    "row": 435,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Not receiving treatment (including treatment naive) 94 (29) 39 (35) 39 (36)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "treatment naive status",
+      "timeframe": null
+    },
+    "row": 1221,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo was studied in a population with a range of disease activities",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "population with a range of disease activities",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 436,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo was studied in a population with a range of disease activities",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "population with a range of disease activities",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1012,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Mean clinical status scores (SD): aINCAT 4.6 (1.67), I-RODS 40.1 (14.67)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT score 4.6, I-RODS score 40.1",
+      "timeframe": null
+    },
+    "row": 437
+  },
+  {
+    "claim": "Grip strength (dominant hand), kPa 38.5 (24.18)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Grip strength (dominant hand)",
+      "timeframe": null
+    },
+    "row": 438
+  },
+  {
+    "claim": "Grip strength (nondominant hand), kPa: 39.0 (24.71)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Grip strength (nondominant hand)",
+      "timeframe": null
+    },
+    "row": 439
+  },
+  {
+    "claim": "Grip strength (nondominant hand), kPa: VYVGART Hytrulo 55.4 (28.29), Placebo 56.7 (24.80)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-202",
+    "claim_type_name": "Secondary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": "placebo",
+      "outcome": "grip strength (nondominant hand)",
+      "timeframe": null
+    },
+    "row": 440
+  },
+  {
+    "claim": "Clinical characteristics of the randomized withdrawal period were similar between treatment groups",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical characteristics",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 441,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Clinical characteristics of the randomized withdrawal period were similar between treatment groups",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical characteristics",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1014,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 448,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 1019,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 1232,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 1613,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The initial treatment period (up to 12 weeks) identified VYVGART Hytrulo responders who had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "Responder status (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points or mean grip strength improvement ≥8 kPa at 2 consecutive visits)",
+      "timeframe": "up to 12 weeks"
+    },
+    "row": 1662,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": null
+    },
+    "row": 462,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": null
+    },
+    "row": 1030,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": null
+    },
+    "row": 1236,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": null
+    },
+    "row": 1372,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit",
+      "timeframe": null
+    },
+    "row": 1616,
+    "source": "classified once, copied to 5 rows"
+  },
+  {
+    "claim": "Evidence of improvement was defined as an aINCAT improvement of ≥1 point, an I-RODS improvement of ≥4 points, or a mean grip strength improvement of ≥8 kPa.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": null
+    },
+    "row": 481,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Evidence of improvement was defined as an aINCAT improvement of ≥1 point, an I-RODS improvement of ≥4 points, or a mean grip strength improvement of ≥8 kPa.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": null
+    },
+    "row": 1043,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Evidence of improvement occurred at 2 consecutive study visits.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-205",
+    "claim_type_name": "Onset-of-action",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "improvement",
+      "timeframe": "2 consecutive study visits"
+    },
+    "row": 482,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Evidence of improvement occurred at 2 consecutive study visits.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-205",
+    "claim_type_name": "Onset-of-action",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "improvement",
+      "timeframe": "2 consecutive study visits"
+    },
+    "row": 973,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo can cause anaphylaxis and hypotension leading to syncope, as well as infusion/injection-related reactions including hypertension, chills, shivering, and thoracic, abdominal, and back p",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients receiving VYVGART Hytrulo",
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa-fcab)",
+      "comparator": null,
+      "outcome": "Anaphylaxis, hypotension leading to syncope, infusion/injection-related reactions including hypertension, chills, shivering, thoracic/abdominal/back pain",
+      "timeframe": "During or within an hour of administration"
+    },
+    "row": 508
+  },
+  {
+    "claim": "Single-dose prefilled syringe",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 517,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Single-dose prefilled syringe",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 602,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Single-dose prefilled syringe",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1270,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Single-dose prefilled syringe",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1402,
+    "source": "classified once, copied to 4 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 532,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 605,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 740,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 1098,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 1289,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "Patients and/or caregivers will receive in-person injection training until ready to inject.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients and/or caregivers",
+      "intervention": "in-person injection training",
+      "comparator": null,
+      "outcome": "readiness to inject",
+      "timeframe": null
+    },
+    "row": 1424,
+    "source": "classified once, copied to 6 rows"
+  },
+  {
+    "claim": "A majority of commercial and Medicare-insured patients have Pharmacy Benefit coverage for VYVGART Hytrulo prefilled syringe for self-injection",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Commercial and Medicare-insured patients",
+      "intervention": "VYVGART Hytrulo prefilled syringe for self-injection",
+      "comparator": null,
+      "outcome": "Pharmacy Benefit coverage",
+      "timeframe": null
+    },
+    "row": 547,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "A majority of commercial and Medicare-insured patients have Pharmacy Benefit coverage for VYVGART Hytrulo prefilled syringe for self-injection",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Commercial and Medicare-insured patients",
+      "intervention": "VYVGART Hytrulo prefilled syringe for self-injection",
+      "comparator": null,
+      "outcome": "Pharmacy Benefit coverage",
+      "timeframe": null
+    },
+    "row": 1294,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "A majority of commercial and Medicare-insured patients have Pharmacy Benefit coverage for VYVGART Hytrulo prefilled syringe for self-injection",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Commercial and Medicare-insured patients",
+      "intervention": "VYVGART Hytrulo prefilled syringe for self-injection",
+      "comparator": null,
+      "outcome": "Pharmacy Benefit coverage",
+      "timeframe": null
+    },
+    "row": 1436,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Based on published policies from Policy Reporter as of December 2024.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy (fallback)",
+    "secondary_ct_id": null,
+    "confidence": 0.0,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 550
+  },
+  {
+    "claim": "An INCAT arm disability score that changed from 0 to 1 or from 1 to 0 was not incorporated into the overall adjusted INCAT score.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "INCAT arm disability score change from 0 to 1 or 1 to 0",
+      "timeframe": null
+    },
+    "row": 552,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "An INCAT arm disability score that changed from 0 to 1 or from 1 to 0 was not incorporated into the overall adjusted INCAT score.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "INCAT arm disability score change from 0 to 1 or 1 to 0",
+      "timeframe": null
+    },
+    "row": 1045,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "5: Restricted to wheelchair, unable to stand and walk a few steps with help",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state / epidemiology / burden-of-illness claims",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 553
+  },
+  {
+    "claim": "(0=maximum limitation; 100=no limitation)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "limitation scale from 0 (maximum limitation) to 100 (no limitation)",
+      "timeframe": null
+    },
+    "row": 560
+  },
+  {
+    "claim": "vaccines and the immune response to vaccination during treatment with VYVGART HYTRULO are unknown.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-309",
+    "claim_type_name": "Null-safety finding",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients receiving VYVGART HYTRULO",
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "vaccines and immune response to vaccination",
+      "timeframe": "during treatment"
+    },
+    "row": 565
+  },
+  {
+    "claim": "The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for VYVGART HYTRULO",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-311",
+    "claim_type_name": "Pregnancy / lactation / reproductive-toxicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Breastfeeding mothers with clinical need for treatment",
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "Balance of developmental/health benefits of breastfeeding vs maternal clinical need",
+      "timeframe": null
+    },
+    "row": 566
+  },
+  {
+    "claim": "and any potential adverse effects on the breastfed infant from VYVGART HYTRULO or from the underlying maternal condition.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-311",
+    "claim_type_name": "Pregnancy / lactation / reproductive-toxicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Breastfeeding mothers and breastfed infants",
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "Potential adverse effects on breastfed infant",
+      "timeframe": null
+    },
+    "row": 567
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "injection time",
+      "timeframe": null
+    },
+    "row": 574,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "injection time",
+      "timeframe": null
+    },
+    "row": 1119,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time.",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "injection time",
+      "timeframe": null
+    },
+    "row": 1452,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "An initial treatment period (open-label, Stage A) identified responders from 123 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo-controlled, Stage B).",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": "CT-A08",
+    "confidence": 0.85,
+    "picot": {
+      "population": "adults with active CIDP",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "responder identification",
+      "timeframe": null
+    },
+    "row": 579
+  },
+  {
+    "claim": "Confirmed active disease - Patients discontinued treatment and demonstrated evidence of deterioration - Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-703",
+    "claim_type_name": "Unmet-need",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients with active disease",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Disease deterioration/worsening after treatment discontinuation",
+      "timeframe": null
+    },
+    "row": 582
+  },
+  {
+    "claim": "VYVGART Hytrulo (N=322) (1,008 mg efgartigimod alfa/1,200 units hyaluronidase SC QW)",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 1,200 units SC QW)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 583
+  },
+  {
+    "claim": "Patients who had evidence of improvement at 2 consecutive visits",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of improvement at 2 consecutive visits",
+      "timeframe": null
+    },
+    "row": 584
+  },
+  {
+    "claim": "Time to first clinical deterioration compared to baseline of randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "baseline",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 586
+  },
+  {
+    "claim": "At the start of the run-in period, patients on treatment needed to discontinue treatment and show evidence of deterioration, which was defined as an aINCAT increase of ≥1 point, an I-RODS decrease of ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients on treatment",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of deterioration (aINCAT increase ≥1 point, I-RODS decrease ≥4 points, or grip strength decrease ≤8 kPa)",
+      "timeframe": "run-in period"
+    },
+    "row": 587
+  },
+  {
+    "claim": "The initial treatment period was for a maximum of 12 weeks until evidence of improvement occurred at 2 consecutive visits, defined as an aINCAT improvement of a1 point, an I-RODS improvement of ≥4 poi",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point, I-RODS improvement ≥4 points, or mean grip strength improvement ≥8 kPa",
+      "timeframe": "maximum of 12 weeks"
+    },
+    "row": 588
+  },
+  {
+    "claim": "Patients with confirmed CIDP diagnosis\nWere currently receiving standard-of-care therapy, or\nWere not treated with standard-of-care therapy for 6 months before study entry, or\nHad not received prior t",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with confirmed CIDP diagnosis with varying treatment histories",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 589
+  },
+  {
+    "claim": "Confirmed active disease: Patients discontinued treatment and demonstrated evidence of deterioration. Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-705",
+    "claim_type_name": "Natural-history / disease-progression",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients with active disease",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Evidence of deterioration/worsening",
+      "timeframe": null
+    },
+    "row": 590
+  },
+  {
+    "claim": "Randomized withdrawal period (Double blind, placebo controlled, Stage B): ≤48 WEEKS - VYVGART Hytrulo (1,000 mg efgartigimod alfa/1,200 units hyaluronidase SC QW) - Placebo (12,000 u/mL hyaluronidase ",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (1,000 mg efgartigimod alfa/1,200 units hyaluronidase SC QW)",
+      "comparator": "Placebo (12,000 u/mL hyaluronidase SC QW)",
+      "outcome": null,
+      "timeframe": "≤48 weeks"
+    },
+    "row": 592
+  },
+  {
+    "claim": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) INJECTION 1,000 mg and 10,000 units/5 mL (200 mg and 2,000 units/mL) Subcutaneous injection over 20 to 30 seconds",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-603",
+    "claim_type_name": "Route-of-administration",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) 1,000 mg and 10,000 units/5 mL subcutaneous injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "20 to 30 seconds"
+    },
+    "row": 597
+  },
+  {
+    "claim": "(1,008 mg efgartigimod alfa/11,200 units hyaluronidase)",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 607,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "(1,008 mg efgartigimod alfa/11,200 units hyaluronidase)",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1278,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection 180 mg/mL and 2000 U/mL | 200 mg/mL and 2000 U/mL",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 626,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection 180 mg/mL and 2000 U/mL | 200 mg/mL and 2000 U/mL",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 735,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection 180 mg/mL and 2000 U/mL | 200 mg/mL and 2000 U/mL",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1104,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo Single-dose vial 1,008 mg efgartigimod alfa/11,200 units hyaluronidase",
+    "document": "VYVGART Hytrulo CIDP Dosing Card - Print (2)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa 1,008 mg/hyaluronidase 11,200 units)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 632
+  },
+  {
+    "claim": "One single-dose vial",
+    "document": "VYVGART Hytrulo CIDP Dosing and Administration Guide - Print",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 728
+  },
+  {
+    "claim": "Order the 4-pack for 4 weeks of treatment and fewer deliveries from the specialty pharmacy.",
+    "document": "VYVGART Hytrulo CIDP Dosing and Administration Guide - Print",
+    "ct_id": "CT-607",
+    "claim_type_name": "Convenience / ease-of-use",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "4-pack",
+      "comparator": null,
+      "outcome": "fewer deliveries from specialty pharmacy",
+      "timeframe": "4 weeks"
+    },
+    "row": 756
+  },
+  {
+    "claim": "12 refills of VYVGART Hytrulo will cover 12 months of treatment.",
+    "document": "VYVGART Hytrulo CIDP Dosing and Administration Guide - Print",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "12 months of treatment coverage",
+      "timeframe": "12 months"
+    },
+    "row": 757
+  },
+  {
+    "claim": "Use your clinical judgment to determine the appropriate amount of refills for your patient.",
+    "document": "VYVGART Hytrulo CIDP Dosing and Administration Guide - Print",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 758
+  },
+  {
+    "claim": "A Novel Treatment Approved for Adults With CIDP",
+    "document": "VYVGART Hytrulo CIDP Epocrates Monograph Efficacy and Safety US",
+    "ct_id": "CT-104",
+    "claim_type_name": "Regulatory status, approval & history",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Adults with CIDP",
+      "intervention": "A Novel Treatment",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 861
+  },
+  {
+    "claim": "Initial U.S. Approval: 2023",
+    "document": "VYVGART Hytrulo CIDP Epocrates Monograph Efficacy and Safety US",
+    "ct_id": "CT-104",
+    "claim_type_name": "Regulatory status, approval & history",
+    "secondary_ct_id": null,
+    "confidence": 0.98,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "2023"
+    },
+    "row": 925
+  },
+  {
+    "claim": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) injection, for subcutaneous use",
+    "document": "VYVGART Hytrulo CIDP Epocrates Monograph Efficacy and Safety US",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod alfa and hyaluronidase-qvfc injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 955
+  },
+  {
+    "claim": "Open-label: Improvement in functional ability was defined as an aINCAT improvement of ≥1 point or an I-RODS improvement of ≥4 points.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": "CT-A08",
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "aINCAT improvement ≥1 point or I-RODS improvement ≥4 points",
+      "timeframe": null
+    },
+    "row": 971
+  },
+  {
+    "claim": "Improvement in strength was defined as an improvement in mean grip strength of ≥8 kPa.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "improvement in mean grip strength of ≥8 kPa",
+      "timeframe": null
+    },
+    "row": 972
+  },
+  {
+    "claim": "SCREENING: ≤4 WEEKS\nConfirmed CIDP diagnosis\nPatients:\n* Were currently receiving standard-of-care therapy, or\n* Were not treated with standard-of-care therapy for ≥6 months before study entry, or\n* H",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Adults with confirmed CIDP diagnosis",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "≤4 weeks screening period"
+    },
+    "row": 994,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "SCREENING: ≤4 WEEKS\nConfirmed CIDP diagnosis\nPatients:\n* Were currently receiving standard-of-care therapy, or\n* Were not treated with standard-of-care therapy for ≥6 months before study entry, or\n* H",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Adults with confirmed CIDP diagnosis",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "≤4 weeks screening period"
+    },
+    "row": 1336,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "RUN-IN: ≤12 WEEKS Confirmed active disease * Patients discontinued treatment and demonstrated evidence of deterioration * Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients with active disease",
+      "intervention": "Treatment discontinuation (run-in period)",
+      "comparator": null,
+      "outcome": "Evidence of deterioration/worsening",
+      "timeframe": "≤12 weeks"
+    },
+    "row": 995,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "RUN-IN: ≤12 WEEKS Confirmed active disease * Patients discontinued treatment and demonstrated evidence of deterioration * Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients with active disease",
+      "intervention": "Treatment discontinuation (run-in period)",
+      "comparator": null,
+      "outcome": "Evidence of deterioration/worsening",
+      "timeframe": "≤12 weeks"
+    },
+    "row": 1337,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "At the time of screening, patients had a documented diagnosis of definite or probable CIDP using the 2010 European Federation of Neurological Societies/Peripheral Nerve Society criteria for progressin",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with definite or probable CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1002,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "At the time of screening, patients had a documented diagnosis of definite or probable CIDP using the 2010 European Federation of Neurological Societies/Peripheral Nerve Society criteria for progressin",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with definite or probable CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1204,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "At the time of screening, patients had a documented diagnosis of definite or probable CIDP using the 2010 European Federation of Neurological Societies/Peripheral Nerve Society criteria for progressin",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with definite or probable CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1347,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Time to first clinical deterioration compared to placebo in randomized withdrawal period",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "time to first clinical deterioration",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1011
+  },
+  {
+    "claim": "5 Restricted to wheelchair, unable to stand and walk a few steps with help",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1034
+  },
+  {
+    "claim": "Usually uses unilateral support (stick, single crutch, 1 arm) to walk outdoors",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1037
+  },
+  {
+    "claim": "Walking affected, but walks independently outdoors",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-803",
+    "claim_type_name": "Functional-status / ADL",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "walking affected, but walks independently outdoors",
+      "timeframe": null
+    },
+    "row": 1038
+  },
+  {
+    "claim": "Usually uses wheelchair to travel outdoors, but able to stand and walk a few steps with help",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1046
+  },
+  {
+    "claim": "Usually uses bilateral support (sticks, crutches, frame, 2 arms) to walk outdoors",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1047
+  },
+  {
+    "claim": "This analysis assessed 214 patients with evidence of improvement in the initial treatment period.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-204",
+    "claim_type_name": "Subgroup efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "214 patients with evidence of improvement in the initial treatment period",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "improvement",
+      "timeframe": "initial treatment period"
+    },
+    "row": 1050
+  },
+  {
+    "claim": "Evidence of improvement is defined as a mean grip strength improvement of ≥8 kPa in either hand, an aINCAt improvement of ≥1 point, or an I-RODS improvement of ≥4 points from Stage A baseline.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "grip strength improvement ≥8 kPa in either hand, or aINCAt improvement ≥1 point, or I-RODS improvement ≥4 points",
+      "timeframe": "from Stage A baseline"
+    },
+    "row": 1051
+  },
+  {
+    "claim": "Completed the randomized withdrawal period through Week 48 (ADHERE Stage B), or",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "completed the randomized withdrawal period",
+      "timeframe": "Week 48"
+    },
+    "row": 1058
+  },
+  {
+    "claim": "Experienced clinical deterioration in the randomized withdrawal period (ADHERE Stage B), or",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "clinical deterioration",
+      "timeframe": "randomized withdrawal period (ADHERE Stage B)"
+    },
+    "row": 1059
+  },
+  {
+    "claim": "Study duration ≤2 years (ongoing)",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "≤2 years (ongoing)"
+    },
+    "row": 1062
+  },
+  {
+    "claim": "Primary endpoint: Evaluate the long-term safety and tolerability of VYVGART Hytrulo",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-306",
+    "claim_type_name": "Long-term / post-marketing safety",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "long-term safety and tolerability",
+      "timeframe": "long-term"
+    },
+    "row": 1063
+  },
+  {
+    "claim": "VYVGART Hytruro had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1065,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytruro had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1392,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Mean study duration was 60.61 (32.87) weeks",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "study duration",
+      "timeframe": "60.61 weeks (mean)"
+    },
+    "row": 1081
+  },
+  {
+    "claim": "Study limitations: ADHERE+ is a single-arm, open-label extension trial that uses descriptive statistics.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1084
+  },
+  {
+    "claim": "Another way to administer that can fit into their lives, including at home",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-603",
+    "claim_type_name": "Route-of-administration",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "administration that fits into lives, including at home",
+      "timeframe": null
+    },
+    "row": 1091,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Another way to administer that can fit into their lives, including at home",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-603",
+    "claim_type_name": "Route-of-administration",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "administration that fits into lives, including at home",
+      "timeframe": null
+    },
+    "row": 1284,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Another way to administer that can fit into their lives, including at home",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-603",
+    "claim_type_name": "Route-of-administration",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "administration that fits into lives, including at home",
+      "timeframe": null
+    },
+    "row": 1418,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time of VYVGART Hytrulo.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "subcutaneous injection time",
+      "timeframe": null
+    },
+    "row": 1093,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time of VYVGART Hytrulo.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "subcutaneous injection time",
+      "timeframe": null
+    },
+    "row": 1285,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Refers to actual subcutaneous injection time of VYVGART Hytrulo.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "subcutaneous injection time",
+      "timeframe": null
+    },
+    "row": 1420,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Persons residing in MA and RI are not eligible for financial assistance related to administration costs.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Persons residing in MA and RI",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "not eligible for financial assistance related to administration costs",
+      "timeframe": null
+    },
+    "row": 1102
+  },
+  {
+    "claim": "Cash Discount Cards and other non-insurance plans are not valid as primary under this offer.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "exclusion of cash discount cards and non-insurance plans from primary coverage",
+      "timeframe": null
+    },
+    "row": 1103
+  },
+  {
+    "claim": "FRMs can provide case-specific support to assist getting patients on treatment.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": "FRMs (Field Reimbursement Managers)",
+      "comparator": null,
+      "outcome": "case-specific support to assist getting patients on treatment",
+      "timeframe": null
+    },
+    "row": 1106,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "FRMs can provide case-specific support to assist getting patients on treatment.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": "FRMs (Field Reimbursement Managers)",
+      "comparator": null,
+      "outcome": "case-specific support to assist getting patients on treatment",
+      "timeframe": null
+    },
+    "row": 1291,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "FRMs can provide case-specific support to assist getting patients on treatment.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": "patients",
+      "intervention": "FRMs (Field Reimbursement Managers)",
+      "comparator": null,
+      "outcome": "case-specific support to assist getting patients on treatment",
+      "timeframe": null
+    },
+    "row": 1426,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "FRMs can provide coordination and education through a suite of patient support services available via My VYVGART Path.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART",
+      "comparator": null,
+      "outcome": "coordination and education through patient support services",
+      "timeframe": null
+    },
+    "row": 1107,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "FRMs can provide coordination and education through a suite of patient support services available via My VYVGART Path.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART",
+      "comparator": null,
+      "outcome": "coordination and education through patient support services",
+      "timeframe": null
+    },
+    "row": 1292,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "FRMs can provide coordination and education through a suite of patient support services available via My VYVGART Path.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-605",
+    "claim_type_name": "Device / delivery-system",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART",
+      "comparator": null,
+      "outcome": "coordination and education through patient support services",
+      "timeframe": null
+    },
+    "row": 1427,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "Coverage is available for commercial and Medicare-insured patients.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "commercial and Medicare-insured patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "coverage availability",
+      "timeframe": null
+    },
+    "row": 1108,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Coverage is available for commercial and Medicare-insured patients.",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "commercial and Medicare-insured patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "coverage availability",
+      "timeframe": null
+    },
+    "row": 1429,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "When submitting reimbursement for VYVGART Hytrulo single-dose vial, use HCPCS J-Code J9334 (injection, efgartigimod alfa, 2 mg and hyaluronidase-qvfc).",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo single-dose vial (efgartigimod alfa and hyaluronidase-qvfc)",
+      "comparator": null,
+      "outcome": "reimbursement submission",
+      "timeframe": null
+    },
+    "row": 1109,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "When submitting reimbursement for VYVGART Hytrulo single-dose vial, use HCPCS J-Code J9334 (injection, efgartigimod alfa, 2 mg and hyaluronidase-qvfc).",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo single-dose vial (efgartigimod alfa and hyaluronidase-qvfc)",
+      "comparator": null,
+      "outcome": "reimbursement submission",
+      "timeframe": null
+    },
+    "row": 1293,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "When submitting reimbursement for VYVGART Hytrulo single-dose vial, use HCPCS J-Code J9334 (injection, efgartigimod alfa, 2 mg and hyaluronidase-qvfc).",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-909",
+    "claim_type_name": "Formulary / access / coverage",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo single-dose vial (efgartigimod alfa and hyaluronidase-qvfc)",
+      "comparator": null,
+      "outcome": "reimbursement submission",
+      "timeframe": null
+    },
+    "row": 1430,
+    "source": "classified once, copied to 3 rows"
+  },
+  {
+    "claim": "0=impossible to perform; 1=performed with difficulty; 2=easily performed",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Performance assessment scale (0=impossible to perform; 1=performed with difficulty; 2=easily performed)",
+      "timeframe": null
+    },
+    "row": 1127
+  },
+  {
+    "claim": "VYVGART Hytrulo® (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection 180 mg/mL and 2000 U/mL | 200 mg/mL and 2000 U/mL",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) subcutaneous injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1177,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART Hytrulo® (efgartigimod alfa and hyaluronidase-qvfc) Subcutaneous Injection 180 mg/mL and 2000 U/mL | 200 mg/mL and 2000 U/mL",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) subcutaneous injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1320,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "SCREENING: ≤4 WEEKS\nConfirmed CIDP diagnosis\nPatients:\n- Were currently receiving standard-of-care therapy, or\n- Were not treated with standard-of-care therapy for ≥6 months before study entry, or\n- H",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients with confirmed CIDP diagnosis",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "≤4 weeks screening period"
+    },
+    "row": 1193
+  },
+  {
+    "claim": "RUN-IN: ≤12 WEEKS Confirmed active disease - Patients discontinued treatment and demonstrated evidence of deterioration - Patients off treatment with evidence of worsening could skip run-in",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients with confirmed active disease who discontinued treatment and demonstrated evidence of deterioration",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of worsening",
+      "timeframe": "≤12 weeks"
+    },
+    "row": 1194
+  },
+  {
+    "claim": "IDENTIFIED RESPONDERS\nPatients who had evidence of improvement at 2 consecutive visits",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "evidence of improvement at 2 consecutive visits",
+      "timeframe": null
+    },
+    "row": 1198
+  },
+  {
+    "claim": "VYVGART Hytruolo had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Digital (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytruolo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1244
+  },
+  {
+    "claim": "1958: Corticosteroids",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-706",
+    "claim_type_name": "Disease state / epidemiology / burden-of-illness",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": "Corticosteroids",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "1958"
+    },
+    "row": 1322
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a ≥1-point worsening in mGMG-ADL or a ≥2-point worsening in mGMG-ADL or a ≥",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as ≥1-point worsening in mGMG-ADL or ≥2-point worsening in mGMG-ADL or ≥2-point worsening in mGMG-RS or ≥3-point worsening in mGMG-ADL score",
+      "timeframe": null
+    },
+    "row": 1464
+  },
+  {
+    "claim": "There were 57 patients at the beginning of the randomized withdrawal period (29 patients treated with VYVGART Hytrulo and 28 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "57 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo (29 patients)",
+      "comparator": "placebo (28 patients)",
+      "outcome": null,
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1465
+  },
+  {
+    "claim": "Timeline of CIDP Treatments: 1950s: Corticosteroids 1970s: PLEX 1980s: IVIg 2024: VYVGART Hytruflo",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "treatment timeline/history",
+      "timeframe": "1950s-2024"
+    },
+    "row": 1485
+  },
+  {
+    "claim": "An initial treatment period (open label; Stage A) identified responders from 150 adults with active CIDP who then proceeded to the randomized withdrawal period (placebo-controlled; Stage B).",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "150 adults with active CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "responders identified",
+      "timeframe": null
+    },
+    "row": 1488
+  },
+  {
+    "claim": "The screening period ran for a maximum of 6 weeks, and the run-in period ran for a maximum of 12 weeks.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "screening period maximum 6 weeks, run-in period maximum 12 weeks"
+    },
+    "row": 1507
+  },
+  {
+    "claim": "Patients who met clinical criteria for CIDP diagnosis, were currently receiving standard-of-care therapy, or had not received standard-of-care therapy for 6 months before study entry, and had evidence",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients with CIDP diagnosis, receiving or not receiving standard-of-care therapy for 6 months, with evidence of clinical worsening",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "6 months before study entry"
+    },
+    "row": 1508
+  },
+  {
+    "claim": "At the end of the run-in period, patients on treatment needed to document diagnosis of definite or probable CIDP, apply for an IVIg/SCIg treatment, and have evidence of clinical worsening in the past ",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-703",
+    "claim_type_name": "Unmet-need",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "Patients with definite or probable CIDP",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "Clinical worsening requiring IVIg/SCIg treatment",
+      "timeframe": "Past 6 months"
+    },
+    "row": 1509
+  },
+  {
+    "claim": "Patients who had evidence of improvement or a stable disease were not eligible to proceed to the initial treatment period.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients who had evidence of improvement or a stable disease",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "eligibility to proceed to initial treatment period",
+      "timeframe": null
+    },
+    "row": 1510
+  },
+  {
+    "claim": "The initial treatment period ran for a maximum of 16 weeks.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "16 weeks"
+    },
+    "row": 1511
+  },
+  {
+    "claim": "Patients who had evidence of improvement or a stable disease were not eligible to proceed to the randomized withdrawal period.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients who had evidence of improvement or a stable disease",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "eligibility to proceed to randomized withdrawal period",
+      "timeframe": null
+    },
+    "row": 1512
+  },
+  {
+    "claim": "The randomized withdrawal period ran for a maximum of 48 weeks.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": "48 weeks"
+    },
+    "row": 1513
+  },
+  {
+    "claim": "The study stopped when 100 events of relapse occurred as the primary endpoint.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-209",
+    "claim_type_name": "Time-to-event / survival",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "relapse events",
+      "timeframe": null
+    },
+    "row": 1514
+  },
+  {
+    "claim": "Data for 48,300 patients from the ADHERE database.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-A01",
+    "claim_type_name": "Real-world evidence (RWE)",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "48,300 patients",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1525
+  },
+  {
+    "claim": "Hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with CRYSTVITA® in intravenous or subcutaneous trials.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "patients treated with CRYSTVITA®",
+      "intervention": "CRYSTVITA® (intravenous or subcutaneous)",
+      "comparator": null,
+      "outcome": "hypersensitivity reactions (rash, angioedema, dyspnea)",
+      "timeframe": null
+    },
+    "row": 1526
+  },
+  {
+    "claim": "Isolated cases of anaphylaxis, which includes symptoms such as rash, urticaria, flushing, facial edema, dyspnea, and cyanosis leading to syncope have been reported in postmarketing experience with int",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients receiving intravenous ella-fide",
+      "intervention": "intravenous ella-fide",
+      "comparator": null,
+      "outcome": "anaphylaxis with symptoms including rash, urticaria, flushing, facial edema, dyspnea, and cyanosis leading to syncope",
+      "timeframe": "postmarketing experience"
+    },
+    "row": 1528
+  },
+  {
+    "claim": "Angioedema and hypotension occurred in patients treated with intravenous [illegible] ella-fide in clinical trials.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "patients",
+      "intervention": "intravenous [illegible] ella-fide",
+      "comparator": null,
+      "outcome": "angioedema and hypotension",
+      "timeframe": null
+    },
+    "row": 1529
+  },
+  {
+    "claim": "If a severe hypersensitivity reaction occurs, discontinue CRYsvita® and initiate appropriate medical treatment.",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-108",
+    "claim_type_name": "Contraindication claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "Patients experiencing severe hypersensitivity reaction",
+      "intervention": "CRYsvita discontinuation",
+      "comparator": null,
+      "outcome": "Appropriate medical treatment initiation",
+      "timeframe": "Immediate upon reaction occurrence"
+    },
+    "row": 1530
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in eADL score at 2 consecutive visits or a 2-point incre",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in eADL score at 2 consecutive visits or a 2-point increase in eADL score at 1 visit",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1571
+  },
+  {
+    "claim": "There were 120 patients at the beginning of the randomized withdrawal period (71 patients treated with VYVGART Hytrulo and 49 patients receiving placebo).",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "120 patients in randomized withdrawal period",
+      "intervention": "VYVGART Hytrulo (71 patients)",
+      "comparator": "placebo (49 patients)",
+      "outcome": null,
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1572
+  },
+  {
+    "claim": "VYVGART Hytruflo had a demonstrated safety profile in ADHERE",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytruflo",
+      "comparator": null,
+      "outcome": "demonstrated safety profile",
+      "timeframe": null
+    },
+    "row": 1579
+  },
+  {
+    "claim": "ADHERE adverse reactions (≥5% in either treatment period and any group): Initial treatment period (open-label, Stage A) VYVGART Hytruflo (n=100): Infections 56%, Injection site reactions 39%, CD88 8%,",
+    "document": "VYVGART Hytrulo CIDP Leave Behind - Print (4)",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Patients in ADHERE study",
+      "intervention": "VYVGART Hytruflo",
+      "comparator": "placebo",
+      "outcome": "Adverse reactions ≥5%",
+      "timeframe": "Initial treatment period and randomized withdrawal period"
+    },
+    "row": 1580
+  },
+  {
+    "claim": "With VYVGART Hytrulo, patients who had improvement in the open-label period were identified as responders.",
+    "document": "VYVGART Hytrulo CIDP Regional Congress Table Top",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": "CT-A08",
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "improvement (responder status)",
+      "timeframe": "open-label period"
+    },
+    "row": 1591
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a ≥1-point in",
+    "document": "VYVGART Hytrulo CIDP Skipta Featured Discussion - Efficacy",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at 2 consecutive visits or a ≥1-point increase in aINCAT score at 1 visit from baseline",
+      "timeframe": "randomized withdrawal period"
+    },
+    "row": 1667
+  },
+  {
+    "claim": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) injection, for subcutaneous use.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod alfa and hyaluronidase-qvfc injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1765,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) injection, for subcutaneous use.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod alfa and hyaluronidase-qvfc injection",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1941,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The safety of efgartigimod alfa in patients with gMG was established in a double blinded placebo-controlled study with efgartigimod alfa-fcab administered intravenously (Study 1) and its open-label ex",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-306",
+    "claim_type_name": "Long-term / post-marketing safety",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "efgartigimod alfa-fcab IV and VYVGART HYTRULO SC",
+      "comparator": "placebo and active control",
+      "outcome": "safety establishment",
+      "timeframe": null
+    },
+    "row": 1775,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The safety of efgartigimod alfa in patients with gMG was established in a double blinded placebo-controlled study with efgartigimod alfa-fcab administered intravenously (Study 1) and its open-label ex",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-306",
+    "claim_type_name": "Long-term / post-marketing safety",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "efgartigimod alfa-fcab IV and VYVGART HYTRULO SC",
+      "comparator": "placebo and active control",
+      "outcome": "safety establishment",
+      "timeframe": null
+    },
+    "row": 1968,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In clinical studies, the safety of efgartigimod alfa-fcab administered intravenously has been evaluated in 246 patients with gMG who received at least one dose of efgartigimod alfa-fcab, including 57 ",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-306",
+    "claim_type_name": "Long-term / post-marketing safety",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "246 patients with gMG",
+      "intervention": "efgartigimod alfa-fcab administered intravenously",
+      "comparator": null,
+      "outcome": "safety evaluation",
+      "timeframe": "at least 7 treatment cycles (57 patients), at least 10 treatment cycles (8 patients)"
+    },
+    "row": 1776,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In clinical studies, the safety of efgartigimod alfa-fcab administered intravenously has been evaluated in 246 patients with gMG who received at least one dose of efgartigimod alfa-fcab, including 57 ",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-306",
+    "claim_type_name": "Long-term / post-marketing safety",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "246 patients with gMG",
+      "intervention": "efgartigimod alfa-fcab administered intravenously",
+      "comparator": null,
+      "outcome": "safety evaluation",
+      "timeframe": "at least 7 treatment cycles (57 patients), at least 10 treatment cycles (8 patients)"
+    },
+    "row": 1969,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In a placebo-controlled study (Study 1) in patients with gMG, 84 patients received efgartigimod alfa-fcab 10 mg/kg.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "efgartigimod alfa-fcab 10 mg/kg",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1777,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In a placebo-controlled study (Study 1) in patients with gMG, 84 patients received efgartigimod alfa-fcab 10 mg/kg.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "efgartigimod alfa-fcab 10 mg/kg",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1970,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Of these 84 patients, approximately 75% were female, 82% were White, 11% were Asian, and 8% were of Hispanic or Latino ethnicity.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "84 patients (75% female, 82% White, 11% Asian, 8% Hispanic or Latino ethnicity)",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1778,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Of these 84 patients, approximately 75% were female, 82% were White, 11% were Asian, and 8% were of Hispanic or Latino ethnicity.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "84 patients (75% female, 82% White, 11% Asian, 8% Hispanic or Latino ethnicity)",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1971,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean age at study entry was 46 years (range 19 to 78).",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Adults aged 19-78 years (mean 46 years)",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1779,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean age at study entry was 46 years (range 19 to 78).",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-103",
+    "claim_type_name": "Population / subpopulation claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "Adults aged 19-78 years (mean 46 years)",
+      "intervention": null,
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1972,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The minimum time to initiate a subsequent cycle, specified by study protocol, was 50 days from the start of the previous treatment cycle.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "minimum time to initiate subsequent cycle of 50 days",
+      "timeframe": "50 days from start of previous treatment cycle"
+    },
+    "row": 1780,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The minimum time to initiate a subsequent cycle, specified by study protocol, was 50 days from the start of the previous treatment cycle.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "minimum time to initiate subsequent cycle of 50 days",
+      "timeframe": "50 days from start of previous treatment cycle"
+    },
+    "row": 1973,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "On average, efgartigimod alfa-fcab-treated patients received 2 cycles in Study 1.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients",
+      "intervention": "efgartigimod alfa-fcab",
+      "comparator": null,
+      "outcome": "received 2 cycles on average",
+      "timeframe": null
+    },
+    "row": 1781,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "On average, efgartigimod alfa-fcab-treated patients received 2 cycles in Study 1.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients",
+      "intervention": "efgartigimod alfa-fcab",
+      "comparator": null,
+      "outcome": "received 2 cycles on average",
+      "timeframe": null
+    },
+    "row": 1974,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean and median times to the second treatment cycle were 94 days and 72 days from the initial infusion of the first treatment cycle, respectively, for efgartigimod alfa-fcab-treated patients.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "efgartigimod alfa-fcab-treated patients",
+      "intervention": "efgartigimod alfa-fcab",
+      "comparator": null,
+      "outcome": "time to second treatment cycle",
+      "timeframe": "mean 94 days, median 72 days from initial infusion"
+    },
+    "row": 1782,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean and median times to the second treatment cycle were 94 days and 72 days from the initial infusion of the first treatment cycle, respectively, for efgartigimod alfa-fcab-treated patients.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-206",
+    "claim_type_name": "Durability / duration-of-effect",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "efgartigimod alfa-fcab-treated patients",
+      "intervention": "efgartigimod alfa-fcab",
+      "comparator": null,
+      "outcome": "time to second treatment cycle",
+      "timeframe": "mean 94 days, median 72 days from initial infusion"
+    },
+    "row": 1975,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In an active-controlled study in patients with gMG (Study 2), 110 patients were randomized and received one cycle of once weekly administrations for 4 weeks (4 administrations total), of either VYVGAR",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": "CT-404",
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "VYVGART HYTRULO subcutaneously",
+      "comparator": "efgartigimod alfa-fcab intravenously",
+      "outcome": null,
+      "timeframe": "4 weeks"
+    },
+    "row": 1785,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In an active-controlled study in patients with gMG (Study 2), 110 patients were randomized and received one cycle of once weekly administrations for 4 weeks (4 administrations total), of either VYVGAR",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": "CT-404",
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients with gMG",
+      "intervention": "VYVGART HYTRULO subcutaneously",
+      "comparator": "efgartigimod alfa-fcab intravenously",
+      "outcome": null,
+      "timeframe": "4 weeks"
+    },
+    "row": 1978,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The open-label extension of Study 2 included some patients who switched from efgartigimod alfa-fcab IV to VYVGART HYTRULO.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-409",
+    "claim_type_name": "Switch / transition claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients from Study 2",
+      "intervention": "VYVGART HYTRULO",
+      "comparator": "efgartigimod alfa-fcab IV",
+      "outcome": "switch/transition (outcome not specified)",
+      "timeframe": "open-label extension period"
+    },
+    "row": 1786,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The open-label extension of Study 2 included some patients who switched from efgartigimod alfa-fcab IV to VYVGART HYTRULO.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-409",
+    "claim_type_name": "Switch / transition claim",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": "patients from Study 2",
+      "intervention": "VYVGART HYTRULO",
+      "comparator": "efgartigimod alfa-fcab IV",
+      "outcome": "switch/transition (outcome not specified)",
+      "timeframe": "open-label extension period"
+    },
+    "row": 1979,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In a placebo-controlled study in patients with CIDP (Study 3, stage B), 221 patients were randomized to receive once-weekly administration of either VYVGART HYTRULO 1,008 mg /11, 200 units subcutaneou",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "patients with CIDP",
+      "intervention": "VYVGART HYTRULO 1,008 mg/11,200 units subcutaneously once-weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1791,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In a placebo-controlled study in patients with CIDP (Study 3, stage B), 221 patients were randomized to receive once-weekly administration of either VYVGART HYTRULO 1,008 mg /11, 200 units subcutaneou",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "patients with CIDP",
+      "intervention": "VYVGART HYTRULO 1,008 mg/11,200 units subcutaneously once-weekly",
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1986,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean duration of treatment with VYVGART HYTRULO in stage B was 25 weeks.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "mean duration of treatment",
+      "timeframe": "25 weeks"
+    },
+    "row": 1792,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The mean duration of treatment with VYVGART HYTRULO in stage B was 25 weeks.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "mean duration of treatment",
+      "timeframe": "25 weeks"
+    },
+    "row": 1987,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The background rate of major birth defects and miscarriage in the indicated population is unknown.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-311",
+    "claim_type_name": "Pregnancy / lactation / reproductive-toxicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "indicated population",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "major birth defects and miscarriage",
+      "timeframe": null
+    },
+    "row": 1803,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The background rate of major birth defects and miscarriage in the indicated population is unknown.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-311",
+    "claim_type_name": "Pregnancy / lactation / reproductive-toxicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "indicated population",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "major birth defects and miscarriage",
+      "timeframe": null
+    },
+    "row": 2000,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In the U.S. general population, the estimated background rate of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "U.S. general population, clinically recognized pregnancies",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "major birth defects (2-4%) and miscarriage (15-20%)",
+      "timeframe": null
+    },
+    "row": 1804,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "In the U.S. general population, the estimated background rate of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-701",
+    "claim_type_name": "Disease prevalence / incidence",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "U.S. general population, clinically recognized pregnancies",
+      "intervention": null,
+      "comparator": null,
+      "outcome": "major birth defects (2-4%) and miscarriage (15-20%)",
+      "timeframe": null
+    },
+    "row": 2001,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART HYTRULO for subcutaneous injection contains efgartigimod alfa and hyaluronidase.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO (efgartigimod alfa and hyaluronidase)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1807,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "VYVGART HYTRULO for subcutaneous injection contains efgartigimod alfa and hyaluronidase.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-604",
+    "claim_type_name": "Formulation / dosage-form",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO (efgartigimod alfa and hyaluronidase)",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 2006,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The observed incidence of anti-drug antibodies is highly dependent on the sensitivity and specificity of the assay.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "anti-drug antibody incidence",
+      "timeframe": null
+    },
+    "row": 1819,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The observed incidence of anti-drug antibodies is highly dependent on the sensitivity and specificity of the assay.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "anti-drug antibody incidence",
+      "timeframe": null
+    },
+    "row": 2021,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Differences in assay methods preclude meaningful comparisons of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other studies, includ",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod products",
+      "comparator": "other studies/products",
+      "outcome": "anti-drug antibody incidence comparison",
+      "timeframe": null
+    },
+    "row": 1820,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Differences in assay methods preclude meaningful comparisons of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other studies, includ",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "efgartigimod products",
+      "comparator": "other studies/products",
+      "outcome": "anti-drug antibody incidence comparison",
+      "timeframe": null
+    },
+    "row": 2022,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Some neutralizing antibodies may not be detected by the assay.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "neutralizing antibody detection",
+      "timeframe": null
+    },
+    "row": 1825,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Some neutralizing antibodies may not be detected by the assay.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "neutralizing antibody detection",
+      "timeframe": null
+    },
+    "row": 2027,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The available data are too limited to make definitive conclusions regarding immunogenicity and the effect on pharmacokinetics, safety, or efficacy of VYVGART HYTRULO.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "immunogenicity and effect on pharmacokinetics, safety, or efficacy",
+      "timeframe": null
+    },
+    "row": 1826,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "The available data are too limited to make definitive conclusions regarding immunogenicity and the effect on pharmacokinetics, safety, or efficacy of VYVGART HYTRULO.",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "ct_id": "CT-310",
+    "claim_type_name": "Immunogenicity",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART HYTRULO",
+      "comparator": null,
+      "outcome": "immunogenicity and effect on pharmacokinetics, safety, or efficacy",
+      "timeframe": null
+    },
+    "row": 2028,
+    "source": "classified once, copied to 2 rows"
+  },
+  {
+    "claim": "Overall disability is measured by the arm and leg disability scores, which together equal the overall score (10=maximum disability; 0=no signs of disability).",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "overall disability score (arm and leg disability scores combined, 0-10 scale)",
+      "timeframe": null
+    },
+    "row": 1848
+  },
+  {
+    "claim": "An INCAT arm disability score that changes from 0 to 1 or from 1 to 0 is not incorporated into the overall adjusted INCAT score.",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "INCAT arm disability score changes from 0 to 1 or 1 to 0",
+      "timeframe": null
+    },
+    "row": 1849
+  },
+  {
+    "claim": "Each item is scored 0-2 (0=impossible to perform; 1=performed with difficulty; 2=easily performed) and added up for a raw score on a scale from 0-48, with lower scores indicating greater disability.",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-704",
+    "claim_type_name": "Diagnostic-criteria / screening",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "disability assessment score (0-48 scale)",
+      "timeframe": null
+    },
+    "row": 1851
+  },
+  {
+    "claim": "Scores can be converted to a centile metric score.",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-601",
+    "claim_type_name": "Dosing / regimen",
+    "secondary_ct_id": null,
+    "confidence": 0.75,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "centile metric score conversion",
+      "timeframe": null
+    },
+    "row": 1853
+  },
+  {
+    "claim": "ADHERE was a 2-stage study (n=322) with an initial treatment period (open-label, Stage A) to identify responders who then proceeded to the randomized withdrawal period (placebo controlled, Stage B)",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": "patients (n=322)",
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": "response identification",
+      "timeframe": "2-stage study"
+    },
+    "row": 1896
+  },
+  {
+    "claim": "VYVGART Hytrulo responders had improvement in functional ability (defined as an aINCAT improvement of ≥1 point or I-RODS improvement of ≥4 points) or strength (defined as a mean grip strength improvem",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-208",
+    "claim_type_name": "Response-rate / responder",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "VYVGART Hytrulo patients",
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": "improvement in functional ability (aINCAT improvement ≥1 point or I-RODS improvement ≥4 points) or strength (mean grip strength improvement ≥8 kPa)",
+      "timeframe": "at two consecutive visits"
+    },
+    "row": 1898
+  },
+  {
+    "claim": "The primary endpoint for the randomized withdrawal period was the time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score at one visit from baseline at randomizat",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-201",
+    "claim_type_name": "Primary-endpoint efficacy",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "time to first clinical deterioration (relapse), defined as a 1-point increase in aINCAT score",
+      "timeframe": null
+    },
+    "row": 1900
+  },
+  {
+    "claim": "ADHERE was a 2-stage study (n=322) with an initial treatment period (open-label, Stage A) to identify responders who then proceeded to the randomized withdrawal period (placebo-controlled, Stage B).",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-A08",
+    "claim_type_name": "Single-arm / uncontrolled",
+    "secondary_ct_id": null,
+    "confidence": 0.85,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": "placebo",
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1922
+  },
+  {
+    "claim": "The neurologist introduced VYVGART Hytrulo an FcRn-targeted treatment available in a prefilled syringe for at-home use.",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "ct_id": "CT-501",
+    "claim_type_name": "Mechanism of action (MOA)",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": "VYVGART Hytrulo",
+      "comparator": null,
+      "outcome": null,
+      "timeframe": null
+    },
+    "row": 1924
+  },
+  {
+    "claim": "* First targeted treatment for CIDP\n Functional ability\n* Fixed, once-weekly dose",
+    "document": "VYVGART_Hytrulo_CIDP_NEJM_cleaned",
+    "ct_id": "CT-107",
+    "claim_type_name": "Superlative / positioning claim",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "CIDP patients",
+      "intervention": "targeted treatment (unspecified drug)",
+      "comparator": null,
+      "outcome": "functional ability improvement",
+      "timeframe": null
+    },
+    "row": 1926
+  },
+  {
+    "claim": "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of a",
+    "document": "VYVGART_Hytrulo_CIDP_NEJM_cleaned",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.88,
+    "picot": {
+      "population": null,
+      "intervention": null,
+      "comparator": null,
+      "outcome": "adverse reaction rates",
+      "timeframe": null
+    },
+    "row": 1967
+  },
+  {
+    "claim": "Adverse reactions reported in at least 5% of patients treated with efgartigimod alfa-fcab and more frequently than placebo are summarized in Table 1.",
+    "document": "VYVGART_Hytrulo_CIDP_NEJM_cleaned",
+    "ct_id": "CT-301",
+    "claim_type_name": "Adverse-event / AE-profile",
+    "secondary_ct_id": null,
+    "confidence": 0.95,
+    "picot": {
+      "population": "patients treated with efgartigimod alfa-fcab",
+      "intervention": "efgartigimod alfa-fcab",
+      "comparator": "placebo",
+      "outcome": "adverse reactions reported in at least 5% of patients and more frequently than placebo",
+      "timeframe": null
+    },
+    "row": 1976
+  }
+]

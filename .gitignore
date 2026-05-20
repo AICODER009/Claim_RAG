@@ -1,0 +1,39 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Next.js Build
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Local configuration & environment keys
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ingestion / Pipeline Caches
+parsed/
+debug_output/
+*.log

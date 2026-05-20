@@ -1,0 +1,20 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="top" x1="8" y1="2" x2="24" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5F6D"/>
+      <stop offset="1" stop-color="#FF8A65"/>
+    </linearGradient>
+    <linearGradient id="bot" x1="14" y1="18" x2="30" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A65"/>
+      <stop offset="1" stop-color="#E85D3A"/>
+    </linearGradient>
+  </defs>
+  <!-- Top-left diamond -->
+  <path d="M19 2L30 13L19 24L8 13Z" fill="url(#top)" rx="2"/>
+  <!-- Bottom-right diamond -->
+  <path d="M19 16L30 27L19 38L8 27Z" fill="url(#bot)"/>
+  <!-- White center overlap -->
+  <path d="M14.5 16L19 11.5L23.5 16L19 20.5Z" fill="white"/>
+  <!-- Text "revisto" -->
+  <text x="38" y="27" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="20" fill="#1e293b" letter-spacing="-0.5">revisto</text>
+</svg>

@@ -1,0 +1,3201 @@
+[
+  {
+    "claim_text": "+61% reduction in risk of relapse vs placebo in the randomized withdrawal period (HR=0.39; P<0.0001). Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization.",
+    "ground_truth_ct_id": "CT-201",
+    "category": "Original",
+    "document": "VYVGART Hytrulo CIDP IVA (3)",
+    "xlsx_row": 1125,
+    "classification": {
+      "ct_id": "CT-201",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What is the relapse risk reduction with efgartigimod versus placebo in randomized withdrawal period using aINCAT score criteria?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.62,
+          "text_score": 0.0,
+          "rrf_score": 0.799397,
+          "final_score": 1.598794,
+          "text_preview": "[Articles > Results] For the stage B primary endpoint, subcutaneous efgartigimod PH20 significantly reduced the risk of aINCAT deterioration versus placebo (HR 0.39 [95% CI 0.25-0.61]; p<0.0001; figur"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.599,
+          "text_score": 0.4,
+          "rrf_score": 0.738847,
+          "final_score": 1.477694,
+          "text_preview": "[Table 2 Secondary outcomes > Discussion] Finally, as patients can be reluctant to undergo IVIg withdrawal because of fear of increase of symptoms or reduced functioning, the possibility of being rand"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6182,
+          "text_score": 0.0,
+          "rrf_score": 0.717389,
+          "final_score": 1.434778,
+          "text_preview": "[Summary] **Methods** ADHERE, a multistage, double-blind, placebo-controlled trial, enrolled participants with CIDP from 146 clinical sites from Asia-Pacific, Europe, and North America. Participants w"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5927,
+          "text_score": 0.3,
+          "rrf_score": 0.696271,
+          "final_score": 1.392542,
+          "text_preview": "[Summary] **Findings** Between April 15, 2020, and May 11, 2023, 629 participants were screened; 322 (114 female, 208 male) entered stage A, of whom 214 (66%, 95% CI 61.0−71.6) had confirmed ECI. In s"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6185,
+          "text_score": 0.0,
+          "rrf_score": 0.687458,
+          "final_score": 1.374916,
+          "text_preview": "[Figure 2] At week 0, the probability of no relapse was 100% for SC efgartigimod PH20 with 111 patients at risk and 0 censored, compared to 100% probability of no relapse for placebo with 110 patients"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6222,
+          "text_score": 0.0,
+          "rrf_score": 0.680631,
+          "final_score": 1.361262,
+          "text_preview": "[Introduction > Procedures] Patients randomized into the withdrawal group who reached a predefined relapse end point during follow-up received a rescue IVIg loading dose of 2 g/kg followed by maintena"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6087,
+          "text_score": 0.0,
+          "rrf_score": 0.659068,
+          "final_score": 1.318136,
+          "text_preview": "[Articles > Results] The difference between relapse rates (efgartigimod PH20 vs placebo) was largest for corticosteroids (44%) and intravenous or subcutaneous immunoglobulin (29%) subgroups and narrow"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6169,
+          "text_score": 0.0,
+          "rrf_score": 0.652654,
+          "final_score": 1.305308,
+          "text_preview": "[Figure 2] At week 24, the probability of no relapse was 74% for SC efgartigimod PH20 with 55 patients at risk and 30 patients censored, compared to 46% probability of no relapse for placebo with 38 p"
+        },
+        {
+          "ref_id": "Allen_J Neuro 2020",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6091,
+          "text_score": 0.0,
+          "rrf_score": 0.651373,
+          "final_score": 1.302746,
+          "text_preview": "Relapse during the extension phase occurred in 14% of patients receiving IVIG 1 g/kg every 3 weeks compared with 35% of placebo patients, with an absolute risk reduction of 21%, and the hazard ratio c"
+        },
+        {
+          "ref_id": "Argenx BVBA",
+          "rt_id": "RT-208",
+          "tier": "?",
+          "reference_type_name": "Clinical Study Protocol",
+          "dense_score": 0.638,
+          "text_score": 0.3,
+          "rrf_score": 0.863663,
+          "final_score": 1.295494,
+          "text_preview": "[4. OBJECTIVES > 5.2. Scientific Rationale for Trial Design] This trial design allows to collect information on the onset of therapeutic effect as well as information if the effect continues after wit"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5918,
+          "text_score": 0.2,
+          "rrf_score": 0.641694,
+          "final_score": 1.283388,
+          "text_preview": "[Articles > Discussion] In stage B, subcutaneous efgartigimod PH20 maintained clinical benefit and, based on the HR of 0.39 (95% CI 0.25-0.61), reduced the rate of relapse by an estimated 61% compared"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6134,
+          "text_score": 0.2,
+          "rrf_score": 0.612651,
+          "final_score": 1.225302,
+          "text_preview": "[Table 2 Secondary outcomes > Discussion] scales are considered the most appropriate outcome scales for both improvement and deterioration, but some have advocated to include impairment scales to dete"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6019,
+          "text_score": 0.2,
+          "rrf_score": 0.608448,
+          "final_score": 1.216896,
+          "text_preview": "[Results > Trial phase] In total, 28 patients from the IVIg withdrawal group and 30 patients from the IVIg continuation group were included in the per-protocol analysis. Two patients were excluded bec"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6146,
+          "text_score": 0.0,
+          "rrf_score": 0.599969,
+          "final_score": 1.199938,
+          "text_preview": "[Results > Trial phase] continuation group. In other words, 12 of 29 (41%) and 18 of 31 patients (58%), respectively, remained stable during the 24-week follow-up in the trial phase (difference −17%; "
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6058,
+          "text_score": 0.0,
+          "rrf_score": 0.582657,
+          "final_score": 1.165314,
+          "text_preview": "[Figure 2] At week 48, the probability of no relapse was 67% for SC efgartigimod PH20 with 28 patients at risk and 55 patients censored, compared to 40% probability of no relapse for placebo with 16 p"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6122,
+          "text_score": 0.0,
+          "rrf_score": 0.566661,
+          "final_score": 1.133322,
+          "text_preview": "[Table 2 Secondary outcomes > Discussion] However, wear-off symptoms were not associated with a relapse end point, nor were they captured by deterioration on the iRODS between baseline and the last pr"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5912,
+          "text_score": 0.3,
+          "rrf_score": 0.537529,
+          "final_score": 1.075058,
+          "text_preview": "[Withdrawal of intravenous immunoglobulin in chronic inflammatory demyelinatin...] We performed a randomized, double-blind, intravenous immunoglobulin-controlled non-inferiority trial in seven centres"
+        },
+        {
+          "ref_id": "Argenx BVBA",
+          "rt_id": "RT-208",
+          "tier": "?",
+          "reference_type_name": "Clinical Study Protocol",
+          "dense_score": 0.6187,
+          "text_score": 0.3,
+          "rrf_score": 0.712021,
+          "final_score": 1.068032,
+          "text_preview": "[4. OBJECTIVES > 5.1. Overall Design] * Screening period: up to 28 days (see Section 5.1.1). * Run-in period: up to 12 weeks (not for treatment-naïve patients; see Section 5.1.2). * Stage A will be a "
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6161,
+          "text_score": 0.0,
+          "rrf_score": 0.532076,
+          "final_score": 1.064152,
+          "text_preview": "[Table 2 Secondary outcomes > Discussion] There is no commonly accepted threshold of a relapse in IVIg withdrawal or IVIg substitution trials. Generally, in CIDP, disability"
+        },
+        {
+          "ref_id": "Adrichem_2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6064,
+          "text_score": 0.0,
+          "rrf_score": 0.525434,
+          "final_score": 1.050868,
+          "text_preview": "For FSS score at relapse end point, the IVIg withdrawal group had n=16 with baseline 31.7 (13.1) and mean change −6.0 (6.5), while the IVIg continuation group had n=11 with baseline 32.3 (13.0) and me"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "+61% reduction in risk of relapse vs placebo",
+          "is_covered": true,
+          "evidence_text": "reduced the rate of relapse by an estimated 61% compared with placebo",
+          "source_passage": "Passage 11",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "The 61% reduction is explicitly stated in the discussion section"
+        },
+        {
+          "sub_assertion": "randomized withdrawal period",
+          "is_covered": true,
+          "evidence_text": "randomised-withdrawal phase of 1000 mg subcutaneous efgartigimod PH20 weekly treatment versus placebo for a maximum of 48 weeks (stage B)",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "The study design includes a randomized-withdrawal phase (stage B)"
+        },
+        {
+          "sub_assertion": "HR=0.39",
+          "is_covered": true,
+          "evidence_text": "subcutaneous efgartigimod PH20 significantly reduced the risk of aINCAT deterioration versus placebo (HR 0.39 [95% CI 0.25-0.61]; p<0.0001; figure 2)",
+          "source_passage": "Passage 1",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "Hazard ratio of 0.39 is explicitly stated with confidence interval"
+        },
+        {
+          "sub_assertion": "P<0.0001",
+          "is_covered": true,
+          "evidence_text": "subcutaneous efgartigimod PH20 significantly reduced the risk of aINCAT deterioration versus placebo (HR 0.39 [95% CI 0.25-0.61]; p<0.0001; figure 2)",
+          "source_passage": "Passage 1",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "P-value of <0.0001 is explicitly stated"
+        },
+        {
+          "sub_assertion": "Clinical deterioration (relapse) was defined as a 1-point increase in aINCAT score at 2 consecutive visits or a >1-point increase in aINCAT score at 1 visit from baseline at randomization",
+          "is_covered": true,
+          "evidence_text": "The primary endpoint in stage B, evaluated in the modified intention-to-treat population, was the risk of relapse (time to first aINCAT increase of ≥1 points)",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "The relapse definition is provided as ≥1 point aINCAT increase, though the specific details about consecutive visits vs single visit are not fully detailed in this passage"
+        }
+      ],
+      "coverage_score": 90.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": true,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": [
+          {
+            "claim_value": "+61% reduction",
+            "source_value": "HR=0.39",
+            "transformation_type": "hazard ratio to percentage reduction calculation",
+            "note": "61% reduction derived from HR 0.39 (1-0.39 = 0.61 = 61%)"
+          }
+        ]
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "A",
+        "source_tier_sufficient": true,
+        "note": "Acceptable-tier evidence from peer-reviewed pivotal trial publication is appropriate for efficacy claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "The claim is well-substantiated by the ADHERE trial data with exact numerical matches for HR, p-value, and relapse definition, though the 61% reduction represents a standard transformation from the hazard ratio."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 90.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "The claim is well-substantiated by the ADHERE trial data with exact numerical matches for HR, p-value, and relapse definition, though the 61% reduction represents a standard transformation from the hazard ratio."
+    },
+    "timings": {
+      "rewrite": 1.9,
+      "encode": 0.126,
+      "retrieve": 26.87,
+      "judge": 22.94,
+      "logic_gate": 0.0
+    },
+    "total_time": 51.84
+  },
+  {
+    "claim_text": "Adverse reactions that occurred in ≥5% of patients with gMG treated with efgartigimod alfa-fcab IV and more frequently than in patients treated with placebo were urinary tract infection (10% efgartigimod alfa-fcab vs 5% placebo), respiratory tract infection (33% efgartigimod alfa-fcab vs 29% placebo), headache (32% efgartigimod alfa-fcab vs 29% placebo), myalgia (6% efgartigimod alfa-fcab vs 1% placebo), and paraesthesia (7% efgartigimod alfa-fcab vs 5% placebo).",
+    "ground_truth_ct_id": "CT-301",
+    "category": "Variation of row 182",
+    "document": "VYVGART Hytrulo CIDP CVA - Print (4)",
+    "xlsx_row": 502,
+    "classification": {
+      "ct_id": "CT-301",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the adverse reactions occurring in ≥5% of gMG patients treated with efgartigimod alfa-fcab IV compared to placebo?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7254,
+          "text_score": 0.7,
+          "rrf_score": 1.0,
+          "final_score": 3.0,
+          "text_preview": "[Adverse Reactions with Efgartigimod Alfa-fcab Intravenous in Patients with gMG] In clinical studies, the safety of efgartigimod alfa-fcab administered intravenously has been evaluated in 246 patients"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7078,
+          "text_score": 0.7,
+          "rrf_score": 0.928467,
+          "final_score": 2.785401,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS] Patients with gMG: In Study 1, the most common (≥10%) adverse reactions in efgartigimod alfa-fcab-treated patients were respirator"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7543,
+          "text_score": 0.4,
+          "rrf_score": 0.925396,
+          "final_score": 2.776188,
+          "text_preview": "[Adverse Reactions with Efgartigimod Alfa-fcab Intravenous in Patients with gMG] **Table 1: Adverse Reactions in at least 5% of Patients with gMG Treated with Efgartigimod Alfa-fcab Intravenously (EFG"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7232,
+          "text_score": 0.3,
+          "rrf_score": 0.910458,
+          "final_score": 2.731374,
+          "text_preview": "[Adverse Reactions with VYVGART HYTRULO in Patients with gMG] In an active-controlled study in patients with gMG (Study 2), 110 patients were randomized and received one cycle of once weekly administr"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7187,
+          "text_score": 0.2,
+          "rrf_score": 0.796852,
+          "final_score": 2.390556,
+          "text_preview": "[Adverse Reactions with Efgartigimod Alfa-fcab Intravenous in Patients with gMG] <sup>*</sup>*Headache includes migraine and procedural headache.* <sup>†</sup>*Paresthesia includes oral hypoesthesia, "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7019,
+          "text_score": 0.3,
+          "rrf_score": 0.795548,
+          "final_score": 2.386644,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.2 Pharmacodynamics] In Study 1 [see *Clinical Studies (14)*], the pharmacological effect of efgartigimod alfa-fcab was assessed by measuring the decrease in serum IgG levels "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6916,
+          "text_score": 0.5,
+          "rrf_score": 0.742535,
+          "final_score": 2.227605,
+          "text_preview": "* **Infections:** Delay administration of VYVGART HYTRULO to patients with an active infection. Monitor for signs and symptoms of infection in patients treated with VYVGART HYTRULO. If serious infecti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.702,
+          "text_score": 0.2,
+          "rrf_score": 0.732248,
+          "final_score": 2.196744,
+          "text_preview": "[Adverse Reactions with VYVGART HYTRULO in Patients with CIDP] In a placebo-controlled study in patients with CIDP (Study 3, stage B), 221 patients were randomized to receive once-weekly administratio"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7082,
+          "text_score": 0.3,
+          "rrf_score": 0.716664,
+          "final_score": 2.149992,
+          "text_preview": "[6 ADVERSE REACTIONS > Age, Sex and Race] A population pharmacokinetics analysis assessing the effects of age, body weight, sex, and race did not suggest any clinically significant impact of these cov"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.703,
+          "text_score": 0.2,
+          "rrf_score": 0.712033,
+          "final_score": 2.136099,
+          "text_preview": "[12.6 Immunogenicity] The observed incidence of anti-drug antibodies is highly dependent on the sensitivity and specificity of the assay. Differences in assay methods preclude meaningful comparisons o"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6942,
+          "text_score": 0.4,
+          "rrf_score": 0.653533,
+          "final_score": 1.960599,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] Patients were treated with 10 mg/kg EFG IV administered as an intravenous infusion over one hour once weekly for 4 weeks. In patients weighing 120"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7007,
+          "text_score": 0.2,
+          "rrf_score": 0.623979,
+          "final_score": 1.871937,
+          "text_preview": "[6.1 Clinical Trials Experience > <u>Clinical Experience in Patients with gMG</u>] The safety of efgartigimod alfa in patients with gMG was established in a double-blinded placebo-controlled study wit"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6947,
+          "text_score": 0.3,
+          "rrf_score": 0.615424,
+          "final_score": 1.846272,
+          "text_preview": "[CONTRAINDICATIONS > Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or intra"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6813,
+          "text_score": 0.6,
+          "rrf_score": 0.604207,
+          "final_score": 1.812621,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.1 Infections] VYVGART HYTRULO may increase the risk of infection. The most common infections observed in Study 1 were urinary tract infection (10% of efgartigimod alfa-fcab-tr"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6925,
+          "text_score": 0.4,
+          "rrf_score": 0.603651,
+          "final_score": 1.810953,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.3 Pharmacokinetics] Efgartigimod alfa exposures were approximately dose-proportional up to the highest subcutaneously tested dose of VYVGART HYTRULO (1750 mg, 1.75 times the "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6925,
+          "text_score": 0.2,
+          "rrf_score": 0.562041,
+          "final_score": 1.686123,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.2 Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or"
+        },
+        {
+          "ref_id": "Wolfe J Neurol Sci 2021",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.7134,
+          "text_score": 0.3,
+          "rrf_score": 0.813366,
+          "final_score": 1.626732,
+          "text_preview": "[6.1. Efgartigimod] A randomized, double-blind, placebo-controlled, multicenter Phase 2 study evaluated the safety and efficacy of four weekly 10 mg/kg IV-administered doses of efgartigimod in 24 pati"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.704,
+          "text_score": 0.0,
+          "rrf_score": 0.527679,
+          "final_score": 1.583037,
+          "text_preview": "MG-ADL Responders occurred in 67.7% of 65 EFG IV patients compared with 29.7% of 64 placebo patients, with a p-value < 0.0001 and odds ratio of 4.951 (95% CI 2.213, 11.528). QMG Responders occurred in"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6986,
+          "text_score": 0.0,
+          "rrf_score": 0.511644,
+          "final_score": 1.534932,
+          "text_preview": "Respiratory tract infection occurred in 33% of 84 EFG IV-treated patients compared with 29% of 83 placebo patients. Headache* occurred in 32% of 84 EFG IV-treated patients compared with 29% of 83 plac"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6812,
+          "text_score": 0.3,
+          "rrf_score": 0.494435,
+          "final_score": 1.483305,
+          "text_preview": "[6 ADVERSE REACTIONS > Patients with Hepatic Impairment] No dedicated pharmacokinetic study has been performed in patients with hepatic impairment. Hepatic impairment is not expected to affect the pha"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "Adverse reactions occurred in ≥5% of patients with gMG treated with efgartigimod alfa-fcab IV",
+          "is_covered": true,
+          "evidence_text": "Adverse reactions reported in at least 5% of patients treated with efgartigimod alfa-fcab and more frequently than placebo are summarized in Table 1.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "This establishes the ≥5% threshold for adverse reactions in efgartigimod alfa-fcab IV treated patients"
+        },
+        {
+          "sub_assertion": "Adverse reactions occurred more frequently than in patients treated with placebo",
+          "is_covered": true,
+          "evidence_text": "Adverse reactions reported in at least 5% of patients treated with efgartigimod alfa-fcab and more frequently than placebo are summarized in Table 1.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "This establishes the comparator requirement (more frequent than placebo)"
+        },
+        {
+          "sub_assertion": "Urinary tract infection occurred in 10% efgartigimod alfa-fcab vs 5% placebo",
+          "is_covered": true,
+          "evidence_text": "Urinary tract infection occurred in 10% of 84 EFG IV-treated patients compared with 5% of 83 placebo patients.",
+          "source_passage": "Passage 19",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for urinary tract infection rates: 10% efgartigimod vs 5% placebo"
+        },
+        {
+          "sub_assertion": "Respiratory tract infection occurred in 33% efgartigimod alfa-fcab vs 29% placebo",
+          "is_covered": true,
+          "evidence_text": "Respiratory tract infection occurred in 33% of 84 EFG IV-treated patients compared with 29% of 83 placebo patients.",
+          "source_passage": "Passage 19",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for respiratory tract infection rates: 33% efgartigimod vs 29% placebo"
+        },
+        {
+          "sub_assertion": "Headache occurred in 32% efgartigimod alfa-fcab vs 29% placebo",
+          "is_covered": true,
+          "evidence_text": "Headache* occurred in 32% of 84 EFG IV-treated patients compared with 29% of 83 placebo patients.",
+          "source_passage": "Passage 19",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for headache rates: 32% efgartigimod vs 29% placebo"
+        },
+        {
+          "sub_assertion": "Myalgia occurred in 6% efgartigimod alfa-fcab vs 1% placebo",
+          "is_covered": true,
+          "evidence_text": "Myalgia occurred in 6% of 84 EFG IV-treated patients compared with 1% of 83 placebo patients.",
+          "source_passage": "Passage 19",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for myalgia rates: 6% efgartigimod vs 1% placebo"
+        },
+        {
+          "sub_assertion": "Paraesthesia occurred in 7% efgartigimod alfa-fcab vs 5% placebo",
+          "is_covered": true,
+          "evidence_text": "Paraesthesia† occurred in 7% of 84 EFG IV-treated patients compared with 5% of 83 placebo patients.",
+          "source_passage": "Passage 19",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for paraesthesia rates: 7% efgartigimod vs 5% placebo"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": true,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier evidence from US Prescribing Information is appropriate for safety/adverse reaction claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "All adverse reaction rates and comparisons are fully substantiated with exact numerical matches from the prescribing information table data."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "All adverse reaction rates and comparisons are fully substantiated with exact numerical matches from the prescribing information table data."
+    },
+    "timings": {
+      "rewrite": 1.65,
+      "encode": 0.097,
+      "retrieve": 10.78,
+      "judge": 18.36,
+      "logic_gate": 0.0006
+    },
+    "total_time": 30.89
+  },
+  {
+    "claim_text": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) is indicated for the treatment of adult patients with generalized myasthenia gravis (gMG) who are anti-acetylcholine receptor (AChR) antibody positive.",
+    "ground_truth_ct_id": "CT-101",
+    "category": "Original",
+    "document": "25-VYVCIDP-1365_CIDP_PFS_video_storyboard_v26",
+    "xlsx_row": 111,
+    "classification": {
+      "ct_id": "CT-101",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the approved indications for VYVGART HYTRULO in generalized myasthenia gravis patients?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6692,
+          "text_score": 0.5,
+          "rrf_score": 0.923524,
+          "final_score": 2.770572,
+          "text_preview": "[FULL PRESCRIBING INFORMATION: CONTENTS > 1 INDICATIONS AND USAGE] VYVGART HYTRULO is indicated for the treatment of adult patients with: * generalized myasthenia gravis (gMG) who are anti-acetylcholi"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6613,
+          "text_score": 0.6,
+          "rrf_score": 0.917682,
+          "final_score": 2.753046,
+          "text_preview": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use VYVGART HYTRULO safely and effectively. See full prescribing information for VYVGART HYTRULO. **"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.619,
+          "text_score": 0.5,
+          "rrf_score": 0.849247,
+          "final_score": 2.547741,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION > What is VYVGART HYTRULO?] VYVGART HYTRULO is a prescription medicine used to treat adults with: * generalized myasthenia gravis (gMG) who are anti-acetylcholine re"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6635,
+          "text_score": 0.0,
+          "rrf_score": 0.780296,
+          "final_score": 2.340888,
+          "text_preview": "[HCP Indication and Important Safety Information > INDICATION] VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) is indicated for the treatment of adult patients with generalized myasthenia "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6235,
+          "text_score": 0.3,
+          "rrf_score": 0.763975,
+          "final_score": 2.291925,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>General Dosage Considerations</u>] If a scheduled injection is missed, VYVGART HYTRULO may be administered up to 3 days after the scheduled time point. Thereafter, resume"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5995,
+          "text_score": 0.3,
+          "rrf_score": 0.695334,
+          "final_score": 2.086002,
+          "text_preview": "[1 INDICATIONS AND USAGE > 2.1 Recommended Vaccination] Evaluate the need to administer age-appropriate vaccines according to immunization guidelines before initiation of a new treatment cycle with VY"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6448,
+          "text_score": 0.0,
+          "rrf_score": 0.683934,
+          "final_score": 2.051802,
+          "text_preview": "[14.1 Generalized Myasthenia Gravis] Study 1 (described below) which established the effectiveness of efgartigimod alfa-fcab for the treatment of generalized myasthenia gravis (gMG) in adults who are "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5786,
+          "text_score": 0.5,
+          "rrf_score": 0.596204,
+          "final_score": 1.788612,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] The efficacy of EFG IV was also measured using the Quantitative Myasthenia Gravis (QMG) total score which is a 13-item categorical grading system "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.626,
+          "text_score": 0.6,
+          "rrf_score": 0.593108,
+          "final_score": 1.779324,
+          "text_preview": "[FULL PRESCRIBING INFORMATION: CONTENTS] **1 INDICATIONS AND USAGE** **2 DOSAGE AND ADMINISTRATION** 2.1 Recommended Vaccination 2.2 Important Dosage and Administration Instructions 2.3 Recommended Do"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5913,
+          "text_score": 0.0,
+          "rrf_score": 0.565397,
+          "final_score": 1.696191,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.2 Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5973,
+          "text_score": 0.0,
+          "rrf_score": 0.548036,
+          "final_score": 1.644108,
+          "text_preview": "[HCP Indication and Important Safety Information] Based on VYVGART HYTRULO for subcutaneous injection - Final Label April 2025 CIDP & gMG indications"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5997,
+          "text_score": 0.0,
+          "rrf_score": 0.541034,
+          "final_score": 1.623102,
+          "text_preview": "[CONTRAINDICATIONS > Immunization] Evaluate the need to administer age-appropriate vaccines according to immunization guidelines before initiation of a new treatment cycle with VYVGART HYTRULO. The sa"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6025,
+          "text_score": 0.0,
+          "rrf_score": 0.526163,
+          "final_score": 1.578489,
+          "text_preview": "------------------------------DRUG INTERACTIONS-------------------------------- Closely monitor for reduced effectiveness of medications that bind to the human neonatal Fc receptor. When concomitant l"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5887,
+          "text_score": 0.0,
+          "rrf_score": 0.521295,
+          "final_score": 1.563885,
+          "text_preview": "[CONTRAINDICATIONS > Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or intra"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5846,
+          "text_score": 0.0,
+          "rrf_score": 0.511537,
+          "final_score": 1.534611,
+          "text_preview": "[HCP Indication and Important Safety Information > CONTRAINDICATIONS] VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or t"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.596,
+          "text_score": 0.0,
+          "rrf_score": 0.502662,
+          "final_score": 1.507986,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] EFG IV= Efgartigimod alfa-fcab intravenous; MG-ADL=Myasthenia Gravis Activities of Daily Living; QMG=Quantitative Myasthenia Gravis; mITT=modified"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5894,
+          "text_score": 0.0,
+          "rrf_score": 0.465425,
+          "final_score": 1.396275,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.1 Infections > <u>Immunization</u>] Evaluate the need to administer age-appropriate vaccines according to immunization guidelines before initiation of a new treatment cycle wi"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.586,
+          "text_score": 0.0,
+          "rrf_score": 0.453046,
+          "final_score": 1.359138,
+          "text_preview": "[6 ADVERSE REACTIONS > 7.1 Effect of VYVGART HYTRULO on Other Drugs] Concomitant use of VYVGART HYTRULO with medications that bind to the human neonatal Fc receptor (FcRn) (e.g., immunoglobulin produc"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5847,
+          "text_score": 0.0,
+          "rrf_score": 0.451872,
+          "final_score": 1.355616,
+          "text_preview": "* **Infections:** Delay administration of VYVGART HYTRULO to patients with an active infection. Monitor for signs and symptoms of infection in patients treated with VYVGART HYTRULO. If serious infecti"
+        },
+        {
+          "ref_id": "Ulrichts J Clin Invest 2018",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6188,
+          "text_score": 0.3,
+          "rrf_score": 0.669152,
+          "final_score": 1.338304,
+          "text_preview": "[Discussion] The extent of the efgartigimod-induced IgG lowering is similar or exceeds the levels of autoantibody reduction achieved with alternative strategies, such as IVIg, plasma exchange, or immu"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) is indicated for the treatment of adult patients with generalized myasthenia gravis (gMG) who are anti-acetylcholine receptor (AChR) antibody positive",
+          "is_covered": true,
+          "evidence_text": "VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) is indicated for the treatment of adult patients with generalized myasthenia gravis (gMG) who are anti-acetylcholine receptor (AChR) antibody positive.",
+          "source_passage": "Passage 4",
+          "source_ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "confidence_note": "This is an exact verbatim match from the USPI indication section"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary-tier evidence (USPI) is appropriate and required for indication claims per Section 1.1"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "Claim is fully substantiated by verbatim text from the USPI indication section with Primary-tier evidence as required for indication claims."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "Claim is fully substantiated by verbatim text from the USPI indication section with Primary-tier evidence as required for indication claims."
+    },
+    "timings": {
+      "rewrite": 1.69,
+      "encode": 0.083,
+      "retrieve": 9.31,
+      "judge": 12.31,
+      "logic_gate": 0.0
+    },
+    "total_time": 23.39
+  },
+  {
+    "claim_text": "- The pathogenic mechanisms behind CIDP remain largely unknown. However, antibodies, including IgG autoantibodies, may play a role in CIDP",
+    "ground_truth_ct_id": "CT-501",
+    "category": "Original",
+    "document": "VYVGART Hytrulo CIDP - FCE Presentation Deck",
+    "xlsx_row": 307,
+    "classification": {
+      "ct_id": "CT-501",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What is the role of IgG autoantibodies in CIDP pathogenic mechanisms?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5877,
+          "text_score": 0.625,
+          "rrf_score": 0.926442,
+          "final_score": 1.852884,
+          "text_preview": "[Articles > Introduction] Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP) is an autoimmune disorder of the peripheral nervous system characterised by progressive or relapsing muscle w"
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5803,
+          "text_score": 0.375,
+          "rrf_score": 0.873849,
+          "final_score": 1.747698,
+          "text_preview": "[Discussion/Summary] A comprehensive review of studies aimed at elucidating the pathogenic mechanisms underlying CIDP reveals evidence of activation of complement both systemically and in peripheral n"
+        },
+        {
+          "ref_id": "Dziadkowiak 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.573,
+          "text_score": 0.5,
+          "rrf_score": 0.863491,
+          "final_score": 1.726982,
+          "text_preview": "[4.2.1. The Role of Autoantibodies against Nodal or Paranodal Proteins] The CNTN1-Caspr1-NF155 complex is required to maintain paranodal architecture and to maintain myelin insulation of the axon for "
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5955,
+          "text_score": 0.0,
+          "rrf_score": 0.775553,
+          "final_score": 1.551106,
+          "text_preview": "[Discussion/Summary] CIDP is the most prevalent chronic autoimmune neuropathy and causes substantial disability [6, 20]. The pathogenesis of CIDP remains elusive, however, a complex interplay of multi"
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5843,
+          "text_score": 0.0,
+          "rrf_score": 0.762007,
+          "final_score": 1.524014,
+          "text_preview": "[Humoral Mechanisms] While myelin phagocytosis by macrophages is instrumental in CIDP pathogenesis, the triggers underlying this process are not clearly understood. It is postulated that deposition of"
+        },
+        {
+          "ref_id": "Brun et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5765,
+          "text_score": 0.375,
+          "rrf_score": 0.756747,
+          "final_score": 1.513494,
+          "text_preview": "[3. Current Treatments] The last treatment introduced as a first-line treatment for CIDP was IVIg. IVIg is a mixture of normal polyclonal IgG extracted from thousands of healthy humans (typically cont"
+        },
+        {
+          "ref_id": "Mathey 2015",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5978,
+          "text_score": 0.0,
+          "rrf_score": 0.743109,
+          "final_score": 1.486218,
+          "text_preview": "[ABSTRACT] Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP) is an inflammatory neuropathy, classically characterised by a slowly progressive onset and symmetrical, sensorimotor involve"
+        },
+        {
+          "ref_id": "Allen 2018",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5969,
+          "text_score": 0.0,
+          "rrf_score": 0.740493,
+          "final_score": 1.480986,
+          "text_preview": "[Immunology of CIDP: Will Knowledge of Antibodies Change Treatment?] In order to understand how specific autoantibodies influence immunoglobulin treatment it is useful to understand what is known abou"
+        },
+        {
+          "ref_id": "Mathey 2015",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5889,
+          "text_score": 0.0,
+          "rrf_score": 0.737777,
+          "final_score": 1.475554,
+          "text_preview": "[IMMUNOPATHOGENESIS OF CIDP] The abiding theory of CIDP pathogenesis is that cell-mediated and humoral mechanisms act synergistically to cause damage to peripheral nerves. There are several lines of e"
+        },
+        {
+          "ref_id": "Dziadkowiak 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5721,
+          "text_score": 0.25,
+          "rrf_score": 0.730952,
+          "final_score": 1.461904,
+          "text_preview": "[4.2. Demyelination Process] Based on the recent studies, CIDP may be related to immunoglobulin G4 (IgG4) reactivity. Immunoglobulin IgG4 is not capable of activating the classical complement pathway "
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5814,
+          "text_score": 0.0,
+          "rrf_score": 0.722148,
+          "final_score": 1.444296,
+          "text_preview": "[Humoral Mechanisms] Activation of the complement system by autoantibodies may contribute to various mechanisms inflicting damage to the myelin sheath. One is to facilitate macrophage-mediated myelin "
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5931,
+          "text_score": 0.0,
+          "rrf_score": 0.688329,
+          "final_score": 1.376658,
+          "text_preview": "[Pathophysiology of CIDP] Cellular and humoral components, including the complement system, are variably involved in peripheral nerve damage in CIDP (Fig. 1). However, the trigger(s) for the autoimmun"
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5637,
+          "text_score": 0.25,
+          "rrf_score": 0.672174,
+          "final_score": 1.344348,
+          "text_preview": "[Introduction] A diverse and complex interplay of different immunopathological mechanisms, involving cellular, humoral and complement pathways, culminates in a highly variable pattern of peripheral ne"
+        },
+        {
+          "ref_id": "Brun et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5767,
+          "text_score": 0.0,
+          "rrf_score": 0.667765,
+          "final_score": 1.33553,
+          "text_preview": "[5. Novel Therapeutic Options > 6. Conclusions] Chronic (and acute) inflammatory demyelinating polyneuropathy, CIDP and AIDP, are extremely complex autoimmune disorders, characterized by patient-to-pa"
+        },
+        {
+          "ref_id": "Mathey 2015",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5692,
+          "text_score": 0.375,
+          "rrf_score": 0.665168,
+          "final_score": 1.330336,
+          "text_preview": "[INTRODUCTION] Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP) is the most common treatable <mark>chronic neuropathy worldwide, with a prevalence ranging from ~1 to 9 cases per 100 00"
+        },
+        {
+          "ref_id": "Bunschoten_Lancet 2019",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5762,
+          "text_score": 0.0,
+          "rrf_score": 0.663866,
+          "final_score": 1.327732,
+          "text_preview": "[Pathophysiology] CIDP is considered an immune-mediated disorder, although the pathogenesis remains to be elucidated. Evidence for involvement of auto-reactive T cells, B cells, soluble factors in ner"
+        },
+        {
+          "ref_id": "Querol_Neurotherapeutics_2021",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5749,
+          "text_score": 0.0,
+          "rrf_score": 0.650148,
+          "final_score": 1.300296,
+          "text_preview": "[Humoral Immunity] Although the direct role of B cells in nerve pathology is unknown, B cell phenotypes are altered in CIDP. B cells from CIDP patients display reduced amounts of the inhibitory FcγR<s"
+        },
+        {
+          "ref_id": "Dziadkowiak 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.561,
+          "text_score": 0.25,
+          "rrf_score": 0.640014,
+          "final_score": 1.280028,
+          "text_preview": "[4.2. Demyelination Process] Recent studies have led to the concept of nodopathy or paranodopathy. The mechanisms initiated by autoantibodies against paranodal junction proteins (neurofascin 155 and c"
+        },
+        {
+          "ref_id": "Querol, LA, et al. 2022",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5758,
+          "text_score": 0.0,
+          "rrf_score": 0.637621,
+          "final_score": 1.275242,
+          "text_preview": "[Humoral Mechanisms] Antibodies targeting nodes of Ranvier structures have recently been identified [40-42]. Antibodies against the paranodal protein contactin-1 (CNTN1) were identified in a subset of"
+        },
+        {
+          "ref_id": "Koike_2020",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5577,
+          "text_score": 0.25,
+          "rrf_score": 0.624442,
+          "final_score": 1.248884,
+          "text_preview": "[TWO DISTINCTIVE MECHANISMS OF CIDP > WHAT DETERMINES CLINICAL SUBTYPE?] conduction of distal nerve segments, such as distal motor latencies and sensory nerve conduction velocities, were more conspicu"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "The pathogenic mechanisms behind CIDP remain largely unknown",
+          "is_covered": true,
+          "evidence_text": "The pathogenesis of CIDP remains elusive",
+          "source_passage": "Passage 4",
+          "source_ref_id": "Querol, LA, et al. 2022",
+          "confidence_note": "Multiple passages confirm that CIDP pathogenesis remains elusive/unknown"
+        },
+        {
+          "sub_assertion": "Antibodies may play a role in CIDP",
+          "is_covered": true,
+          "evidence_text": "One mechanism might involve IgG autoantibodies",
+          "source_passage": "Passage 1",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "Evidence supports that antibodies may be involved in CIDP pathogenesis"
+        },
+        {
+          "sub_assertion": "IgG autoantibodies may play a role in CIDP",
+          "is_covered": true,
+          "evidence_text": "One mechanism might involve IgG autoantibodies",
+          "source_passage": "Passage 1",
+          "source_ref_id": "Allen_Lancet Neuro_2024",
+          "confidence_note": "Direct statement that IgG autoantibodies might be involved in CIDP mechanism"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "A",
+        "source_tier_sufficient": true,
+        "note": "Acceptable-tier peer-reviewed literature is appropriate for mechanism of action claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "The claim is fully substantiated by multiple peer-reviewed sources confirming that CIDP pathogenic mechanisms remain elusive and that IgG autoantibodies may play a role in the disease process."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [
+        "Claim implies statistical significance but no p-value/CI found in evidence"
+      ],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "The claim is fully substantiated by multiple peer-reviewed sources confirming that CIDP pathogenic mechanisms remain elusive and that IgG autoantibodies may play a role in the disease process."
+    },
+    "timings": {
+      "rewrite": 1.47,
+      "encode": 0.062,
+      "retrieve": 12.15,
+      "judge": 13.25,
+      "logic_gate": 0.0
+    },
+    "total_time": 26.93
+  },
+  {
+    "claim_text": "Hypersensitivity Reactions: Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product. If a hypersensitivity reaction occurs, the healthcare professional should institute appropriate measures if needed or the patient should seek medical attention.",
+    "ground_truth_ct_id": "CT-307",
+    "category": "Variation of row 91",
+    "document": "VYVGART Hytrulo CIDP Epocrates Monograph Efficacy and Safety US",
+    "xlsx_row": 935,
+    "classification": {
+      "ct_id": "CT-307",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What hypersensitivity reactions have been reported with VYVGART HYTRULO or efgartigimod alfa-fcab treatment?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7844,
+          "text_score": 0.8,
+          "rrf_score": 1.0,
+          "final_score": 3.0,
+          "text_preview": "[CONTRAINDICATIONS > Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or intra"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7802,
+          "text_score": 0.5,
+          "rrf_score": 0.954212,
+          "final_score": 2.862636,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.2 Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7594,
+          "text_score": 0.7,
+          "rrf_score": 0.911577,
+          "final_score": 2.734731,
+          "text_preview": "* **Infections:** Delay administration of VYVGART HYTRULO to patients with an active infection. Monitor for signs and symptoms of infection in patients treated with VYVGART HYTRULO. If serious infecti"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7394,
+          "text_score": 0.7,
+          "rrf_score": 0.884077,
+          "final_score": 2.652231,
+          "text_preview": "[HCP Indication and Important Safety Information > CONTRAINDICATIONS] VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or t"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7408,
+          "text_score": 0.4,
+          "rrf_score": 0.875703,
+          "final_score": 2.627109,
+          "text_preview": "[4 CONTRAINDICATIONS] VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO. Reac"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7514,
+          "text_score": 0.3,
+          "rrf_score": 0.789604,
+          "final_score": 2.368812,
+          "text_preview": "[6 ADVERSE REACTIONS > 6.2 Postmarketing Experience] The following adverse reactions have been identified during postapproval use of efgartigimod alfa products. Because these reactions are reported vo"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7413,
+          "text_score": 0.5,
+          "rrf_score": 0.642138,
+          "final_score": 1.926414,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.3 Infusion/Injection-Related Reactions] Infusion-related reactions have been reported with intravenous efgartigimod alfa-fcab in postmarketing experience. The most frequent sy"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7376,
+          "text_score": 0.5,
+          "rrf_score": 0.634161,
+          "final_score": 1.902483,
+          "text_preview": "[Infusion/Injection-Related Reactions] Infusion-related reactions have been reported with intravenous efgartigimod alfa-fcab in postmarketing experience. The most frequent symptoms and signs were hype"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7432,
+          "text_score": 0.5,
+          "rrf_score": 0.614669,
+          "final_score": 1.844007,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.3 Pharmacokinetics] Efgartigimod alfa exposures were approximately dose-proportional up to the highest subcutaneously tested dose of VYVGART HYTRULO (1750 mg, 1.75 times the "
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7356,
+          "text_score": 0.5,
+          "rrf_score": 0.612867,
+          "final_score": 1.838601,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS] Patients with gMG: In Study 1, the most common (≥10%) adverse reactions in efgartigimod alfa-fcab-treated patients were respirator"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7214,
+          "text_score": 0.6,
+          "rrf_score": 0.610165,
+          "final_score": 1.830495,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION] Advise the patient and/or caregiver to read FDA-approved patient labeling (Patient Information and Instructions for Use). <u>Infections</u> Instruct patients to com"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7387,
+          "text_score": 0.4,
+          "rrf_score": 0.604177,
+          "final_score": 1.812531,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.1 Mechanism of Action] VYVGART HYTRULO is a coformulation of efgartigimod alfa and hyaluronidase. Efgartigimod alfa is a human IgG1 antibody fragment that binds to the neonat"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7213,
+          "text_score": 0.5,
+          "rrf_score": 0.533885,
+          "final_score": 1.601655,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.1 Infections] VYVGART HYTRULO may increase the risk of infection. The most common infections observed in Study 1 were urinary tract infection (10% of efgartigimod alfa-fcab-tr"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6953,
+          "text_score": 0.3,
+          "rrf_score": 0.529496,
+          "final_score": 1.588488,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] * Monitor for clinical signs and symptoms of hypersensitivity reactions for at least 30 minutes after administration. If a hypersensiti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7327,
+          "text_score": 0.4,
+          "rrf_score": 0.524603,
+          "final_score": 1.573809,
+          "text_preview": "[6 ADVERSE REACTIONS > <u>Risk Summary</u>] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART HYTRULO, in human milk, the effects on "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7592,
+          "text_score": 0.0,
+          "rrf_score": 0.520225,
+          "final_score": 1.560675,
+          "text_preview": "[Adverse Reactions with VYVGART HYTRULO in Patients with gMG] In an active-controlled study in patients with gMG (Study 2), 110 patients were randomized and received one cycle of once weekly administr"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7114,
+          "text_score": 0.4,
+          "rrf_score": 0.476691,
+          "final_score": 1.430073,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS > Lactation] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART H"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7488,
+          "text_score": 0.0,
+          "rrf_score": 0.431649,
+          "final_score": 1.294947,
+          "text_preview": "[Adverse Reactions with VYVGART HYTRULO in Patients with CIDP] In a placebo-controlled study in patients with CIDP (Study 3, stage B), 221 patients were randomized to receive once-weekly administratio"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7503,
+          "text_score": 0.0,
+          "rrf_score": 0.43033,
+          "final_score": 1.29099,
+          "text_preview": "[Adverse Reactions with Efgartigimod Alfa-fcab Intravenous in Patients with gMG] **Table 1: Adverse Reactions in at least 5% of Patients with gMG Treated with Efgartigimod Alfa-fcab Intravenously (EFG"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7135,
+          "text_score": 0.3,
+          "rrf_score": 0.427524,
+          "final_score": 1.282572,
+          "text_preview": "[Adverse Reactions with Efgartigimod Alfa-fcab Intravenous in Patients with gMG] In clinical studies, the safety of efgartigimod alfa-fcab administered intravenously has been evaluated in 246 patients"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "Anaphylaxis has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for anaphylaxis occurrence in specified patient populations"
+        },
+        {
+          "sub_assertion": "Hypotension leading to syncope has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for hypotension leading to syncope in specified patient populations"
+        },
+        {
+          "sub_assertion": "Angioedema has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for angioedema occurrence in specified patient populations"
+        },
+        {
+          "sub_assertion": "Dyspnea has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for dyspnea occurrence in specified patient populations"
+        },
+        {
+          "sub_assertion": "Rash has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for rash occurrence in specified patient populations"
+        },
+        {
+          "sub_assertion": "Urticaria has occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product",
+          "is_covered": true,
+          "evidence_text": "Anaphylaxis, hypotension leading to syncope, angioedema, dyspnea, rash, and urticaria have occurred in patients treated with VYVGART HYTRULO or intravenous efgartigimod alfa-fcab product.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for urticaria occurrence in specified patient populations"
+        },
+        {
+          "sub_assertion": "If a hypersensitivity reaction occurs, the healthcare professional should institute appropriate measures if needed or the patient should seek medical attention",
+          "is_covered": true,
+          "evidence_text": "If a hypersensitivity reaction occurs, the healthcare professional should institute appropriate measures if needed or the patient should seek medical attention.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the recommended action when hypersensitivity reaction occurs"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier evidence from USPI is appropriate for safety/contraindication claims"
+      },
+      "fair_balance_note": "This is a safety warning claim from prescribing information - appropriate for standalone safety communication",
+      "overall_assessment": "Claim is fully substantiated with exact verbatim match from USPI prescribing information covering all hypersensitivity reactions and recommended actions."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "Claim is fully substantiated with exact verbatim match from USPI prescribing information covering all hypersensitivity reactions and recommended actions."
+    },
+    "timings": {
+      "rewrite": 1.53,
+      "encode": 0.087,
+      "retrieve": 9.3,
+      "judge": 20.36,
+      "logic_gate": 0.0
+    },
+    "total_time": 31.28
+  },
+  {
+    "claim_text": "If a patient or caregiver is to administer subcutaneous VYVGART HYTRULO prefilled syringe, instruct them in proper injection technique (e.g., site selection and duration of injection).",
+    "ground_truth_ct_id": "CT-603",
+    "category": "Original",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "xlsx_row": 1834,
+    "classification": {
+      "ct_id": "CT-603",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the proper injection techniques for subcutaneous VYVGART HYTRULO prefilled syringe administration?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7162,
+          "text_score": 0.4444,
+          "rrf_score": 0.959778,
+          "final_score": 2.879334,
+          "text_preview": "[1 INDICATIONS AND USAGE > 2.2 Important Dosage and Administration Instructions] VYVGART HYTRULO is for subcutaneous use only. Do not administer intravenously. Do not dilute VYVGART HYTRULO. <u>Single"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6786,
+          "text_score": 0.6667,
+          "rrf_score": 0.83349,
+          "final_score": 2.50047,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] * Take the VYVGART HYTRULO prefilled syringe out of the refrigerator at least 30 minutes before injecting to allow it to reach room tem"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6546,
+          "text_score": 0.7778,
+          "rrf_score": 0.824613,
+          "final_score": 2.473839,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION] If a patient or caregiver is to administer subcutaneous VYVGART HYTRULO prefilled syringe, instruct them in proper injection technique (e.g., site selection and dur"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6778,
+          "text_score": 0.4444,
+          "rrf_score": 0.77448,
+          "final_score": 2.32344,
+          "text_preview": "[1 INDICATIONS AND USAGE > 2.3 Recommended Dosage for gMG] <u>Single-Dose Prefilled Syringe</u> The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgarti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.696,
+          "text_score": 0.0,
+          "rrf_score": 0.674051,
+          "final_score": 2.022153,
+          "text_preview": "[Important Information You Need to Know Before Injecting VYVGART HYTRULO] * **VYVGART HYTRULO is for under the skin (subcutaneous) injection only.** * **Be sure to read and understand this Instruction"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6672,
+          "text_score": 0.3333,
+          "rrf_score": 0.66956,
+          "final_score": 2.00868,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] * Monitor for clinical signs and symptoms of hypersensitivity reactions for at least 30 minutes after administration. If a hypersensiti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6708,
+          "text_score": 0.3333,
+          "rrf_score": 0.662808,
+          "final_score": 1.988424,
+          "text_preview": "[Single-Dose Vial > Preparation] * Take the VYVGART HYTRULO vial out of the refrigerator at least 15 minutes before injecting to allow it to reach room temperature *[see How Supplied/Storage and Handl"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6658,
+          "text_score": 0.3333,
+          "rrf_score": 0.639914,
+          "final_score": 1.919742,
+          "text_preview": "[3 Allow the prefilled syringe to warm to room temperature] > **Do not** attempt to warm the prefilled syringe in any other way. > **Do not** use the VYVGART HYTRULO prefilled syringe if it has been a"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6992,
+          "text_score": 0.0,
+          "rrf_score": 0.629009,
+          "final_score": 1.887027,
+          "text_preview": "[Prefilled Syringe Parts] **Safety Needle (not provided with VYVGART HYTRULO prefilled syringe)** that is 25G, 5/8 inch length, thin wall"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6866,
+          "text_score": 0.0,
+          "rrf_score": 0.619784,
+          "final_score": 1.859352,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgartigimod alfa and 10,000 units hya"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6765,
+          "text_score": 0.0,
+          "rrf_score": 0.60219,
+          "final_score": 1.80657,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION > How should I take VYVGART HYTRULO?] * Take VYVGART HYTRULO exactly as your healthcare provider tells you to take it. * VYVGART HYTRULO is injected under your skin "
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG + CIDP Instructions For Use (IFU)",
+          "rt_id": "RT-104",
+          "tier": "A",
+          "reference_type_name": "Instructions for Use (IFU)",
+          "dense_score": 0.6989,
+          "text_score": 0.6667,
+          "rrf_score": 0.891454,
+          "final_score": 1.782908,
+          "text_preview": "[Important Information You Need to Know Before Injecting VYVGART HYTRULO] * VYVGART HYTRULO is for under the skin (subcutaneous) injection only. * Be sure to read and understand this Instructions for "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6755,
+          "text_score": 0.0,
+          "rrf_score": 0.584063,
+          "final_score": 1.752189,
+          "text_preview": "[Single-Dose Vial > Administration] * To administer VYVGART HYTRULO vial use a winged infusion set made of polyvinyl chloride (PVC), 25G, 12 inches tubing, maximum priming volume of 0.4 mL. * Remove t"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6404,
+          "text_score": 0.4444,
+          "rrf_score": 0.579301,
+          "final_score": 1.737903,
+          "text_preview": "[6 Choose and clean the injection site on the stomach (abdomen)] **Do not** inject into skin that is irritated, red, bruised, infected, or tender. **Do not** inject into skin that is hard, scarred, or"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.695,
+          "text_score": 0.0,
+          "rrf_score": 0.569856,
+          "final_score": 1.709568,
+          "text_preview": "[HCP Indication and Important Safety Information] Based on VYVGART HYTRULO for subcutaneous injection - Final Label April 2025 CIDP & gMG indications"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6317,
+          "text_score": 0.6667,
+          "rrf_score": 0.567042,
+          "final_score": 1.701126,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION > How should I store VYVGART HYTRULO?] **General information about the safe and effective use of VYVGART HYTRULO.** Medicines are sometimes prescribed for purposes o"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6421,
+          "text_score": 0.3333,
+          "rrf_score": 0.562404,
+          "final_score": 1.687212,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>General Dosage Considerations</u>] If a scheduled injection is missed, VYVGART HYTRULO may be administered up to 3 days after the scheduled time point. Thereafter, resume"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6959,
+          "text_score": 0.0,
+          "rrf_score": 0.517348,
+          "final_score": 1.552044,
+          "text_preview": "[1,000 mg and 10,000 units/5 mL] This Instructions for Use contains information on how to inject VYVGART HYTRULO."
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.622,
+          "text_score": 0.3333,
+          "rrf_score": 0.498481,
+          "final_score": 1.495443,
+          "text_preview": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use VYVGART HYTRULO safely and effectively. See full prescribing information for VYVGART HYTRULO. **"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6697,
+          "text_score": 0.0,
+          "rrf_score": 0.496378,
+          "final_score": 1.489134,
+          "text_preview": "[1,000 mg and 10,000 units/5 mL > Storing VYVGART HYTRULO Prefilled Syringe] **Do not** freeze the prefilled syringes or store them in direct sunlight. **Do not** use a prefilled syringe that has been"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "If a patient or caregiver is to administer subcutaneous VYVGART HYTRULO prefilled syringe",
+          "is_covered": true,
+          "evidence_text": "If a patient or caregiver is to administer subcutaneous VYVGART HYTRULO prefilled syringe",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match found in Patient Counseling Information section"
+        },
+        {
+          "sub_assertion": "instruct them in proper injection technique",
+          "is_covered": true,
+          "evidence_text": "instruct them in proper injection technique (e.g., site selection and duration of injection)",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match found in Patient Counseling Information section"
+        },
+        {
+          "sub_assertion": "site selection and duration of injection as examples of proper injection technique",
+          "is_covered": true,
+          "evidence_text": "instruct them in proper injection technique (e.g., site selection and duration of injection)",
+          "source_passage": "Passage 3",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "The parenthetical examples are explicitly stated in the evidence"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier (Prescribing Information) is appropriate for dosing/administration instruction claims"
+      },
+      "fair_balance_note": "This is an administration instruction claim from Patient Counseling Information section - no fair balance linkage required",
+      "overall_assessment": "Claim is fully substantiated with verbatim text from the PI Patient Counseling Information section, which is the appropriate primary source for administration instructions."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "Claim is fully substantiated with verbatim text from the PI Patient Counseling Information section, which is the appropriate primary source for administration instructions."
+    },
+    "timings": {
+      "rewrite": 1.6,
+      "encode": 0.08,
+      "retrieve": 7.58,
+      "judge": 14.34,
+      "logic_gate": 0.0
+    },
+    "total_time": 23.6
+  },
+  {
+    "claim_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+    "ground_truth_ct_id": "CT-311",
+    "category": "Original",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "xlsx_row": 1814,
+    "classification": {
+      "ct_id": "CT-311",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the effects of hyaluronidase on pre- and postnatal development in animal studies at doses up to 5,000 times the recommended human dose?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6778,
+          "text_score": 0.4,
+          "rrf_score": 1.0,
+          "final_score": 3.0,
+          "text_preview": "[6 ADVERSE REACTIONS > Animal Data] - There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gest"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6619,
+          "text_score": 0.2,
+          "rrf_score": 0.849542,
+          "final_score": 2.548626,
+          "text_preview": "[6 ADVERSE REACTIONS > Animal Data] VYVGART HYTRULO for subcutaneous injection contains efgartigimod alfa and hyaluronidase *[see Description (11)]* . Efgartigimod alfa: - Intravenous administration o"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6146,
+          "text_score": 0.0,
+          "rrf_score": 0.691371,
+          "final_score": 2.074113,
+          "text_preview": "[13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility] VYVGART HYTRULO for subcutaneous injection contains efgartigimod alfa and hyaluronidase [*see Description (11)*]. <u>Carcinogenesis and Muta"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6096,
+          "text_score": 0.2,
+          "rrf_score": 0.626845,
+          "final_score": 1.880535,
+          "text_preview": "[1 INDICATIONS AND USAGE > 2.3 Recommended Dosage for gMG] <u>Single-Dose Prefilled Syringe</u> The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgarti"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5554,
+          "text_score": 0.3,
+          "rrf_score": 0.606495,
+          "final_score": 1.819485,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS > Lactation] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART H"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5827,
+          "text_score": 0.0,
+          "rrf_score": 0.549159,
+          "final_score": 1.647477,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.1 Mechanism of Action] VYVGART HYTRULO is a coformulation of efgartigimod alfa and hyaluronidase. Efgartigimod alfa is a human IgG1 antibody fragment that binds to the neonat"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5758,
+          "text_score": 0.0,
+          "rrf_score": 0.517722,
+          "final_score": 1.553166,
+          "text_preview": "[6 ADVERSE REACTIONS > <u>Risk Summary</u>] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART HYTRULO, in human milk, the effects on "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5745,
+          "text_score": 0.0,
+          "rrf_score": 0.515994,
+          "final_score": 1.547982,
+          "text_preview": "[6 ADVERSE REACTIONS > <u>Risk Summary</u>] There are no available data on the use of VYVGART HYTRULO or efgartigimod alfa containing products during pregnancy. There was no evidence of adverse develo"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6042,
+          "text_score": 0.0,
+          "rrf_score": 0.483586,
+          "final_score": 1.450758,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgartigimod alfa and 10,000 units hya"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5814,
+          "text_score": 0.0,
+          "rrf_score": 0.480702,
+          "final_score": 1.442106,
+          "text_preview": "[6 ADVERSE REACTIONS > 11 DESCRIPTION] Each 5 mL single-dose prefilled syringe contains 1,000 mg of efgartigimod alfa and 10,000 units of hyaluronidase (human recombinant). Each mL contains 200 mg of "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.58,
+          "text_score": 0.0,
+          "rrf_score": 0.471698,
+          "final_score": 1.415094,
+          "text_preview": "[6 ADVERSE REACTIONS > <u>Metabolism and Elimination</u>] Efgartigimod alfa and hyaluronidase are expected to be degraded by proteolytic enzymes into small peptides and amino acids. The terminal half-"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5989,
+          "text_score": 0.0,
+          "rrf_score": 0.469598,
+          "final_score": 1.408794,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Vial</u>] The recommended dosage of VYVGART HYTRULO vial is 1,008 mg / 11,200 units (1,008 mg efgartigimod alfa and 11,200 units hyaluronidase) administered s"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6124,
+          "text_score": 0.0,
+          "rrf_score": 0.451308,
+          "final_score": 1.353924,
+          "text_preview": "* gMG: recommended dose and dose schedule - Administer in cycles of once weekly injections for 4 weeks. (2.3) - Prefilled syringe: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase administere"
+        },
+        {
+          "ref_id": "Allen_Lancet Neuro_2024",
+          "rt_id": "RT-301",
+          "tier": "A",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5791,
+          "text_score": 0.2,
+          "rrf_score": 0.674303,
+          "final_score": 1.348606,
+          "text_preview": "[Articles > Procedures] Recombinant human hyaluronidase PH20 is an enzyme that locally degrades hyaluronan in the subcutaneous space and facilitates faster administration of large volumes by temporari"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5978,
+          "text_score": 0.0,
+          "rrf_score": 0.428906,
+          "final_score": 1.286718,
+          "text_preview": "[3 DOSAGE FORMS AND STRENGTHS] Injection: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase per 5 mL (200 mg/2,000 units per mL) as yellowish, clear to opalescent solution, in a single-dose pr"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5582,
+          "text_score": 0.0,
+          "rrf_score": 0.405312,
+          "final_score": 1.215936,
+          "text_preview": "[6 ADVERSE REACTIONS > 11 DESCRIPTION] VYVGART HYTRULO is a fixed-combination drug product containing efgartigimod alfa and hyaluronidase (human recombinant). Efgartigimod alfa, a neonatal Fc receptor"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5735,
+          "text_score": 0.0,
+          "rrf_score": 0.392243,
+          "final_score": 1.176729,
+          "text_preview": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use VYVGART HYTRULO safely and effectively. See full prescribing information for VYVGART HYTRULO. **"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5653,
+          "text_score": 0.0,
+          "rrf_score": 0.36628,
+          "final_score": 1.09884,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.3 Pharmacokinetics] Efgartigimod alfa exposures were approximately dose-proportional up to the highest subcutaneously tested dose of VYVGART HYTRULO (1750 mg, 1.75 times the "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5974,
+          "text_score": 0.0,
+          "rrf_score": 0.356766,
+          "final_score": 1.070298,
+          "text_preview": "[1,000 mg and 10,000 units/5 mL] This Instructions for Use contains information on how to inject VYVGART HYTRULO."
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.572,
+          "text_score": 0.0,
+          "rrf_score": 0.345152,
+          "final_score": 1.035456,
+          "text_preview": "[16 HOW SUPPLIED/STORAGE AND HANDLING] VYVGART HYTRULO (efgartigimod alfa and hyaluronidase-qvfc) injection is a preservative free, sterile, yellowish, clear to opalescent solution supplied as a singl"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "There were no adverse effects on pre- and postnatal development",
+          "is_covered": true,
+          "evidence_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the no adverse effects finding"
+        },
+        {
+          "sub_assertion": "Following subcutaneous administration of hyaluronidase (human recombinant) to mice",
+          "is_covered": true,
+          "evidence_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the administration method and species"
+        },
+        {
+          "sub_assertion": "Throughout gestation and lactation",
+          "is_covered": true,
+          "evidence_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the treatment duration"
+        },
+        {
+          "sub_assertion": "At doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO",
+          "is_covered": true,
+          "evidence_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the dose multiple and reference to RHD"
+        },
+        {
+          "sub_assertion": "On a U/kg basis",
+          "is_covered": true,
+          "evidence_text": "There were no adverse effects on pre- and postnatal development following subcutaneous administration of hyaluronidase (human recombinant) to mice throughout gestation and lactation at doses up to 5,000 times the dose of hyaluronidase at the RHD of VYVGART HYTRULO, on a U/kg basis.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact verbatim match for the dose calculation basis"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier evidence from US Prescribing Information is appropriate for safety/animal data claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "The claim is fully substantiated with a verbatim match from the VYVGART HYTRULO Prescribing Information Animal Data section."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "The claim is fully substantiated with a verbatim match from the VYVGART HYTRULO Prescribing Information Animal Data section."
+    },
+    "timings": {
+      "rewrite": 1.76,
+      "encode": 0.098,
+      "retrieve": 12.39,
+      "judge": 19.77,
+      "logic_gate": 0.0
+    },
+    "total_time": 34.02
+  },
+  {
+    "claim_text": "100% of patients with CIDP or gMG and their caregivers successfully used the prefilled syringe and interacted with the associated labeling, packaging, and instructional materials across 2 human factors studies (a total of 30 patients and 15 caregivers of patients with CIDP or gMG).",
+    "ground_truth_ct_id": "CT-605",
+    "category": "Variation of row 530",
+    "document": "VYVGART Hytrulo Cross-Indication PFS C2 - November",
+    "xlsx_row": 1720,
+    "classification": {
+      "ct_id": "CT-605",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the success rates for patient and caregiver use of prefilled syringes in CIDP and gMG human factors studies?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.702,
+          "text_score": 0.2,
+          "rrf_score": 0.999067,
+          "final_score": 1.498601,
+          "text_preview": "[Data on File Packet > <u>Study Design</u>] The main objectives of this study were to validate: * Patients with gMG and caregivers of patients with gMG or CIDP could successfully use the efgartigimod "
+        },
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.6964,
+          "text_score": 0.2,
+          "rrf_score": 0.87831,
+          "final_score": 1.317465,
+          "text_preview": "[Data on File Packet] **Purpose:** This data on file packet is the reference for the following information: Data in this packet are from the two human factor studies: * EFG-HF-PFS-gMG-2342: Efgartigim"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.7582,
+          "text_score": 0.0,
+          "rrf_score": 0.86811,
+          "final_score": 1.302165,
+          "text_preview": "[SUMMARY > Human Factors Validation Studies in gMG and CIDP] * **Design**: In a simulated-use environment mimicking a home setting, participants (N=30 in the gMG study [n=15 patients with gMG and n=15"
+        },
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.708,
+          "text_score": 0.0,
+          "rrf_score": 0.862574,
+          "final_score": 1.293861,
+          "text_preview": "[Data on File Packet] Talking Points: **<u>Overall</u>** Refer to published materials (ex. Borgions et al MGFA International 2025 poster) for high-level results: * Human factor validation studies demo"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.6898,
+          "text_score": 0.2,
+          "rrf_score": 0.778348,
+          "final_score": 1.167522,
+          "text_preview": "[SUMMARY > Human Factors Validation Studies in gMG and CIDP] aAdults who care for a family member with gMG (n=12) or CIDP (n=3). **ABBREVIATIONS** AE, adverse event; AUC, area under the curve; CI, con"
+        },
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.692,
+          "text_score": 0.0,
+          "rrf_score": 0.766095,
+          "final_score": 1.149142,
+          "text_preview": "[Data on File Packet > EFG-HF-PFS-CIDP-2401] * This study demonstrated that participants with CIDP can safely and successfully prepare and administer efgartigimod PH20 SC PFS and interact with the ass"
+        },
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.685,
+          "text_score": 0.0,
+          "rrf_score": 0.727919,
+          "final_score": 1.091878,
+          "text_preview": "[Data on File Packet] **EFG-HF-PFS-CIDP-2401: Efgartigimod PH20 SC Prefilled Syringe for Chronic Inflammatory Demyelinating Polyneuropathy (CIDP): Human Factors Validation Study** **Study Design** The"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.6871,
+          "text_score": 0.0,
+          "rrf_score": 0.719989,
+          "final_score": 1.079983,
+          "text_preview": "When asked \"Would you be able to successfully inject this product weekly, if needed?\", 15/15 (100%) patients with gMG, 15/15 (100%) lay caregivers, 15/15 (100%) patients with CIDP, and 45/45 (100%) ov"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.7066,
+          "text_score": 0.0,
+          "rrf_score": 0.688525,
+          "final_score": 1.032787,
+          "text_preview": "[INTRODUCTION > Human Factors Validation] * Simulated-use human factors validation study to evaluate the efgartigimod PH20 SC PFS and associated instructions for use (IFU)b * Participants with gMG: n="
+        },
+        {
+          "ref_id": "Mendoza 2023",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6741,
+          "text_score": 0.2,
+          "rrf_score": 0.674145,
+          "final_score": 1.011217,
+          "text_preview": "[DISCUSSION] We acknowledge that this study has limitations. First, all survey participants were invited through the Canadian and US GBS/CIDP Foundations which limit the generalizability of our result"
+        },
+        {
+          "ref_id": "Querol_J neurol_2021",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6809,
+          "text_score": 0.0,
+          "rrf_score": 0.623181,
+          "final_score": 0.934771,
+          "text_preview": "[Results > Guidelines and current treatment] Subcutaneous immunoglobulins (SCIG) provide an alternative route of administration that may ameliorate some of the challenges associated with intravenous a"
+        },
+        {
+          "ref_id": "Goyal 2021 ",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6781,
+          "text_score": 0.0,
+          "rrf_score": 0.61285,
+          "final_score": 0.919275,
+          "text_preview": "[6 | ECONOMIC IMPACT AND FUTURE OF IgG THERAPY IN CIDP] Currently, only one 20% SCIg solution is approved for use in adult patients with CIDP,<sup>35</sup> but other 10%-20% SC formulations are in var"
+        },
+        {
+          "ref_id": "Querol_J neurol_2021",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6894,
+          "text_score": 0.0,
+          "rrf_score": 0.607974,
+          "final_score": 0.911961,
+          "text_preview": "[Discussion] The current review provides the first systematic assessment of the burden of illness of CIDP. The findings establish that CIDP is a rare disease, associated with impaired HRQoL, particula"
+        },
+        {
+          "ref_id": "Allen_J Neuro 2020",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6914,
+          "text_score": 0.0,
+          "rrf_score": 0.604092,
+          "final_score": 0.906138,
+          "text_preview": "[4.7. Patient preference variables] An analysis of five attributes (mode, frequency, location, # needle sticks, and duration) in preference choice surveys for immunoglobulin routes of administration i"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.6922,
+          "text_score": 0.0,
+          "rrf_score": 0.598505,
+          "final_score": 0.897757,
+          "text_preview": "[SUMMARY] * Efgartigimod PH20 SC administered via PFS was shown to be bioequivalent to efgartigimod PH20 SC administered via V+S * The feasibility, safety, and tolerability of efgartigimod PH20 SC inj"
+        },
+        {
+          "ref_id": "Goyal 2021 ",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6882,
+          "text_score": 0.0,
+          "rrf_score": 0.594365,
+          "final_score": 0.891548,
+          "text_preview": "[4.5 | Supporting patients with self-administration] To self-administer SCIg, patients should be adequately trained and monitored by a healthcare professional (HCP). Patients often report that learnin"
+        },
+        {
+          "ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "rt_id": "RT-901",
+          "tier": "?",
+          "reference_type_name": "Data on File (DoF)",
+          "dense_score": 0.673,
+          "text_score": 0.0,
+          "rrf_score": 0.580711,
+          "final_score": 0.871066,
+          "text_preview": "[Data on File Packet] These data may be used in the following example commercial materials, including but not limited to: * Pre-approval information exchange (PIE) and payer value proposition (PVP) de"
+        },
+        {
+          "ref_id": "Allen_J Neuro 2020",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6959,
+          "text_score": 0.0,
+          "rrf_score": 0.571832,
+          "final_score": 0.857748,
+          "text_preview": "[4.7. Patient preference variables] \\* Based on a person weighing 80 kg. \\* Based on minimum of 2 infusion sites in 1 session per week. \\* Based on a minimum of 4 infusion sites, in 1 session per week"
+        },
+        {
+          "ref_id": "Goyal 2021 ",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.6837,
+          "text_score": 0.0,
+          "rrf_score": 0.560428,
+          "final_score": 0.840642,
+          "text_preview": "[Abstract] Immunoglobulin G (IgG) therapy is an established long-term treatment in chronic inflammatory demyelinating polyneuropathy (CIDP) that is commonly administered intravenously (IVIg). The subc"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "A",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6643,
+          "text_score": 0.0,
+          "rrf_score": 0.417348,
+          "final_score": 0.834696,
+          "text_preview": "[HCP Indication and Important Safety Information] Based on VYVGART HYTRULO for subcutaneous injection - Final Label April 2025 CIDP & gMG indications"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "100% of patients with CIDP or gMG successfully used the prefilled syringe",
+          "is_covered": true,
+          "evidence_text": "100% of participants (N=30/30 in the gMG study; N=15/15 in the CIDP study) were successful in preparing and delivering the full dose in an average of 30 seconds.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Hargraves AAN 2025",
+          "confidence_note": "This passage explicitly states 100% success rate for both gMG and CIDP participants in using the prefilled syringe"
+        },
+        {
+          "sub_assertion": "100% of caregivers successfully used the prefilled syringe",
+          "is_covered": true,
+          "evidence_text": "100% of participants (N=30/30 in the gMG study; N=15/15 in the CIDP study) were successful in preparing and delivering the full dose in an average of 30 seconds. Participants and lay caregivers had no difficulty handling the syringe and successfully identified critical information on the instructions.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Hargraves AAN 2025",
+          "confidence_note": "The passage indicates that the N=30 in gMG study included n=15 lay caregivers, and all participants (including caregivers) were 100% successful"
+        },
+        {
+          "sub_assertion": "Patients and caregivers successfully interacted with the associated labeling, packaging, and instructional materials",
+          "is_covered": true,
+          "evidence_text": "Participants and lay caregivers had no difficulty handling the syringe and successfully identified critical information on the instructions.",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Hargraves AAN 2025",
+          "confidence_note": "This directly states that participants and caregivers successfully identified critical information on the instructions"
+        },
+        {
+          "sub_assertion": "The results come from 2 human factors studies",
+          "is_covered": true,
+          "evidence_text": "Data in this packet are from the two human factor studies: * EFG-HF-PFS-gMG-2342: Efgartigimod PH20 SC Prefilled Syringe for Generalized Myasthenia Gravis: Human Factors Validation Study * EFG-HF-PFS-CIDP-2401: Efgartigimod PH20 SC Prefilled Syringe for Chronic Inflammatory Demyelinating Polyneuropathy (CIDP): Human Factors Validation Study",
+          "source_passage": "Passage 2",
+          "source_ref_id": "DOF_EFG-HF-PFS-gMG-2342 and CIDP-2401 Human Factor Studies_January 2026",
+          "confidence_note": "This explicitly identifies the two human factors studies referenced in the claim"
+        },
+        {
+          "sub_assertion": "Total of 30 patients and 15 caregivers of patients with CIDP or gMG",
+          "is_covered": true,
+          "evidence_text": "participants (N=30 in the gMG study [n=15 patients with gMG and n=15 lay caregivers]; N=15 in the CIDP study)",
+          "source_passage": "Passage 3",
+          "source_ref_id": "Hargraves AAN 2025",
+          "confidence_note": "This shows N=30 total in gMG study (15 patients + 15 caregivers) plus N=15 patients in CIDP study, totaling 30 patients and 15 caregivers"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": true,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "Unclassified",
+        "source_tier_sufficient": false,
+        "note": "Primary evidence comes from Data on File and conference poster sources, which are lower-tier evidence for device usability claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "The claim is fully substantiated by the evidence passages, with exact numerical matches and comprehensive coverage of all sub-assertions from the human factors validation studies."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "The claim is fully substantiated by the evidence passages, with exact numerical matches and comprehensive coverage of all sub-assertions from the human factors validation studies."
+    },
+    "timings": {
+      "rewrite": 1.74,
+      "encode": 0.086,
+      "retrieve": 12.59,
+      "judge": 26.84,
+      "logic_gate": 0.0
+    },
+    "total_time": 41.26
+  },
+  {
+    "claim_text": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO.",
+    "ground_truth_ct_id": "CT-108",
+    "category": "Variation of row 113",
+    "document": "VYVGART Hytrulo_CIDP_Figure 1 Academy_Patient Case",
+    "xlsx_row": 1854,
+    "classification": {
+      "ct_id": "CT-108",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What are the contraindications for VYVGART Hytrulo regarding hypersensitivity reactions?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6879,
+          "text_score": 0.7,
+          "rrf_score": 0.978267,
+          "final_score": 2.934801,
+          "text_preview": "[HCP Indication and Important Safety Information > CONTRAINDICATIONS] VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or t"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6757,
+          "text_score": 0.3,
+          "rrf_score": 0.918702,
+          "final_score": 2.756106,
+          "text_preview": "[4 CONTRAINDICATIONS] VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO. Reac"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.7078,
+          "text_score": 0.4,
+          "rrf_score": 0.916348,
+          "final_score": 2.749044,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.2 Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.7082,
+          "text_score": 0.6,
+          "rrf_score": 0.895242,
+          "final_score": 2.685726,
+          "text_preview": "[CONTRAINDICATIONS > Hypersensitivity Reactions] In clinical trials, hypersensitivity reactions, including rash, angioedema, and dyspnea were observed in patients treated with VYVGART HYTRULO or intra"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6569,
+          "text_score": 0.5,
+          "rrf_score": 0.771069,
+          "final_score": 2.313207,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.3 Infusion/Injection-Related Reactions] Infusion-related reactions have been reported with intravenous efgartigimod alfa-fcab in postmarketing experience. The most frequent sy"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6551,
+          "text_score": 0.6,
+          "rrf_score": 0.767349,
+          "final_score": 2.302047,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS > Lactation] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART H"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6675,
+          "text_score": 0.4,
+          "rrf_score": 0.748027,
+          "final_score": 2.244081,
+          "text_preview": "* **Infections:** Delay administration of VYVGART HYTRULO to patients with an active infection. Monitor for signs and symptoms of infection in patients treated with VYVGART HYTRULO. If serious infecti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6458,
+          "text_score": 0.6,
+          "rrf_score": 0.741263,
+          "final_score": 2.223789,
+          "text_preview": "[6 ADVERSE REACTIONS > <u>Risk Summary</u>] There is no information regarding the presence of efgartigimod alfa or hyaluronidase, from administration of VYVGART HYTRULO, in human milk, the effects on "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6329,
+          "text_score": 0.5,
+          "rrf_score": 0.720304,
+          "final_score": 2.160912,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.1 Infections] VYVGART HYTRULO may increase the risk of infection. The most common infections observed in Study 1 were urinary tract infection (10% of efgartigimod alfa-fcab-tr"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6922,
+          "text_score": 0.3,
+          "rrf_score": 0.708428,
+          "final_score": 2.125284,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Prefilled Syringe</u>] * Monitor for clinical signs and symptoms of hypersensitivity reactions for at least 30 minutes after administration. If a hypersensiti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6274,
+          "text_score": 0.5,
+          "rrf_score": 0.697665,
+          "final_score": 2.092995,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.1 Mechanism of Action] VYVGART HYTRULO is a coformulation of efgartigimod alfa and hyaluronidase. Efgartigimod alfa is a human IgG1 antibody fragment that binds to the neonat"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6592,
+          "text_score": 0.3,
+          "rrf_score": 0.695784,
+          "final_score": 2.087352,
+          "text_preview": "[4 CONTRAINDICATIONS > 5.1 Infections > <u>Immunization</u>] Evaluate the need to administer age-appropriate vaccines according to immunization guidelines before initiation of a new treatment cycle wi"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6653,
+          "text_score": 0.3,
+          "rrf_score": 0.695281,
+          "final_score": 2.085843,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>General Dosage Considerations</u>] If a scheduled injection is missed, VYVGART HYTRULO may be administered up to 3 days after the scheduled time point. Thereafter, resume"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6366,
+          "text_score": 0.4,
+          "rrf_score": 0.681548,
+          "final_score": 2.044644,
+          "text_preview": "[HCP Indication and Important Safety Information > ADVERSE REACTIONS] Patients with gMG: In Study 1, the most common (≥10%) adverse reactions in efgartigimod alfa-fcab-treated patients were respirator"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6569,
+          "text_score": 0.5,
+          "rrf_score": 0.680206,
+          "final_score": 2.040618,
+          "text_preview": "[17 PATIENT COUNSELING INFORMATION] Advise the patient and/or caregiver to read FDA-approved patient labeling (Patient Information and Instructions for Use). <u>Infections</u> Instruct patients to com"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6309,
+          "text_score": 0.4,
+          "rrf_score": 0.671,
+          "final_score": 2.013,
+          "text_preview": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use VYVGART HYTRULO safely and effectively. See full prescribing information for VYVGART HYTRULO. **"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6626,
+          "text_score": 0.2,
+          "rrf_score": 0.657834,
+          "final_score": 1.973502,
+          "text_preview": "* gMG: recommended dose and dose schedule - Administer in cycles of once weekly injections for 4 weeks. (2.3) - Prefilled syringe: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase administere"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6314,
+          "text_score": 0.5,
+          "rrf_score": 0.653244,
+          "final_score": 1.959732,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.3 Pharmacokinetics] Efgartigimod alfa exposures were approximately dose-proportional up to the highest subcutaneously tested dose of VYVGART HYTRULO (1750 mg, 1.75 times the "
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.6294,
+          "text_score": 0.4,
+          "rrf_score": 0.650825,
+          "final_score": 1.952475,
+          "text_preview": "[Infusion/Injection-Related Reactions] Infusion-related reactions have been reported with intravenous efgartigimod alfa-fcab in postmarketing experience. The most frequent symptoms and signs were hype"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6468,
+          "text_score": 0.3,
+          "rrf_score": 0.645111,
+          "final_score": 1.935333,
+          "text_preview": "[6 ADVERSE REACTIONS > 8.5 Geriatric Use] Clinical studies of VYVGART HYTRULO did not include sufficient numbers of patients aged 65 and older to determine whether they respond differently from younge"
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products",
+          "is_covered": true,
+          "evidence_text": "VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "confidence_note": "Exact verbatim match for contraindication regarding efgartigimod alfa products"
+        },
+        {
+          "sub_assertion": "VYVGART Hytrulo is contraindicated in patients with serious hypersensitivity to hyaluronidase",
+          "is_covered": true,
+          "evidence_text": "VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "confidence_note": "Exact verbatim match for contraindication regarding hyaluronidase"
+        },
+        {
+          "sub_assertion": "VYVGART Hytrulo is contraindicated in patients with serious hypersensitivity to any of the excipients of VYVGART HYTRULO",
+          "is_covered": true,
+          "evidence_text": "VYVGART HYTRULO is contraindicated in patients with serious hypersensitivity to efgartigimod alfa products, to hyaluronidase, or to any of the excipients of VYVGART HYTRULO.",
+          "source_passage": "Passage 1",
+          "source_ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "confidence_note": "Exact verbatim match for contraindication regarding excipients"
+        }
+      ],
+      "coverage_score": 100.0,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier evidence (USPI) is appropriate and required for contraindication claims"
+      },
+      "fair_balance_note": "This is a contraindication/safety claim from the PI, which is appropriate safety information",
+      "overall_assessment": "Fully substantiated contraindication claim with exact verbatim match from Primary-tier USPI evidence covering all three contraindication components."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 100.0,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "Fully substantiated contraindication claim with exact verbatim match from Primary-tier USPI evidence covering all three contraindication components."
+    },
+    "timings": {
+      "rewrite": 1.44,
+      "encode": 0.083,
+      "retrieve": 7.66,
+      "judge": 15.91,
+      "logic_gate": 0.0
+    },
+    "total_time": 25.09
+  },
+  {
+    "claim_text": "gMG: recommended dose and dose schedule\nAdminister in cycles of once weekly injections for 4 weeks.\nPrefilled syringe: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase administered over 20 to 30 seconds.\nVial: 1,008 mg efgartigimod alfa and 11,200 units hyaluronidase over 30 to 90 seconds.\nAdminister subsequent treatment cycles based on clinical evaluation; safety of initiating subsequent cycles sooner than 50 days from the start of the previous treatment cycle has not been established.",
+    "ground_truth_ct_id": "CT-601",
+    "category": "Original",
+    "document": "VYVGART Hytrulo CIDP Epocrates Monograph Efficacy and Safety US",
+    "xlsx_row": 930,
+    "classification": {
+      "ct_id": "CT-601",
+      "source": "xlsx_ground_truth"
+    },
+    "rewritten_query": "What is the recommended dosing schedule and administration protocol for efgartigimod alfa with hyaluronidase in generalized myasthenia gravis?",
+    "retrieval": {
+      "total_candidates": 50,
+      "judge_passages_count": 20,
+      "passages": [
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5807,
+          "text_score": 0.6,
+          "rrf_score": 0.898586,
+          "final_score": 2.695758,
+          "text_preview": "[1 INDICATIONS AND USAGE > 2.3 Recommended Dosage for gMG] <u>Single-Dose Prefilled Syringe</u> The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgarti"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.604,
+          "text_score": 0.0,
+          "rrf_score": 0.755189,
+          "final_score": 2.265567,
+          "text_preview": "* gMG: recommended dose and dose schedule - Administer in cycles of once weekly injections for 4 weeks. (2.3) - Prefilled syringe: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase administere"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.6104,
+          "text_score": 0.4,
+          "rrf_score": 0.736215,
+          "final_score": 2.208645,
+          "text_preview": "HIGHLIGHTS OF PRESCRIBING INFORMATION These highlights do not include all the information needed to use VYVGART HYTRULO safely and effectively. See full prescribing information for VYVGART HYTRULO. **"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5871,
+          "text_score": 0.3,
+          "rrf_score": 0.645635,
+          "final_score": 1.936905,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] The efficacy of EFG IV was also measured using the Quantitative Myasthenia Gravis (QMG) total score which is a 13-item categorical grading system "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5851,
+          "text_score": 0.2,
+          "rrf_score": 0.643124,
+          "final_score": 1.929372,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>General Dosage Considerations</u>] If a scheduled injection is missed, VYVGART HYTRULO may be administered up to 3 days after the scheduled time point. Thereafter, resume"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5899,
+          "text_score": 0.0,
+          "rrf_score": 0.638731,
+          "final_score": 1.916193,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] Patients were treated with 10 mg/kg EFG IV administered as an intravenous infusion over one hour once weekly for 4 weeks. In patients weighing 120"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5994,
+          "text_score": 0.0,
+          "rrf_score": 0.531711,
+          "final_score": 1.595133,
+          "text_preview": "[HCP Indication and Important Safety Information > INDICATION] VYVGART HYTRULO® (efgartigimod alfa and hyaluronidase-qvfc) is indicated for the treatment of adult patients with generalized myasthenia "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5751,
+          "text_score": 0.0,
+          "rrf_score": 0.51414,
+          "final_score": 1.54242,
+          "text_preview": "[1 INDICATIONS AND USAGE > <u>Single-Dose Vial</u>] The recommended dosage of VYVGART HYTRULO vial is 1,008 mg / 11,200 units (1,008 mg efgartigimod alfa and 11,200 units hyaluronidase) administered s"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5835,
+          "text_score": 0.0,
+          "rrf_score": 0.476486,
+          "final_score": 1.429458,
+          "text_preview": "[14.1 Generalized Myasthenia Gravis] Study 1 (described below) which established the effectiveness of efgartigimod alfa-fcab for the treatment of generalized myasthenia gravis (gMG) in adults who are "
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.58,
+          "text_score": 0.0,
+          "rrf_score": 0.446779,
+          "final_score": 1.340337,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] The efficacy of efgartigimod alfa-fcab intravenous (EFG IV) for the treatment of generalized myasthenia gravis (gMG) in adults who are AChR antibo"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5787,
+          "text_score": 0.0,
+          "rrf_score": 0.418011,
+          "final_score": 1.254033,
+          "text_preview": "[FULL PRESCRIBING INFORMATION: CONTENTS > 1 INDICATIONS AND USAGE] VYVGART HYTRULO is indicated for the treatment of adult patients with: * generalized myasthenia gravis (gMG) who are anti-acetylcholi"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5776,
+          "text_score": 0.0,
+          "rrf_score": 0.39554,
+          "final_score": 1.18662,
+          "text_preview": "[Patients (mITT Analysis Set)] **Figure 2: Percentage of Patients with MG-ADL and QMG Total Score Change 4 Weeks Post Initial Infusion of the First Cycle in AChR-Ab Positive Patients** EFGARTIGIMOD al"
+        },
+        {
+          "ref_id": "VYVGART Hytrulo gMG and CIDP_professional_important_safety_information__isi__04-2025",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "USPI / US Prescribing Information",
+          "dense_score": 0.5699,
+          "text_score": 0.0,
+          "rrf_score": 0.379059,
+          "final_score": 1.137177,
+          "text_preview": "[HCP Indication and Important Safety Information] Based on VYVGART HYTRULO for subcutaneous injection - Final Label April 2025 CIDP & gMG indications"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5795,
+          "text_score": 0.0,
+          "rrf_score": 0.353646,
+          "final_score": 1.060938,
+          "text_preview": "[<u>Study 1 (Efgartigimod Alfa-fcab Intravenous)</u>] EFG IV= Efgartigimod alfa-fcab intravenous; MG-ADL=Myasthenia Gravis Activities of Daily Living; QMG=Quantitative Myasthenia Gravis; mITT=modified"
+        },
+        {
+          "ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "rt_id": "RT-101",
+          "tier": "P",
+          "reference_type_name": "US Prescribing Information",
+          "dense_score": 0.5605,
+          "text_score": 0.0,
+          "rrf_score": 0.311538,
+          "final_score": 0.934614,
+          "text_preview": "[6 ADVERSE REACTIONS > 12.2 Pharmacodynamics] In Study 1 [see *Clinical Studies (14)*], the pharmacological effect of efgartigimod alfa-fcab was assessed by measuring the decrease in serum IgG levels "
+        },
+        {
+          "ref_id": "ARGX-113-1902 - ADHERE+ Clinical Study Protocol Version 8 - 02 Jul 2024",
+          "rt_id": "RT-208",
+          "tier": "?",
+          "reference_type_name": "Clinical Study Protocol",
+          "dense_score": 0.5669,
+          "text_score": 0.2,
+          "rrf_score": 0.539512,
+          "final_score": 0.809268,
+          "text_preview": "[Figure 2: Rollover to the Optional Substudy to Explore Less Frequent Dosing] Participants should arrange a site visit to assess aINCAT if clinical deterioration occurs. Participants receiving efgarti"
+        },
+        {
+          "ref_id": "ARGX-113-1902 - ADHERE+ Clinical Study Protocol Version 8 - 02 Jul 2024",
+          "rt_id": "RT-208",
+          "tier": "?",
+          "reference_type_name": "Clinical Study Protocol",
+          "dense_score": 0.5715,
+          "text_score": 0.2,
+          "rrf_score": 0.507029,
+          "final_score": 0.760543,
+          "text_preview": "[LIST OF TABLES] Table 1: Schedule of Activities for the First 48-Week Treatment Period (NO LONGER APPLICABLE) 26 Table 2: Schedule of Activities for Subsequent Treatment Periods After the First 48-We"
+        },
+        {
+          "ref_id": "Allen 2018",
+          "rt_id": "RT-301",
+          "tier": "?",
+          "reference_type_name": "Peer-reviewed full-text journal article",
+          "dense_score": 0.5896,
+          "text_score": 0.0,
+          "rrf_score": 0.502783,
+          "final_score": 0.754174,
+          "text_preview": "[Introduction] The concept of optimizing immunotherapy for individual patients with inflammatory neuropathies is not new. For IVIG in CIDP, current guidelines recommend using the lowest effective main"
+        },
+        {
+          "ref_id": "Hargraves AAN 2025",
+          "rt_id": "RT-402",
+          "tier": "?",
+          "reference_type_name": "Conference poster",
+          "dense_score": 0.5677,
+          "text_score": 0.3,
+          "rrf_score": 0.501681,
+          "final_score": 0.752522,
+          "text_preview": "[SUMMARY > Human Factors Validation Studies in gMG and CIDP] aAdults who care for a family member with gMG (n=12) or CIDP (n=3). **ABBREVIATIONS** AE, adverse event; AUC, area under the curve; CI, con"
+        },
+        {
+          "ref_id": "Argenx BVBA",
+          "rt_id": "RT-208",
+          "tier": "?",
+          "reference_type_name": "Clinical Study Protocol",
+          "dense_score": 0.5825,
+          "text_score": 0.0,
+          "rrf_score": 0.476326,
+          "final_score": 0.714489,
+          "text_preview": "[4. OBJECTIVES > 5.3. Justification for Dose] In addition, based on favorable phase 3 results in patients with MG, efgartigimod IV at a dose of10 mg/kg has been approved in the United States (US) and "
+        }
+      ]
+    },
+    "judge": {
+      "sub_assertions": [
+        {
+          "sub_assertion": "gMG: recommended dose and dose schedule",
+          "is_covered": true,
+          "evidence_text": "gMG: recommended dose and dose schedule - Administer in cycles of once weekly injections for 4 weeks. (2.3)",
+          "source_passage": "Passage 2",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for the gMG dose schedule heading and basic administration pattern"
+        },
+        {
+          "sub_assertion": "Administer in cycles of once weekly injections for 4 weeks",
+          "is_covered": true,
+          "evidence_text": "administered subcutaneously over approximately 20 to 30 seconds in cycles of once weekly injections for 4 weeks",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Verbatim match for the cycle administration pattern"
+        },
+        {
+          "sub_assertion": "Prefilled syringe: 1,000 mg efgartigimod alfa and 10,000 units hyaluronidase administered over 20 to 30 seconds",
+          "is_covered": true,
+          "evidence_text": "The recommended dosage of VYVGART HYTRULO prefilled syringe is 1,000 mg / 10,000 units (1,000 mg efgartigimod alfa and 10,000 units hyaluronidase) administered subcutaneously over approximately 20 to 30 seconds",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for prefilled syringe dose, composition, and administration time"
+        },
+        {
+          "sub_assertion": "Vial: 1,008 mg efgartigimod alfa and 11,200 units hyaluronidase over 30 to 90 seconds",
+          "is_covered": true,
+          "evidence_text": "The recommended dosage of VYVGART HYTRULO vial is 1,008 mg / 11,200 units (1,008 mg efgartigimod alfa and 11,200 units hyaluronidase) administered subcutaneously over approximately 30 to 90 seconds",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Exact match for vial dose, composition, and administration time"
+        },
+        {
+          "sub_assertion": "Administer subsequent treatment cycles based on clinical evaluation",
+          "is_covered": true,
+          "evidence_text": "Administer subsequent treatment cycles according to clinical evaluation",
+          "source_passage": "Passage 1",
+          "source_ref_id": "vyvgart-hytrulo-prescribing-information_3.26",
+          "confidence_note": "Verbatim match for subsequent cycle administration guidance"
+        },
+        {
+          "sub_assertion": "safety of initiating subsequent cycles sooner than 50 days from the start of the previous treatment cycle has not been established",
+          "is_covered": false,
+          "evidence_text": "",
+          "source_passage": "",
+          "source_ref_id": "",
+          "confidence_note": "The specific 50-day safety timeframe is not found in any of the provided passages"
+        }
+      ],
+      "coverage_score": 83.3,
+      "picot_alignment": {
+        "population": true,
+        "intervention": true,
+        "comparator": true,
+        "outcome": true,
+        "timeframe": true
+      },
+      "picot_mismatches": [],
+      "secondary_citation_detected": false,
+      "secondary_citation_details": "",
+      "statistical_context_present": false,
+      "numerical_accuracy": {
+        "all_numbers_match": true,
+        "mismatches": [],
+        "transformations": []
+      },
+      "source_tier_assessment": {
+        "highest_tier_used": "P",
+        "source_tier_sufficient": true,
+        "note": "Primary tier evidence from US Prescribing Information is appropriate for dosing claims"
+      },
+      "fair_balance_note": "",
+      "overall_assessment": "Most dosing elements are fully substantiated by the PI, but the specific 50-day safety timeframe for subsequent cycles is not found in the provided evidence."
+    },
+    "verdict": {
+      "verdict": "pass",
+      "coverage_score": 83.3,
+      "flags": [],
+      "blockers": [],
+      "picot_failed_dimensions": [],
+      "secondary_citation": false,
+      "overall_assessment": "Most dosing elements are fully substantiated by the PI, but the specific 50-day safety timeframe for subsequent cycles is not found in the provided evidence."
+    },
+    "timings": {
+      "rewrite": 1.83,
+      "encode": 0.115,
+      "retrieve": 12.75,
+      "judge": 23.39,
+      "logic_gate": 0.0
+    },
+    "total_time": 38.09
+  }
+]
