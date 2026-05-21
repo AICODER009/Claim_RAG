@@ -24,12 +24,13 @@ Return ONLY valid JSON (no markdown, no explanation):
 ## Category Codes (MANDATORY — use these exact values for "category")
 - B1 = Regulatory Labels & Core Company Documents (RT-101 through RT-112)
 - B2 = Clinical Trial & Study Documents (RT-201 through RT-215)
-- B3 = Peer-Reviewed Literature (RT-301 through RT-310)
+- B3 = Peer-Reviewed Literature (RT-301 through RT-315)
 - B4 = Conference & Congress Materials (RT-401 through RT-404)
-- B5 = Real-World & Health-Economics Evidence (RT-501 through RT-504)
+- B5 = Real-World & Health-Economics Evidence (RT-501 through RT-507)
 - B6 = Preclinical / Nonclinical (RT-601 through RT-604)
+  NOTE: RT-602 is DEPRECATED — classify as RT-601 instead (see expert rules below)
 - B7 = Regulatory Agency Communications (RT-701 through RT-704)
-- B8 = Educational / Disease-Awareness (RT-801 through RT-804)
+- B8 = Instruments, Standards & Scientific Documents (RT-801 through RT-804)
 - B9 = Internal / Other (RT-901 through RT-904)
 
 ## Classification Rules

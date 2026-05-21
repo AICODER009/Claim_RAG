@@ -4,6 +4,10 @@ This skill is injected into the typization prompt AFTER the taxonomy.
 It encodes edge-case patterns from pharmaceutical/medical document
 classification that the base taxonomy alone cannot catch.
 
+Aligned with categorization_new/ (pre-2026-05-20):
+  - RT-602 is DEPRECATED (merged into RT-601) — Rule 12 handles this
+  - B6 category label corrected per Reference Attributes sheet
+
 USAGE:
     from new_pipeline.skills.typization_skill import TYPIZATION_SKILL
     full_prompt = build_typization_prompt(taxonomy_text) + "\n" + TYPIZATION_SKILL
@@ -214,4 +218,53 @@ regardless of whether it contains trial results.
 - "Randomized trial of [drug] vs placebo in [disease]", N Engl J Med → RT-301
   (published RCT, NOT RT-209)
 - "Study ABC-1234: A Phase 3 Clinical Study Report" (no DOI, ICH E3 format) → RT-209
+
+
+### RULE 12: RT-602 is DEPRECATED — Use RT-601 Instead
+
+RT-602 (formerly a distinct Preclinical/Nonclinical subcategory) has been **merged into RT-601**.
+It is retained in the taxonomy for ID stability only.
+
+**Action:** If you would have classified a document as RT-602, classify it as **RT-601** instead.
+
+**Why retained:** Legacy references in existing databases may still carry RT-602. The mapping
+matrix resolves RT-602 → RT-601 automatically during retrieval. For new ingestion, always use
+RT-601.
+
+
+### RULE 13: Indirect Comparison Documents — High Audience Risk
+
+RT-304 (NMA) and RT-315 (ITC/MAIC/STC) carry a special reference note from the Reference
+Attributes sheet:
+
+> "Indirect comparison — payer-preferred; HCP promotion high-risk"
+
+**Action:** When classifying a network meta-analysis or indirect treatment comparison:
+- Assign RT-304 (NMA) or RT-315 (ITC/MAIC/STC) as usual.
+- In the reasoning field, note the audience restriction: these documents are accepted as
+  Tier A or C for payer audiences (formulary/P&T), but are high-risk for HCP promotion
+  (PAAB disallows; OPDP letters cite misuse of NMA in HCP-directed materials).
+
+**Few-shot examples (generic):**
+- "A network meta-analysis of [drug] vs all comparators in [disease]" → RT-304
+  (note in reasoning: payer-preferred, HCP promotion high-risk)
+- "Indirect treatment comparison: MAIC of [drug] vs [comparator]" → RT-315
+  (note in reasoning: payer-preferred, HCP promotion high-risk)
+
+
+### RULE 14: Preprints — Excluded from SIUU / PAAB / ABPI
+
+RT-310 (Preprint — e.g., medRxiv, SSRN, bioRxiv) carries the following exclusion note from
+the Reference Attributes sheet:
+
+> "excluded by SIUU (peer-review req'd), PAAB, ABPI"
+
+**Action:** If a document is a preprint (no journal name, no DOI from a journal, hosted on
+a preprint server), classify as RT-310. Always note in the reasoning:
+- NOT acceptable for SIUU communications (FDA requires peer-reviewed publications)
+- NOT acceptable for PAAB or ABPI submissions
+
+**Few-shot examples (generic):**
+- Document at medRxiv.org, no journal acceptance → RT-310
+- "Preprint version of [paper]" → RT-310
 '''
