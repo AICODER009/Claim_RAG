@@ -128,15 +128,20 @@ class ClaimClassifier:
         """
         try:
             if self.provider == "openai":
-                response = self._client.chat.completions.create(
+                # Note: gpt-5.x models only support temperature=1 (default).
+                # Omit temperature parameter to avoid 400 errors.
+                _call_kwargs = dict(
                     model=self.model,
                     messages=[
                         {"role": "system", "content": self._system_prompt},
                         {"role": "user", "content": claim_text},
                     ],
-                    temperature=0.1,
                     response_format={"type": "json_object"},
                 )
+                # Only pass temperature if model supports it (not gpt-5.x)
+                if not self.model.startswith("gpt-5"):
+                    _call_kwargs["temperature"] = 0.1
+                response = self._client.chat.completions.create(**_call_kwargs)
                 result_text = response.choices[0].message.content
 
             elif self.provider == "anthropic":
